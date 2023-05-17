@@ -1,0 +1,2321 @@
+2023-05-16 04:03:05,820 INFO Watching for file changes with StatReloader
+2023-05-16 04:03:34,045 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 04:03:34,700 INFO Watching for file changes with StatReloader
+2023-05-16 04:04:01,693 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 04:04:02,254 INFO Watching for file changes with StatReloader
+2023-05-16 04:04:04,816 WARNING Not Found: /
+2023-05-16 04:04:04,878 WARNING Not Found: /favicon.ico
+2023-05-16 04:04:50,031 WARNING Not Found: /front/forgot-password/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css
+2023-05-16 04:04:55,974 ERROR Internal Server Error: /front/forgot-password/
+Traceback (most recent call last):
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 260, in forgot_password_with_email
+    import ssss
+ModuleNotFoundError: No module named 'ssss'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 284, in forgot_password_with_email
+    save_exception_to_database(request.user.id, "40", type(e), str(e), ip_address)
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 51, in save_exception_to_database
+    user_id_instence = User.objects.get(id=user_id)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/query.py", line 637, in get
+    raise self.model.DoesNotExist(
+django.contrib.auth.models.User.DoesNotExist: User matching query does not exist.
+2023-05-16 04:05:01,415 ERROR Internal Server Error: /front/forgot-password/
+Traceback (most recent call last):
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 260, in forgot_password_with_email
+    import ssss
+ModuleNotFoundError: No module named 'ssss'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 284, in forgot_password_with_email
+    save_exception_to_database(request.user.id, "40", type(e), str(e), ip_address)
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 51, in save_exception_to_database
+    user_id_instence = User.objects.get(id=user_id)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/query.py", line 637, in get
+    raise self.model.DoesNotExist(
+django.contrib.auth.models.User.DoesNotExist: User matching query does not exist.
+2023-05-16 04:05:32,527 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 04:05:33,092 INFO Watching for file changes with StatReloader
+2023-05-16 04:05:39,337 WARNING Not Found: /front/forgot-password/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css
+2023-05-16 04:13:33,902 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 04:13:34,493 INFO Watching for file changes with StatReloader
+2023-05-16 04:14:59,535 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 04:15:00,103 INFO Watching for file changes with StatReloader
+2023-05-16 04:15:20,027 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 04:15:20,590 INFO Watching for file changes with StatReloader
+2023-05-16 04:15:25,093 WARNING Not Found: /front/forgot-password/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css
+2023-05-16 04:15:30,269 ERROR Internal Server Error: /front/forgot-password/
+Traceback (most recent call last):
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 260, in forgot_password_with_email
+    import ssss
+ModuleNotFoundError: No module named 'ssss'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 290, in forgot_password_with_email
+    save_exception_to_database(user_id,exception_code, exception_type, exception_message, IP)
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 51, in save_exception_to_database
+    user_id_instence = User.objects.get(id=user_id)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/query.py", line 637, in get
+    raise self.model.DoesNotExist(
+django.contrib.auth.models.User.DoesNotExist: User matching query does not exist.
+2023-05-16 04:15:35,730 ERROR Internal Server Error: /front/forgot-password/
+Traceback (most recent call last):
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 260, in forgot_password_with_email
+    import ssss
+ModuleNotFoundError: No module named 'ssss'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 290, in forgot_password_with_email
+    save_exception_to_database(user_id,exception_code, exception_type, exception_message, IP)
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 51, in save_exception_to_database
+    user_id_instence = User.objects.get(id=user_id)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/query.py", line 637, in get
+    raise self.model.DoesNotExist(
+django.contrib.auth.models.User.DoesNotExist: User matching query does not exist.
+2023-05-16 04:16:07,969 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 04:16:08,599 INFO Watching for file changes with StatReloader
+2023-05-16 04:16:12,055 ERROR Internal Server Error: /front/forgot-password/
+Traceback (most recent call last):
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 260, in forgot_password_with_email
+    import ssss
+ModuleNotFoundError: No module named 'ssss'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 285, in forgot_password_with_email
+    user_id = username
+              ^^^^^^^^
+UnboundLocalError: cannot access local variable 'username' where it is not associated with a value
+2023-05-16 04:16:25,496 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 04:16:26,069 INFO Watching for file changes with StatReloader
+2023-05-16 04:21:42,498 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 04:21:43,062 INFO Watching for file changes with StatReloader
+2023-05-16 04:22:23,548 WARNING Not Found: /front/forgot-password/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css
+2023-05-16 04:23:47,751 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 04:23:48,368 INFO Watching for file changes with StatReloader
+2023-05-16 04:24:36,572 ERROR Internal Server Error: /front/csv_import/
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view frontapp.views.import_csv_with_thread didn't return an HttpResponse object. It returned None instead.
+2023-05-16 04:24:47,021 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 04:24:47,610 INFO Watching for file changes with StatReloader
+2023-05-16 04:24:55,028 ERROR Internal Server Error: /front/csv_import/
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view frontapp.views.import_csv_with_thread didn't return an HttpResponse object. It returned None instead.
+2023-05-16 04:26:09,570 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 04:26:10,160 INFO Watching for file changes with StatReloader
+2023-05-16 04:26:20,970 ERROR Internal Server Error: /front/csv_import/
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view frontapp.views.import_csv_with_thread didn't return an HttpResponse object. It returned None instead.
+2023-05-16 04:26:48,445 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 04:26:49,042 INFO Watching for file changes with StatReloader
+2023-05-16 04:26:58,514 ERROR Internal Server Error: /front/csv_import/
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view frontapp.views.import_csv_with_thread didn't return an HttpResponse object. It returned None instead.
+2023-05-16 04:27:06,007 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 04:27:06,605 INFO Watching for file changes with StatReloader
+2023-05-16 04:27:12,448 ERROR Internal Server Error: /front/csv_import/
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view frontapp.views.import_csv_with_thread didn't return an HttpResponse object. It returned None instead.
+2023-05-16 04:28:12,259 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 04:28:12,824 INFO Watching for file changes with StatReloader
+2023-05-16 04:28:17,631 ERROR Internal Server Error: /front/csv_import/
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view frontapp.views.import_csv_with_thread didn't return an HttpResponse object. It returned None instead.
+2023-05-16 04:28:17,674 WARNING Not Found: /favicon.ico
+2023-05-16 04:28:27,080 ERROR Internal Server Error: /front/csv_import/
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view frontapp.views.import_csv_with_thread didn't return an HttpResponse object. It returned None instead.
+2023-05-16 04:29:49,054 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 04:29:49,634 INFO Watching for file changes with StatReloader
+2023-05-16 04:29:58,237 ERROR Internal Server Error: /front/csv_import/
+Traceback (most recent call last):
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 447, in import_csv_with_thread
+    import_data_from_csv(file_data)
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/contrib/auth/decorators.py", line 22, in _wrapper_view
+    if test_func(request.user):
+                 ^^^^^^^^^^^^
+AttributeError: 'bytes' object has no attribute 'user'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 461, in import_csv_with_thread
+    IP = ip_addres()
+         ^^^^^^^^^^^
+TypeError: 'str' object is not callable
+2023-05-16 04:30:08,619 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 04:30:09,193 INFO Watching for file changes with StatReloader
+2023-05-16 04:30:26,843 ERROR Internal Server Error: /front/csv_import/
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 464, in import_csv_with_thread
+    return redirect("import_csv_file",messages=messages)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/shortcuts.py", line 48, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/shortcuts.py", line 145, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'import_csv_file' not found. 'import_csv_file' is not a valid view function or pattern name.
+2023-05-16 04:31:00,732 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 04:31:01,323 INFO Watching for file changes with StatReloader
+2023-05-16 04:31:11,279 ERROR Internal Server Error: /front/csv_import/
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 464, in import_csv_with_thread
+    return render(request, "temp/import_csv.html",messages=messages)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: render() got an unexpected keyword argument 'messages'
+2023-05-16 04:31:24,403 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 04:31:25,029 INFO Watching for file changes with StatReloader
+2023-05-16 04:32:38,886 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 04:32:39,513 INFO Watching for file changes with StatReloader
+2023-05-16 04:32:53,361 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 04:32:53,945 INFO Watching for file changes with StatReloader
+2023-05-16 04:33:31,250 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 04:33:31,864 INFO Watching for file changes with StatReloader
+2023-05-16 04:34:53,999 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 04:34:54,613 INFO Watching for file changes with StatReloader
+2023-05-16 04:35:46,184 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 04:35:46,760 INFO Watching for file changes with StatReloader
+2023-05-16 04:38:28,749 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 04:38:29,351 INFO Watching for file changes with StatReloader
+2023-05-16 04:38:52,420 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 04:38:53,001 INFO Watching for file changes with StatReloader
+2023-05-16 04:39:34,181 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 04:39:34,762 INFO Watching for file changes with StatReloader
+2023-05-16 04:39:42,461 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 04:39:43,038 INFO Watching for file changes with StatReloader
+2023-05-16 04:39:51,274 ERROR Internal Server Error: /front/csv_import/
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view frontapp.views.import_csv_with_thread didn't return an HttpResponse object. It returned None instead.
+2023-05-16 04:40:04,054 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 04:40:04,652 INFO Watching for file changes with StatReloader
+2023-05-16 04:40:08,928 ERROR Internal Server Error: /front/csv_import/
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 429, in import_csv_with_thread
+    import_data_from_csv(file_data)
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/contrib/auth/decorators.py", line 22, in _wrapper_view
+    if test_func(request.user):
+                 ^^^^^^^^^^^^
+AttributeError: 'bytes' object has no attribute 'user'
+2023-05-16 04:42:26,492 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 04:42:27,092 INFO Watching for file changes with StatReloader
+2023-05-16 04:42:38,819 ERROR Internal Server Error: /front/csv_import/
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 429, in import_csv_with_thread
+    import_data_from_csv(file_data)
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/contrib/auth/decorators.py", line 22, in _wrapper_view
+    if test_func(request.user):
+                 ^^^^^^^^^^^^
+AttributeError: 'bytes' object has no attribute 'user'
+2023-05-16 04:43:24,702 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 04:43:25,296 INFO Watching for file changes with StatReloader
+2023-05-16 04:43:37,079 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 04:43:37,719 INFO Watching for file changes with StatReloader
+2023-05-16 04:44:34,224 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 04:44:34,813 INFO Watching for file changes with StatReloader
+2023-05-16 04:45:03,920 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 04:45:04,508 INFO Watching for file changes with StatReloader
+2023-05-16 04:45:30,559 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 04:45:31,157 INFO Watching for file changes with StatReloader
+2023-05-16 04:45:37,770 ERROR Internal Server Error: /front/csv_import/
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 442, in import_csv_with_thread
+    save_exception_to_database(request.user.id, "40", type(e), str(e), ip_address)
+                                                           ^
+UnboundLocalError: cannot access local variable 'e' where it is not associated with a value
+2023-05-16 04:45:53,124 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 04:45:53,709 INFO Watching for file changes with StatReloader
+2023-05-16 04:45:55,565 ERROR Internal Server Error: /front/csv_import/
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view frontapp.views.import_csv_with_thread didn't return an HttpResponse object. It returned None instead.
+2023-05-16 04:46:09,595 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 04:46:10,207 INFO Watching for file changes with StatReloader
+2023-05-16 04:46:40,394 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 04:46:41,027 INFO Watching for file changes with StatReloader
+2023-05-16 04:47:02,104 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 04:47:02,674 INFO Watching for file changes with StatReloader
+2023-05-16 04:47:07,293 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 04:47:07,864 INFO Watching for file changes with StatReloader
+2023-05-16 04:47:09,437 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 04:47:10,094 INFO Watching for file changes with StatReloader
+2023-05-16 04:48:21,916 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 04:48:22,496 INFO Watching for file changes with StatReloader
+2023-05-16 04:48:31,156 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 04:48:31,720 INFO Watching for file changes with StatReloader
+2023-05-16 04:49:22,159 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 04:49:22,753 INFO Watching for file changes with StatReloader
+2023-05-16 04:49:30,430 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/urls.py changed, reloading.
+2023-05-16 04:49:31,005 INFO Watching for file changes with StatReloader
+2023-05-16 04:49:45,796 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/urls.py changed, reloading.
+2023-05-16 04:49:46,385 INFO Watching for file changes with StatReloader
+2023-05-16 04:54:38,491 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 04:54:39,142 INFO Watching for file changes with StatReloader
+2023-05-16 04:55:07,169 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 04:55:07,742 INFO Watching for file changes with StatReloader
+2023-05-16 04:55:11,366 WARNING Forbidden (CSRF token missing.): /front/export_pdf/
+2023-05-16 04:55:14,383 ERROR Internal Server Error: /front/data_to_pdf/
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view frontapp.views.generate_pdf didn't return an HttpResponse object. It returned None instead.
+2023-05-16 04:55:23,713 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 04:55:24,288 INFO Watching for file changes with StatReloader
+2023-05-16 04:55:27,157 ERROR Internal Server Error: /front/data_to_pdf/
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view frontapp.views.generate_pdf didn't return an HttpResponse object. It returned None instead.
+2023-05-16 04:55:27,386 ERROR Internal Server Error: /front/data_to_pdf/
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view frontapp.views.generate_pdf didn't return an HttpResponse object. It returned None instead.
+2023-05-16 04:55:27,792 ERROR Internal Server Error: /front/data_to_pdf/
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view frontapp.views.generate_pdf didn't return an HttpResponse object. It returned None instead.
+2023-05-16 04:55:28,088 ERROR Internal Server Error: /front/data_to_pdf/
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view frontapp.views.generate_pdf didn't return an HttpResponse object. It returned None instead.
+2023-05-16 04:55:28,278 ERROR Internal Server Error: /front/data_to_pdf/
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view frontapp.views.generate_pdf didn't return an HttpResponse object. It returned None instead.
+2023-05-16 04:55:28,475 ERROR Internal Server Error: /front/data_to_pdf/
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view frontapp.views.generate_pdf didn't return an HttpResponse object. It returned None instead.
+2023-05-16 04:55:28,673 ERROR Internal Server Error: /front/data_to_pdf/
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view frontapp.views.generate_pdf didn't return an HttpResponse object. It returned None instead.
+2023-05-16 04:56:02,547 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 04:56:03,125 INFO Watching for file changes with StatReloader
+2023-05-16 04:56:08,561 ERROR Internal Server Error: /front/data_to_pdf/
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view frontapp.views.generate_pdf didn't return an HttpResponse object. It returned None instead.
+2023-05-16 04:56:12,134 ERROR Internal Server Error: /front/data_to_pdf/
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view frontapp.views.generate_pdf didn't return an HttpResponse object. It returned None instead.
+2023-05-16 04:56:13,657 ERROR Internal Server Error: /front/data_to_pdf/
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view frontapp.views.generate_pdf didn't return an HttpResponse object. It returned None instead.
+2023-05-16 04:56:14,615 ERROR Internal Server Error: /front/data_to_pdf/
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view frontapp.views.generate_pdf didn't return an HttpResponse object. It returned None instead.
+2023-05-16 04:56:36,336 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 04:56:36,930 INFO Watching for file changes with StatReloader
+2023-05-16 04:58:06,856 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 04:58:07,496 INFO Watching for file changes with StatReloader
+2023-05-16 04:58:27,804 INFO Watching for file changes with StatReloader
+2023-05-16 05:00:00,624 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 05:00:01,297 INFO Watching for file changes with StatReloader
+2023-05-16 05:04:00,497 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 05:04:01,179 INFO Watching for file changes with StatReloader
+2023-05-16 05:04:08,057 ERROR Internal Server Error: /front/data_to_pdf/
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view frontapp.views.generate_pdf didn't return an HttpResponse object. It returned None instead.
+2023-05-16 05:04:10,780 ERROR Internal Server Error: /front/data_to_pdf/
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view frontapp.views.generate_pdf didn't return an HttpResponse object. It returned None instead.
+2023-05-16 05:04:56,622 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 05:04:57,270 INFO Watching for file changes with StatReloader
+2023-05-16 05:05:12,821 INFO Watching for file changes with StatReloader
+2023-05-16 05:05:31,657 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/urls.py changed, reloading.
+2023-05-16 05:05:32,306 INFO Watching for file changes with StatReloader
+2023-05-16 05:06:19,364 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 05:06:20,027 INFO Watching for file changes with StatReloader
+2023-05-16 05:06:23,966 WARNING Forbidden (CSRF token missing.): /front/export_pdf/
+2023-05-16 05:06:29,011 ERROR Internal Server Error: /front/data_to_pdf/
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view frontapp.views.generate_pdf didn't return an HttpResponse object. It returned None instead.
+2023-05-16 05:06:41,015 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 05:06:41,639 INFO Watching for file changes with StatReloader
+2023-05-16 05:06:50,124 WARNING Forbidden (CSRF token missing.): /front/export_pdf/
+2023-05-16 05:14:21,247 INFO Watching for file changes with StatReloader
+2023-05-16 05:14:38,342 WARNING Forbidden (CSRF token missing.): /front/export_pdf/
+2023-05-16 05:18:09,687 INFO Watching for file changes with StatReloader
+2023-05-16 05:24:22,495 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 05:24:23,068 INFO Watching for file changes with StatReloader
+2023-05-16 05:24:33,665 ERROR Internal Server Error: /front/login/
+Traceback (most recent call last):
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 74, in login_user
+    track_user_activity(request.user.id,ip_address,"login/url")
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 64, in track_user_activity
+    activity = UserActivity(user_id=user.id, IP=ip_address, description=description)
+                                    ^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 104, in login_user
+    save_exception_to_database(request.user.id, "40", type(e), str(e), ip_address)
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 51, in save_exception_to_database
+    user_id_instence = User.objects.get(id=user_id)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/query.py", line 637, in get
+    raise self.model.DoesNotExist(
+django.contrib.auth.models.User.DoesNotExist: User matching query does not exist.
+2023-05-16 05:24:59,264 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 05:24:59,833 INFO Watching for file changes with StatReloader
+2023-05-16 05:25:07,640 ERROR Internal Server Error: /front/login/
+Traceback (most recent call last):
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 74, in login_user
+    track_user_activity(username,ip_address,"login/url")
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 64, in track_user_activity
+    activity = UserActivity(user_id=user.id, IP=ip_address, description=description)
+                                    ^^^^^^^
+AttributeError: 'str' object has no attribute 'id'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 104, in login_user
+    save_exception_to_database(request.user.id, "40", type(e), str(e), ip_address)
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 51, in save_exception_to_database
+    user_id_instence = User.objects.get(id=user_id)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/query.py", line 637, in get
+    raise self.model.DoesNotExist(
+django.contrib.auth.models.User.DoesNotExist: User matching query does not exist.
+2023-05-16 05:25:15,705 ERROR Internal Server Error: /front/login/
+Traceback (most recent call last):
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 74, in login_user
+    track_user_activity(username,ip_address,"login/url")
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 64, in track_user_activity
+    activity = UserActivity(user_id=user.id, IP=ip_address, description=description)
+                                    ^^^^^^^
+AttributeError: 'str' object has no attribute 'id'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 104, in login_user
+    save_exception_to_database(request.user.id, "40", type(e), str(e), ip_address)
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 51, in save_exception_to_database
+    user_id_instence = User.objects.get(id=user_id)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/query.py", line 637, in get
+    raise self.model.DoesNotExist(
+django.contrib.auth.models.User.DoesNotExist: User matching query does not exist.
+2023-05-16 05:25:30,991 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 05:25:31,573 INFO Watching for file changes with StatReloader
+2023-05-16 05:25:46,340 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 05:25:46,938 INFO Watching for file changes with StatReloader
+2023-05-16 05:25:57,574 ERROR Internal Server Error: /front/login/
+Traceback (most recent call last):
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 74, in login_user
+    track_user_activity(username,ip_address,"login/url")
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 64, in track_user_activity
+    activity = UserActivity(user_id=user, IP=ip_address, description=description)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/base.py", line 543, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/fields/related_descriptors.py", line 266, in __set__
+    raise ValueError(
+ValueError: Cannot assign "'Aman Dubey'": "UserActivity.user_id" must be a "User" instance.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 104, in login_user
+    save_exception_to_database(request.user.id, "40", type(e), str(e), ip_address)
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 51, in save_exception_to_database
+    user_id_instence = User.objects.get(id=user_id)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/query.py", line 637, in get
+    raise self.model.DoesNotExist(
+django.contrib.auth.models.User.DoesNotExist: User matching query does not exist.
+2023-05-16 05:26:27,222 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 05:26:27,798 INFO Watching for file changes with StatReloader
+2023-05-16 05:26:29,858 ERROR Internal Server Error: /front/login/
+Traceback (most recent call last):
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 74, in login_user
+    track_user_activity(request.user,ip_address,"login/url")
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 64, in track_user_activity
+    activity = UserActivity(user_id=user, IP=ip_address, description=description)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/base.py", line 543, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/fields/related_descriptors.py", line 266, in __set__
+    raise ValueError(
+ValueError: Cannot assign "<SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x7fc1351f1b90>>": "UserActivity.user_id" must be a "User" instance.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 104, in login_user
+    save_exception_to_database(request.user.id, "40", type(e), str(e), ip_address)
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 51, in save_exception_to_database
+    user_id_instence = User.objects.get(id=user_id)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/query.py", line 637, in get
+    raise self.model.DoesNotExist(
+django.contrib.auth.models.User.DoesNotExist: User matching query does not exist.
+2023-05-16 05:26:48,588 ERROR Internal Server Error: /front/login/
+Traceback (most recent call last):
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 74, in login_user
+    track_user_activity(request.user,ip_address,"login/url")
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 64, in track_user_activity
+    activity = UserActivity(user_id=user, IP=ip_address, description=description)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/base.py", line 543, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/fields/related_descriptors.py", line 266, in __set__
+    raise ValueError(
+ValueError: Cannot assign "<SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x7fc135247610>>": "UserActivity.user_id" must be a "User" instance.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 104, in login_user
+    save_exception_to_database(request.user.id, "40", type(e), str(e), ip_address)
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 51, in save_exception_to_database
+    user_id_instence = User.objects.get(id=user_id)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/query.py", line 637, in get
+    raise self.model.DoesNotExist(
+django.contrib.auth.models.User.DoesNotExist: User matching query does not exist.
+2023-05-16 05:27:56,786 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 05:27:57,362 INFO Watching for file changes with StatReloader
+2023-05-16 05:28:33,477 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 05:28:34,047 INFO Watching for file changes with StatReloader
+2023-05-16 05:28:36,244 ERROR Internal Server Error: /front/login/
+Traceback (most recent call last):
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 75, in login_user
+    track_user_activity(request.user,ip_address,"login/url")
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 64, in track_user_activity
+    activity = UserActivity(user_id=user, IP=ip_address, description=description)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/base.py", line 543, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/fields/related_descriptors.py", line 266, in __set__
+    raise ValueError(
+ValueError: Cannot assign "<SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x7faf0bf59410>>": "UserActivity.user_id" must be a "User" instance.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 105, in login_user
+    save_exception_to_database(request.user.id, "40", type(e), str(e), ip_address)
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 51, in save_exception_to_database
+    user_id_instence = User.objects.get(id=user_id)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/query.py", line 637, in get
+    raise self.model.DoesNotExist(
+django.contrib.auth.models.User.DoesNotExist: User matching query does not exist.
+2023-05-16 05:28:45,025 ERROR Internal Server Error: /front/login/
+Traceback (most recent call last):
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 75, in login_user
+    track_user_activity(request.user,ip_address,"login/url")
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 64, in track_user_activity
+    activity = UserActivity(user_id=user, IP=ip_address, description=description)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/base.py", line 543, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/fields/related_descriptors.py", line 266, in __set__
+    raise ValueError(
+ValueError: Cannot assign "<SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x7faf139f4190>>": "UserActivity.user_id" must be a "User" instance.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 105, in login_user
+    save_exception_to_database(request.user.id, "40", type(e), str(e), ip_address)
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 51, in save_exception_to_database
+    user_id_instence = User.objects.get(id=user_id)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/query.py", line 637, in get
+    raise self.model.DoesNotExist(
+django.contrib.auth.models.User.DoesNotExist: User matching query does not exist.
+2023-05-16 05:29:27,707 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 05:29:28,305 INFO Watching for file changes with StatReloader
+2023-05-16 05:30:28,868 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 05:30:29,440 INFO Watching for file changes with StatReloader
+2023-05-16 05:50:43,127 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 05:50:43,712 INFO Watching for file changes with StatReloader
+2023-05-16 05:51:01,588 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 05:51:02,187 INFO Watching for file changes with StatReloader
+2023-05-16 05:51:06,767 ERROR Internal Server Error: /front/logout/
+Traceback (most recent call last):
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 114, in logout_user
+    user_id_instence = User.objects.get(id=request.user.id)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/query.py", line 637, in get
+    raise self.model.DoesNotExist(
+django.contrib.auth.models.User.DoesNotExist: User matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 130, in logout_user
+    save_exception_to_database(request.user.id, "40", type(e), str(e), ip_address)
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 51, in save_exception_to_database
+    user_id_instence = User.objects.get(id=user_id)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/query.py", line 637, in get
+    raise self.model.DoesNotExist(
+django.contrib.auth.models.User.DoesNotExist: User matching query does not exist.
+2023-05-16 05:52:14,954 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 05:52:15,523 INFO Watching for file changes with StatReloader
+2023-05-16 05:53:55,504 WARNING Not Found: /favicon.ico
+2023-05-16 05:53:55,859 WARNING Not Found: /favicon.ico
+2023-05-16 05:54:26,314 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 05:54:26,891 INFO Watching for file changes with StatReloader
+2023-05-16 05:54:48,761 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 05:54:49,341 INFO Watching for file changes with StatReloader
+2023-05-16 05:54:59,830 WARNING Forbidden (CSRF token from POST incorrect.): /front/login/
+2023-05-16 05:55:33,877 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 05:55:34,475 INFO Watching for file changes with StatReloader
+2023-05-16 05:56:07,549 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 05:56:08,123 INFO Watching for file changes with StatReloader
+2023-05-16 05:56:52,243 ERROR Internal Server Error: /front/registration/
+Traceback (most recent call last):
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 140, in signup
+    profile_obj = Profile.objects.create(user=user_obj)
+                                              ^^^^^^^^
+UnboundLocalError: cannot access local variable 'user_obj' where it is not associated with a value
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 191, in signup
+    save_exception_to_database(request.user.id, "40", type(e), str(e), ip_address)
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 51, in save_exception_to_database
+    user_id_instence = User.objects.get(id=user_id)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/query.py", line 637, in get
+    raise self.model.DoesNotExist(
+django.contrib.auth.models.User.DoesNotExist: User matching query does not exist.
+2023-05-16 05:57:27,051 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 05:57:27,647 INFO Watching for file changes with StatReloader
+2023-05-16 05:58:39,542 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 05:58:40,113 INFO Watching for file changes with StatReloader
+2023-05-16 05:58:43,807 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 05:58:44,383 INFO Watching for file changes with StatReloader
+2023-05-16 05:59:33,716 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 05:59:34,291 INFO Watching for file changes with StatReloader
+2023-05-16 06:00:47,883 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 06:00:48,502 INFO Watching for file changes with StatReloader
+2023-05-16 06:00:59,232 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 06:00:59,842 INFO Watching for file changes with StatReloader
+2023-05-16 06:01:14,573 WARNING Not Found: /front/change_password/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css
+2023-05-16 06:01:20,046 WARNING Not Found: /front/change_password/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css
+2023-05-16 06:02:58,497 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 06:02:59,077 INFO Watching for file changes with StatReloader
+2023-05-16 06:03:10,845 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 06:03:11,421 INFO Watching for file changes with StatReloader
+2023-05-16 06:03:20,974 WARNING Not Found: /front/change_password/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css
+2023-05-16 06:03:26,368 ERROR Internal Server Error: /front/change_password/
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 196, in change_password
+    description = {"messages":"This user try to changepassword","data":request.data}
+                                                                       ^^^^^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'data'
+2023-05-16 06:11:25,279 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 06:11:25,871 INFO Watching for file changes with StatReloader
+2023-05-16 06:11:37,079 WARNING Not Found: /front/change_password/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css
+2023-05-16 06:11:42,170 WARNING Not Found: /front/change_password/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css
+2023-05-16 06:12:28,600 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 06:12:29,235 INFO Watching for file changes with StatReloader
+2023-05-16 06:12:31,784 WARNING Not Found: /front/change_password/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css
+2023-05-16 06:13:30,924 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 06:13:31,526 INFO Watching for file changes with StatReloader
+2023-05-16 06:14:35,297 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 06:14:35,895 INFO Watching for file changes with StatReloader
+2023-05-16 06:14:52,693 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 06:14:53,275 INFO Watching for file changes with StatReloader
+2023-05-16 06:14:57,414 WARNING Not Found: /front/forgot-password/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css
+2023-05-16 06:15:12,252 ERROR Internal Server Error: /front/change_password/73f6d29d-ec2c-4047-bfab-c7b90be31e6c
+Traceback (most recent call last):
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 220, in change_password_with_token
+    user_id_instence = User.objects.get(id=request.user.id)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/query.py", line 637, in get
+    raise self.model.DoesNotExist(
+django.contrib.auth.models.User.DoesNotExist: User matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 261, in change_password_with_token
+    save_exception_to_database(request.user.id, "40", type(e), str(e), ip_address)
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 51, in save_exception_to_database
+    user_id_instence = User.objects.get(id=user_id)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/query.py", line 637, in get
+    raise self.model.DoesNotExist(
+django.contrib.auth.models.User.DoesNotExist: User matching query does not exist.
+2023-05-16 06:15:48,942 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 06:15:49,513 INFO Watching for file changes with StatReloader
+2023-05-16 06:16:12,468 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 06:16:13,070 INFO Watching for file changes with StatReloader
+2023-05-16 06:16:16,262 WARNING Not Found: /front/change_password/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css
+2023-05-16 06:16:21,336 WARNING Not Found: /front/forgot-password/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css
+2023-05-16 06:16:32,437 ERROR Internal Server Error: /front/forgot-password/
+Traceback (most recent call last):
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 278, in forgot_password_with_email
+    user_id_instence = User.objects.get(id=request.user.id)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/query.py", line 637, in get
+    raise self.model.DoesNotExist(
+django.contrib.auth.models.User.DoesNotExist: User matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 293, in forgot_password_with_email
+    save_exception_to_database(request.user.id, "40", type(e), str(e), ip_address)
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 51, in save_exception_to_database
+    user_id_instence = User.objects.get(id=user_id)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/query.py", line 637, in get
+    raise self.model.DoesNotExist(
+django.contrib.auth.models.User.DoesNotExist: User matching query does not exist.
+2023-05-16 06:16:56,549 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 06:16:57,181 INFO Watching for file changes with StatReloader
+2023-05-16 06:16:59,797 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 06:17:00,392 INFO Watching for file changes with StatReloader
+2023-05-16 06:17:04,902 WARNING Not Found: /front/forgot-password/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css
+2023-05-16 06:17:11,528 ERROR Internal Server Error: /front/forgot-password/
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/fields/__init__.py", line 2055, in get_prep_value
+    return int(value)
+           ^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: ''
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 278, in forgot_password_with_email
+    user_id_instence = User.objects.get(id=request.user.username)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/query.py", line 623, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/sql/query.py", line 1502, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/sql/query.py", line 1533, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/sql/query.py", line 1448, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/sql/query.py", line 1275, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/lookups.py", line 341, in get_prep_lookup
+    return super().get_prep_lookup()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/fields/__init__.py", line 2057, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'id' expected a number but got ''.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 293, in forgot_password_with_email
+    save_exception_to_database(request.user.id, "40", type(e), str(e), ip_address)
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 51, in save_exception_to_database
+    user_id_instence = User.objects.get(id=user_id)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/query.py", line 637, in get
+    raise self.model.DoesNotExist(
+django.contrib.auth.models.User.DoesNotExist: User matching query does not exist.
+2023-05-16 06:17:47,848 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 06:17:48,420 INFO Watching for file changes with StatReloader
+2023-05-16 06:17:53,028 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 06:17:53,604 INFO Watching for file changes with StatReloader
+2023-05-16 06:21:06,867 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 06:21:07,440 INFO Watching for file changes with StatReloader
+2023-05-16 06:21:36,463 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 06:21:37,050 INFO Watching for file changes with StatReloader
+2023-05-16 06:21:39,491 WARNING Not Found: /front/forgot-password/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css
+2023-05-16 06:22:37,725 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 06:22:38,311 INFO Watching for file changes with StatReloader
+2023-05-16 06:23:20,561 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 06:23:21,137 INFO Watching for file changes with StatReloader
+2023-05-16 06:25:26,908 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 06:25:27,481 INFO Watching for file changes with StatReloader
+2023-05-16 06:27:00,605 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 06:27:01,194 INFO Watching for file changes with StatReloader
+2023-05-16 06:27:05,588 WARNING Not Found: /favicon.ico
+2023-05-16 06:27:05,940 WARNING Not Found: /favicon.ico
+2023-05-16 06:27:06,526 WARNING Not Found: /favicon.ico
+2023-05-16 06:27:51,656 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 06:27:52,294 INFO Watching for file changes with StatReloader
+2023-05-16 06:27:58,956 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 06:27:59,525 INFO Watching for file changes with StatReloader
+2023-05-16 06:29:15,269 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 06:29:15,842 INFO Watching for file changes with StatReloader
+2023-05-16 06:29:44,021 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 06:29:44,667 INFO Watching for file changes with StatReloader
+2023-05-16 06:30:49,551 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 06:30:50,141 INFO Watching for file changes with StatReloader
+2023-05-16 06:36:47,234 WARNING Not Found: /front/forgot-password/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css
+2023-05-16 06:39:32,941 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 06:39:33,636 INFO Watching for file changes with StatReloader
+2023-05-16 06:41:08,923 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 06:41:09,510 INFO Watching for file changes with StatReloader
+2023-05-16 06:41:21,310 ERROR Internal Server Error: /front/send_mail/
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 635, in send_mail_to_all_users
+    send_mail_to_user.delay()
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/celery/app/task.py", line 425, in delay
+    return self.apply_async(args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/celery/app/task.py", line 575, in apply_async
+    return app.send_task(
+           ^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/celery/app/base.py", line 784, in send_task
+    with self.producer_or_acquire(producer) as P:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/celery/app/base.py", line 919, in producer_or_acquire
+    producer, self.producer_pool.acquire, block=True,
+              ^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/celery/app/base.py", line 1303, in producer_pool
+    return self.amqp.producer_pool
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/celery/app/amqp.py", line 583, in producer_pool
+    self.app.connection_for_write()]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/celery/app/base.py", line 816, in connection_for_write
+    return self._connection(url or self.conf.broker_write_url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/celery/app/base.py", line 867, in _connection
+    return self.amqp.Connection(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/kombu/connection.py", line 181, in __init__
+    if not get_transport_cls(transport).can_parse_url:
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/kombu/transport/__init__.py", line 85, in get_transport_cls
+    _transport_cache[transport] = resolve_transport(transport)
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/kombu/transport/__init__.py", line 70, in resolve_transport
+    return symbol_by_name(transport)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/kombu/utils/imports.py", line 56, in symbol_by_name
+    module = imp(module_name, package=package, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/kombu/transport/redis.py", line 262, in <module>
+    class PrefixedStrictRedis(GlobalKeyPrefixMixin, redis.Redis):
+                                                    ^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'Redis'
+2023-05-16 06:44:24,162 INFO Watching for file changes with StatReloader
+2023-05-16 06:44:32,811 ERROR Internal Server Error: /front/send_mail/
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 635, in send_mail_to_all_users
+    send_mail_to_user.delay()
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/celery/app/task.py", line 425, in delay
+    return self.apply_async(args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/celery/app/task.py", line 575, in apply_async
+    return app.send_task(
+           ^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/celery/app/base.py", line 784, in send_task
+    with self.producer_or_acquire(producer) as P:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/celery/app/base.py", line 919, in producer_or_acquire
+    producer, self.producer_pool.acquire, block=True,
+              ^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/celery/app/base.py", line 1303, in producer_pool
+    return self.amqp.producer_pool
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/celery/app/amqp.py", line 583, in producer_pool
+    self.app.connection_for_write()]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/celery/app/base.py", line 816, in connection_for_write
+    return self._connection(url or self.conf.broker_write_url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/celery/app/base.py", line 867, in _connection
+    return self.amqp.Connection(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/kombu/connection.py", line 181, in __init__
+    if not get_transport_cls(transport).can_parse_url:
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/kombu/transport/__init__.py", line 85, in get_transport_cls
+    _transport_cache[transport] = resolve_transport(transport)
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/kombu/transport/__init__.py", line 70, in resolve_transport
+    return symbol_by_name(transport)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/kombu/utils/imports.py", line 56, in symbol_by_name
+    module = imp(module_name, package=package, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1206, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1178, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1149, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 690, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/kombu/transport/redis.py", line 262, in <module>
+    class PrefixedStrictRedis(GlobalKeyPrefixMixin, redis.Redis):
+                                                    ^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'Redis'
+2023-05-16 06:45:07,867 INFO Watching for file changes with StatReloader
+2023-05-16 06:48:08,665 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/task.py changed, reloading.
+2023-05-16 06:48:09,264 INFO Watching for file changes with StatReloader
+2023-05-16 06:48:28,128 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/task.py changed, reloading.
+2023-05-16 06:48:28,752 INFO Watching for file changes with StatReloader
+2023-05-16 06:52:58,525 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 06:52:59,119 INFO Watching for file changes with StatReloader
+2023-05-16 06:54:23,294 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 06:54:23,907 INFO Watching for file changes with StatReloader
+2023-05-16 06:54:45,024 WARNING Not Found: /front/change_password/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css
+2023-05-16 06:54:49,786 WARNING Not Found: /front/change_password/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css
+2023-05-16 06:57:41,717 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/urls.py changed, reloading.
+2023-05-16 06:57:42,459 INFO Watching for file changes with StatReloader
+2023-05-16 06:57:46,098 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/urls.py changed, reloading.
+2023-05-16 06:57:46,685 INFO Watching for file changes with StatReloader
+2023-05-16 06:58:18,808 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/task.py changed, reloading.
+2023-05-16 06:58:19,386 INFO Watching for file changes with StatReloader
+2023-05-16 06:58:25,024 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 06:58:25,689 INFO Watching for file changes with StatReloader
+2023-05-16 06:58:55,755 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/Shopify/urls.py changed, reloading.
+2023-05-16 06:58:56,364 INFO Watching for file changes with StatReloader
+2023-05-16 06:59:16,221 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/RestApiApp/auth.py changed, reloading.
+2023-05-16 06:59:16,786 INFO Watching for file changes with StatReloader
+2023-05-16 07:00:03,560 WARNING Method Not Allowed: /token/
+2023-05-16 07:00:40,967 ERROR Internal Server Error: /token
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/utils/deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/middleware/common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/token/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2023-05-16 07:00:48,540 ERROR Internal Server Error: /token
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/utils/deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/middleware/common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/token/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2023-05-16 07:02:31,759 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/Shopify/urls.py changed, reloading.
+2023-05-16 07:02:32,386 INFO Watching for file changes with StatReloader
+2023-05-16 07:02:39,133 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/RestApiApp/auth.py changed, reloading.
+2023-05-16 07:02:39,706 INFO Watching for file changes with StatReloader
+2023-05-16 07:02:44,326 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/RestApiApp/auth.py changed, reloading.
+2023-05-16 07:02:45,011 INFO Watching for file changes with StatReloader
+2023-05-16 07:02:52,718 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/RestApiApp/admin.py changed, reloading.
+2023-05-16 07:02:53,367 INFO Watching for file changes with StatReloader
+2023-05-16 07:03:05,124 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/admin.py changed, reloading.
+2023-05-16 07:03:05,698 INFO Watching for file changes with StatReloader
+2023-05-16 08:32:33,496 INFO Watching for file changes with StatReloader
+2023-05-16 08:33:11,707 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/Shopify/settings.py changed, reloading.
+2023-05-16 08:33:12,365 INFO Watching for file changes with StatReloader
+2023-05-16 08:36:30,647 INFO Watching for file changes with StatReloader
+2023-05-16 08:43:03,925 INFO Watching for file changes with StatReloader
+2023-05-16 08:43:56,882 INFO Watching for file changes with StatReloader
+2023-05-16 08:44:32,374 ERROR Internal Server Error: /front/login/
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/backends/mysql/base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/MySQLdb/cursors.py", line 206, in execute
+    res = self._query(query)
+          ^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/MySQLdb/cursors.py", line 319, in _query
+    db.query(q)
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/MySQLdb/connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+MySQLdb.ProgrammingError: (1146, "Table 'FlaskDB.frontapp_useractivity' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 89, in login_user
+    activity.save()
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1820, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/backends/mysql/base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/MySQLdb/cursors.py", line 206, in execute
+    res = self._query(query)
+          ^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/MySQLdb/cursors.py", line 319, in _query
+    db.query(q)
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/MySQLdb/connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+django.db.utils.ProgrammingError: (1146, "Table 'FlaskDB.frontapp_useractivity' doesn't exist")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/backends/mysql/base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/MySQLdb/cursors.py", line 206, in execute
+    res = self._query(query)
+          ^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/MySQLdb/cursors.py", line 319, in _query
+    db.query(q)
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/MySQLdb/connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+MySQLdb.ProgrammingError: (1146, "Table 'FlaskDB.frontapp_exceptions' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 101, in login_user
+    save_exception_to_database(
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 60, in save_exception_to_database
+    exception_log.save()
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1820, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/backends/mysql/base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/MySQLdb/cursors.py", line 206, in execute
+    res = self._query(query)
+          ^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/MySQLdb/cursors.py", line 319, in _query
+    db.query(q)
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/MySQLdb/connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+django.db.utils.ProgrammingError: (1146, "Table 'FlaskDB.frontapp_exceptions' doesn't exist")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/backends/mysql/base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/MySQLdb/cursors.py", line 206, in execute
+    res = self._query(query)
+          ^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/MySQLdb/cursors.py", line 319, in _query
+    db.query(q)
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/MySQLdb/connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+MySQLdb.ProgrammingError: (1146, "Table 'FlaskDB.frontapp_exceptions' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 107, in login_user
+    save_exception_to_database(request.user.id, "40", type(e), str(e), ip_address)
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 60, in save_exception_to_database
+    exception_log.save()
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1820, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/backends/mysql/base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/MySQLdb/cursors.py", line 206, in execute
+    res = self._query(query)
+          ^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/MySQLdb/cursors.py", line 319, in _query
+    db.query(q)
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/MySQLdb/connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+django.db.utils.ProgrammingError: (1146, "Table 'FlaskDB.frontapp_exceptions' doesn't exist")
+2023-05-16 08:45:47,350 INFO Watching for file changes with StatReloader
+2023-05-16 08:46:40,851 ERROR Internal Server Error: /admin/frontapp/exceptions/
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/backends/mysql/base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/MySQLdb/cursors.py", line 206, in execute
+    res = self._query(query)
+          ^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/MySQLdb/cursors.py", line 319, in _query
+    db.query(q)
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/MySQLdb/connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+MySQLdb.ProgrammingError: (1146, "Table 'FlaskDB.frontapp_exceptions' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/contrib/admin/options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1926, in changelist_view
+    cl = self.get_changelist_instance(request)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/contrib/admin/options.py", line 836, in get_changelist_instance
+    return ChangeList(
+           ^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/contrib/admin/views/main.py", line 123, in __init__
+    self.get_results(request)
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/contrib/admin/views/main.py", line 279, in get_results
+    result_count = paginator.count
+                   ^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/paginator.py", line 93, in count
+    return c()
+           ^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/query.py", line 608, in count
+    return self.query.get_count(using=self.db)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/sql/query.py", line 539, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/sql/query.py", line 525, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1560, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/backends/mysql/base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/MySQLdb/cursors.py", line 206, in execute
+    res = self._query(query)
+          ^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/MySQLdb/cursors.py", line 319, in _query
+    db.query(q)
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/MySQLdb/connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+django.db.utils.ProgrammingError: (1146, "Table 'FlaskDB.frontapp_exceptions' doesn't exist")
+2023-05-16 08:47:27,371 INFO Watching for file changes with StatReloader
+2023-05-16 08:47:29,049 WARNING Not Found: /favicon.ico
+2023-05-16 08:47:31,553 ERROR Internal Server Error: /admin/frontapp/exceptions/
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/backends/mysql/base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/MySQLdb/cursors.py", line 206, in execute
+    res = self._query(query)
+          ^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/MySQLdb/cursors.py", line 319, in _query
+    db.query(q)
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/MySQLdb/connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+MySQLdb.ProgrammingError: (1146, "Table 'FlaskDB.frontapp_exceptions' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/contrib/admin/options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/views/decorators/cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/contrib/admin/sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/utils/decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/contrib/admin/options.py", line 1926, in changelist_view
+    cl = self.get_changelist_instance(request)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/contrib/admin/options.py", line 836, in get_changelist_instance
+    return ChangeList(
+           ^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/contrib/admin/views/main.py", line 123, in __init__
+    self.get_results(request)
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/contrib/admin/views/main.py", line 279, in get_results
+    result_count = paginator.count
+                   ^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/paginator.py", line 93, in count
+    return c()
+           ^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/query.py", line 608, in count
+    return self.query.get_count(using=self.db)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/sql/query.py", line 539, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/sql/query.py", line 525, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1560, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/backends/mysql/base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/MySQLdb/cursors.py", line 206, in execute
+    res = self._query(query)
+          ^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/MySQLdb/cursors.py", line 319, in _query
+    db.query(q)
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/MySQLdb/connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+django.db.utils.ProgrammingError: (1146, "Table 'FlaskDB.frontapp_exceptions' doesn't exist")
+2023-05-16 08:52:25,802 INFO Watching for file changes with StatReloader
+2023-05-16 08:52:53,640 INFO Watching for file changes with StatReloader
+2023-05-16 08:54:12,956 INFO Watching for file changes with StatReloader
+2023-05-16 08:58:21,254 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 08:58:21,849 INFO Watching for file changes with StatReloader
+2023-05-16 08:59:36,746 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 08:59:37,337 INFO Watching for file changes with StatReloader
+2023-05-16 08:59:53,168 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 08:59:53,750 INFO Watching for file changes with StatReloader
+2023-05-16 09:00:22,943 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 09:00:23,594 INFO Watching for file changes with StatReloader
+2023-05-16 09:03:57,860 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 09:03:58,461 INFO Watching for file changes with StatReloader
+2023-05-16 09:04:35,756 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 09:04:36,368 INFO Watching for file changes with StatReloader
+2023-05-16 09:05:51,183 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 09:05:51,787 INFO Watching for file changes with StatReloader
+2023-05-16 09:05:57,111 INFO Watching for file changes with StatReloader
+2023-05-16 09:08:43,938 ERROR Internal Server Error: /front/registration/
+Traceback (most recent call last):
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 142, in signup
+    profile_obj = Profile.objects.create(user=user_obj)
+                                              ^^^^^^^^
+UnboundLocalError: cannot access local variable 'user_obj' where it is not associated with a value
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 184, in signup
+    save_exception_to_database(request.user.id, "40", type(e), str(e), ip_address)
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 51, in save_exception_to_database
+    user_id_instence = User.objects.get(id=user_id)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/query.py", line 637, in get
+    raise self.model.DoesNotExist(
+django.contrib.auth.models.User.DoesNotExist: User matching query does not exist.
+2023-05-16 09:09:01,661 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 09:09:02,364 INFO Watching for file changes with StatReloader
+2023-05-16 09:11:12,223 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 09:11:12,794 INFO Watching for file changes with StatReloader
+2023-05-16 09:11:24,539 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 09:11:25,151 INFO Watching for file changes with StatReloader
+2023-05-16 09:12:50,068 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 09:12:50,631 INFO Watching for file changes with StatReloader
+2023-05-16 09:13:33,970 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 09:13:34,582 INFO Watching for file changes with StatReloader
+2023-05-16 09:14:38,238 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 09:14:38,805 INFO Watching for file changes with StatReloader
+2023-05-16 09:14:43,432 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 09:14:44,038 INFO Watching for file changes with StatReloader
+2023-05-16 09:14:57,906 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 09:14:58,481 INFO Watching for file changes with StatReloader
+2023-05-16 09:15:43,782 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 09:15:44,360 INFO Watching for file changes with StatReloader
+2023-05-16 09:17:00,340 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 09:17:00,902 INFO Watching for file changes with StatReloader
+2023-05-16 09:17:36,226 WARNING Forbidden (CSRF token from POST incorrect.): /front/registration/
+2023-05-16 09:18:00,785 ERROR Internal Server Error: /front/registration/
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/backends/mysql/base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/MySQLdb/cursors.py", line 206, in execute
+    res = self._query(query)
+          ^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/MySQLdb/cursors.py", line 319, in _query
+    db.query(q)
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/MySQLdb/connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+MySQLdb.IntegrityError: (1062, "Duplicate entry 'Satya Bhau' for key 'auth_user.username'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 167, in signup
+    user_obj = User.objects.create_superuser(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/contrib/auth/models.py", line 172, in create_superuser
+    return self._create_user(username, email, password, **extra_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/contrib/auth/models.py", line 155, in _create_user
+    user.save(using=self._db)
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/contrib/auth/base_user.py", line 76, in save
+    super().save(*args, **kwargs)
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1820, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/backends/mysql/base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/MySQLdb/cursors.py", line 206, in execute
+    res = self._query(query)
+          ^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/MySQLdb/cursors.py", line 319, in _query
+    db.query(q)
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/MySQLdb/connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+django.db.utils.IntegrityError: (1062, "Duplicate entry 'Satya Bhau' for key 'auth_user.username'")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 187, in signup
+    save_exception_to_database(request.user.id, "40", type(e), str(e), ip_address)
+  File "/home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py", line 51, in save_exception_to_database
+    user_id_instence = User.objects.get(id=user_id)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/query.py", line 637, in get
+    raise self.model.DoesNotExist(
+django.contrib.auth.models.User.DoesNotExist: User matching query does not exist.
+2023-05-16 09:18:08,628 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 09:18:09,269 INFO Watching for file changes with StatReloader
+2023-05-16 09:19:52,619 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 09:19:53,249 INFO Watching for file changes with StatReloader
+2023-05-16 09:26:39,182 INFO Watching for file changes with StatReloader
+2023-05-16 09:27:14,141 INFO Watching for file changes with StatReloader
+2023-05-16 09:27:55,194 INFO Watching for file changes with StatReloader
+2023-05-16 09:30:09,811 INFO Watching for file changes with StatReloader
+2023-05-16 09:30:38,875 INFO Watching for file changes with StatReloader
+2023-05-16 09:31:19,820 INFO Watching for file changes with StatReloader
+2023-05-16 09:31:23,992 INFO Watching for file changes with StatReloader
+2023-05-16 09:32:04,289 INFO Watching for file changes with StatReloader
+2023-05-16 09:32:18,299 WARNING Not Found: /api/login
+2023-05-16 09:32:18,363 WARNING Not Found: /favicon.ico
+2023-05-16 09:32:32,523 WARNING Not Found: /
+2023-05-16 09:33:04,369 WARNING Not Found: /font/login
+2023-05-16 09:53:35,171 WARNING Not Found: /home/simprosys-aman/Downloads/
+2023-05-16 09:53:37,843 WARNING Not Found: /home/simprosys-aman/Downloads/
+2023-05-16 09:54:05,826 WARNING Not Found: /home/simprosys-aman/Downloads/
+2023-05-16 09:54:06,028 WARNING Not Found: /home/simprosys-aman/Downloads/
+2023-05-16 09:54:06,191 WARNING Not Found: /home/simprosys-aman/Downloads/
+2023-05-16 09:54:06,375 WARNING Not Found: /home/simprosys-aman/Downloads/
+2023-05-16 09:54:06,948 WARNING Not Found: /home/simprosys-aman/Downloads/
+2023-05-16 09:54:06,966 WARNING Not Found: /favicon.ico
+2023-05-16 09:54:07,155 WARNING Not Found: /home/simprosys-aman/Downloads/
+2023-05-16 09:54:07,179 WARNING Not Found: /favicon.ico
+2023-05-16 09:54:07,323 WARNING Not Found: /home/simprosys-aman/Downloads/
+2023-05-16 09:54:07,345 WARNING Not Found: /favicon.ico
+2023-05-16 09:54:07,598 WARNING Not Found: /home/simprosys-aman/Downloads/
+2023-05-16 09:54:07,703 WARNING Not Found: /home/simprosys-aman/Downloads/
+2023-05-16 09:54:07,727 WARNING Not Found: /favicon.ico
+2023-05-16 09:59:17,349 WARNING Not Found: /home/simprosys-aman/Aman/Aman/Bootslider   Responsive Bootstrap CSS3 Slider.jpg
+2023-05-16 09:59:17,352 WARNING Not Found: /home/simprosys-aman/Downloads/
+2023-05-16 09:59:17,846 WARNING Not Found: /home/simprosys-aman/Downloads/
+2023-05-16 09:59:17,848 WARNING Not Found: /home/simprosys-aman/Aman/Aman/Bootslider   Responsive Bootstrap CSS3 Slider.jpg
+2023-05-16 09:59:18,053 WARNING Not Found: /home/simprosys-aman/Aman/Aman/Bootslider   Responsive Bootstrap CSS3 Slider.jpg
+2023-05-16 09:59:18,054 WARNING Not Found: /home/simprosys-aman/Downloads/
+2023-05-16 09:59:18,335 WARNING Not Found: /home/simprosys-aman/Aman/Aman/Bootslider   Responsive Bootstrap CSS3 Slider.jpg
+2023-05-16 09:59:18,335 WARNING Not Found: /home/simprosys-aman/Downloads/
+2023-05-16 09:59:18,471 WARNING Not Found: /home/simprosys-aman/Downloads/
+2023-05-16 09:59:18,472 WARNING Not Found: /home/simprosys-aman/Aman/Aman/Bootslider   Responsive Bootstrap CSS3 Slider.jpg
+2023-05-16 09:59:18,612 WARNING Not Found: /home/simprosys-aman/Downloads/
+2023-05-16 09:59:18,612 WARNING Not Found: /home/simprosys-aman/Aman/Aman/Bootslider   Responsive Bootstrap CSS3 Slider.jpg
+2023-05-16 09:59:18,897 WARNING Not Found: /home/simprosys-aman/Aman/Aman/Bootslider   Responsive Bootstrap CSS3 Slider.jpg
+2023-05-16 09:59:18,901 WARNING Not Found: /home/simprosys-aman/Downloads/
+2023-05-16 09:59:19,062 WARNING Not Found: /home/simprosys-aman/Aman/Aman/Bootslider   Responsive Bootstrap CSS3 Slider.jpg
+2023-05-16 09:59:19,063 WARNING Not Found: /home/simprosys-aman/Downloads/
+2023-05-16 09:59:42,608 WARNING Not Found: /home/simprosys-aman/Downloads/
+2023-05-16 09:59:42,916 WARNING Not Found: /home/simprosys-aman/Downloads/
+2023-05-16 09:59:43,112 WARNING Not Found: /home/simprosys-aman/Downloads/
+2023-05-16 09:59:43,232 WARNING Not Found: /home/simprosys-aman/Downloads/
+2023-05-16 10:01:24,831 WARNING Not Found: /home/simprosys-aman/Aman/Aman/Bootslider   Responsive Bootstrap CSS3 Slider.jpg
+2023-05-16 10:01:25,075 WARNING Not Found: /home/simprosys-aman/Aman/Aman/Bootslider   Responsive Bootstrap CSS3 Slider.jpg
+2023-05-16 10:01:25,266 WARNING Not Found: /home/simprosys-aman/Aman/Aman/Bootslider   Responsive Bootstrap CSS3 Slider.jpg
+2023-05-16 10:01:25,428 WARNING Not Found: /home/simprosys-aman/Aman/Aman/Bootslider   Responsive Bootstrap CSS3 Slider.jpg
+2023-05-16 10:01:25,605 WARNING Not Found: /home/simprosys-aman/Aman/Aman/Bootslider   Responsive Bootstrap CSS3 Slider.jpg
+2023-05-16 10:01:25,770 WARNING Not Found: /home/simprosys-aman/Aman/Aman/Bootslider   Responsive Bootstrap CSS3 Slider.jpg
+2023-05-16 10:01:25,912 WARNING Not Found: /home/simprosys-aman/Aman/Aman/Bootslider   Responsive Bootstrap CSS3 Slider.jpg
+2023-05-16 10:01:26,342 WARNING Not Found: /home/simprosys-aman/Aman/Aman/Bootslider   Responsive Bootstrap CSS3 Slider.jpg
+2023-05-16 10:01:26,516 WARNING Not Found: /home/simprosys-aman/Aman/Aman/Bootslider   Responsive Bootstrap CSS3 Slider.jpg
+2023-05-16 10:01:26,679 WARNING Not Found: /home/simprosys-aman/Aman/Aman/Bootslider   Responsive Bootstrap CSS3 Slider.jpg
+2023-05-16 10:01:26,702 WARNING Not Found: /favicon.ico
+2023-05-16 10:01:27,259 WARNING Not Found: /home/simprosys-aman/Aman/Aman/Bootslider   Responsive Bootstrap CSS3 Slider.jpg
+2023-05-16 10:01:27,286 WARNING Not Found: /favicon.ico
+2023-05-16 10:01:28,142 WARNING Not Found: /home/simprosys-aman/Aman/Aman/Bootslider   Responsive Bootstrap CSS3 Slider.jpg
+2023-05-16 10:01:28,168 WARNING Not Found: /favicon.ico
+2023-05-16 10:01:28,431 WARNING Not Found: /home/simprosys-aman/Aman/Aman/Bootslider   Responsive Bootstrap CSS3 Slider.jpg
+2023-05-16 10:01:28,451 WARNING Not Found: /favicon.ico
+2023-05-16 10:01:28,724 WARNING Not Found: /home/simprosys-aman/Aman/Aman/Bootslider   Responsive Bootstrap CSS3 Slider.jpg
+2023-05-16 10:01:28,744 WARNING Not Found: /favicon.ico
+2023-05-16 10:01:28,924 WARNING Not Found: /home/simprosys-aman/Aman/Aman/Bootslider   Responsive Bootstrap CSS3 Slider.jpg
+2023-05-16 10:01:28,948 WARNING Not Found: /favicon.ico
+2023-05-16 10:01:57,714 WARNING Not Found: /home/simprosys-aman/Aman/Aman/Bootslider   Responsive Bootstrap CSS3 Slider.jpg
+2023-05-16 10:01:57,715 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:01:57,907 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:01:57,909 WARNING Not Found: /home/simprosys-aman/Aman/Aman/Bootslider   Responsive Bootstrap CSS3 Slider.jpg
+2023-05-16 10:01:58,077 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:01:58,077 WARNING Not Found: /home/simprosys-aman/Aman/Aman/Bootslider   Responsive Bootstrap CSS3 Slider.jpg
+2023-05-16 10:01:58,243 WARNING Not Found: /home/simprosys-aman/Aman/Aman/Bootslider   Responsive Bootstrap CSS3 Slider.jpg
+2023-05-16 10:01:58,244 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:02:58,194 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:02:58,196 WARNING Not Found: /home/simprosys-aman/Aman/Aman/Bootslider   Responsive Bootstrap CSS3 Slider.jpg
+2023-05-16 10:02:58,363 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:02:58,364 WARNING Not Found: /home/simprosys-aman/Aman/Aman/Bootslider   Responsive Bootstrap CSS3 Slider.jpg
+2023-05-16 10:02:58,557 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:02:58,559 WARNING Not Found: /home/simprosys-aman/Aman/Aman/Bootslider   Responsive Bootstrap CSS3 Slider.jpg
+2023-05-16 10:02:58,756 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:02:58,763 WARNING Not Found: /home/simprosys-aman/Aman/Aman/Bootslider   Responsive Bootstrap CSS3 Slider.jpg
+2023-05-16 10:03:49,735 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:03:49,925 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:03:50,114 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:03:50,540 WARNING Not Found: /home/simprosys-aman/Aman/Aman/Bootslider   Responsive Bootstrap CSS3 Slider.jpg
+2023-05-16 10:03:50,587 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:03:50,595 WARNING Not Found: /favicon.ico
+2023-05-16 10:03:50,876 WARNING Not Found: /home/simprosys-aman/Aman/Aman/Bootslider   Responsive Bootstrap CSS3 Slider.jpg
+2023-05-16 10:03:50,877 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:03:50,891 WARNING Not Found: /favicon.ico
+2023-05-16 10:03:51,100 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:03:51,115 WARNING Not Found: /favicon.ico
+2023-05-16 10:03:52,915 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:03:52,917 WARNING Not Found: /home/simprosys-aman/Aman/Aman/Bootslider   Responsive Bootstrap CSS3 Slider.jpg
+2023-05-16 10:03:52,948 WARNING Not Found: /favicon.ico
+2023-05-16 10:03:53,223 WARNING Not Found: /home/simprosys-aman/Aman/Aman/Bootslider   Responsive Bootstrap CSS3 Slider.jpg
+2023-05-16 10:03:53,272 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:03:53,279 WARNING Not Found: /favicon.ico
+2023-05-16 10:03:53,602 WARNING Not Found: /home/simprosys-aman/Aman/Aman/Bootslider   Responsive Bootstrap CSS3 Slider.jpg
+2023-05-16 10:03:53,603 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:03:53,612 WARNING Not Found: /favicon.ico
+2023-05-16 10:07:01,843 WARNING Not Found: /home/simprosys-aman/Aman/Aman/Bootslider   Responsive Bootstrap CSS3 Slider.jpg
+2023-05-16 10:07:16,660 WARNING Not Found: /home/simprosys-aman/Aman/Aman/Bootslider   Responsive Bootstrap CSS3 Slider.jpg
+2023-05-16 10:08:20,232 WARNING Not Found: /frontapp/login
+2023-05-16 10:08:26,564 WARNING Not Found: /home/simprosys-aman/Aman/Aman/Bootslider   Responsive Bootstrap CSS3 Slider.jpg
+2023-05-16 10:08:26,565 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:15:23,489 INFO Watching for file changes with StatReloader
+2023-05-16 10:15:32,786 WARNING Not Found: /front/login/aman/Aman/Aman/bac.jpg
+2023-05-16 10:15:32,802 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:15:32,803 WARNING Not Found: /home/simprosys-aman/Aman/Aman/Bootslider   Responsive Bootstrap CSS3 Slider.jpg
+2023-05-16 10:15:34,112 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:15:34,115 WARNING Not Found: /home/simprosys-aman/Aman/Aman/Bootslider   Responsive Bootstrap CSS3 Slider.jpg
+2023-05-16 10:15:34,356 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:15:34,357 WARNING Not Found: /home/simprosys-aman/Aman/Aman/Bootslider   Responsive Bootstrap CSS3 Slider.jpg
+2023-05-16 10:15:34,558 WARNING Not Found: /home/simprosys-aman/Aman/Aman/Bootslider   Responsive Bootstrap CSS3 Slider.jpg
+2023-05-16 10:15:34,561 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:16:23,043 INFO Watching for file changes with StatReloader
+2023-05-16 10:16:24,094 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:16:24,095 WARNING Not Found: /home/simprosys-aman/Aman/Aman/Bootslider   Responsive Bootstrap CSS3 Slider.jpg
+2023-05-16 10:16:24,589 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:16:24,592 WARNING Not Found: /home/simprosys-aman/Aman/Aman/Bootslider   Responsive Bootstrap CSS3 Slider.jpg
+2023-05-16 10:16:24,727 WARNING Not Found: /home/simprosys-aman/Aman/Aman/Bootslider   Responsive Bootstrap CSS3 Slider.jpg
+2023-05-16 10:16:24,728 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:16:24,908 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:16:24,911 WARNING Not Found: /home/simprosys-aman/Aman/Aman/Bootslider   Responsive Bootstrap CSS3 Slider.jpg
+2023-05-16 10:16:25,071 WARNING Not Found: /home/simprosys-aman/Aman/Aman/Bootslider   Responsive Bootstrap CSS3 Slider.jpg
+2023-05-16 10:16:25,072 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:16:25,215 WARNING Not Found: /home/simprosys-aman/Aman/Aman/Bootslider   Responsive Bootstrap CSS3 Slider.jpg
+2023-05-16 10:16:25,216 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:16:26,024 WARNING Not Found: /front/login/aman/Aman/Aman/bac.jpg
+2023-05-16 10:16:26,192 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:16:26,209 WARNING Not Found: /front/login/aman/Aman/Aman/bac.jpg
+2023-05-16 10:16:26,308 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:16:26,330 WARNING Not Found: /favicon.ico
+2023-05-16 10:16:26,346 WARNING Not Found: /front/login/aman/Aman/Aman/bac.jpg
+2023-05-16 10:16:26,466 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:16:26,478 WARNING Not Found: /favicon.ico
+2023-05-16 10:16:26,504 WARNING Not Found: /front/login/aman/Aman/Aman/bac.jpg
+2023-05-16 10:16:26,649 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:16:26,677 WARNING Not Found: /favicon.ico
+2023-05-16 10:16:26,746 WARNING Not Found: /front/login/aman/Aman/Aman/bac.jpg
+2023-05-16 10:16:26,849 WARNING Not Found: /front/login/aman/Aman/Aman/bac.jpg
+2023-05-16 10:16:26,990 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:16:27,013 WARNING Not Found: /favicon.ico
+2023-05-16 10:16:27,066 WARNING Not Found: /front/login/aman/Aman/Aman/bac.jpg
+2023-05-16 10:16:27,216 WARNING Not Found: /front/login/aman/Aman/Aman/bac.jpg
+2023-05-16 10:16:27,333 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:16:27,353 WARNING Not Found: /favicon.ico
+2023-05-16 10:16:27,420 WARNING Not Found: /front/login/aman/Aman/Aman/bac.jpg
+2023-05-16 10:16:27,565 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:17:38,509 INFO Watching for file changes with StatReloader
+2023-05-16 10:17:41,133 WARNING Not Found: /front/login/aman/Aman/Aman/bac.jpg
+2023-05-16 10:17:41,164 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:17:42,727 WARNING Not Found: /front/login/aman/Aman/Aman/bac.jpg
+2023-05-16 10:17:42,730 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:17:43,024 WARNING Not Found: /front/login/aman/Aman/Aman/bac.jpg
+2023-05-16 10:17:43,026 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:17:43,255 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:17:43,260 WARNING Not Found: /front/login/aman/Aman/Aman/bac.jpg
+2023-05-16 10:17:43,406 WARNING Not Found: /front/login/aman/Aman/Aman/bac.jpg
+2023-05-16 10:17:43,411 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:17:43,697 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:17:43,701 WARNING Not Found: /front/login/aman/Aman/Aman/bac.jpg
+2023-05-16 10:20:44,136 INFO Watching for file changes with StatReloader
+2023-05-16 10:20:48,015 WARNING Not Found: /front/login/aman/Aman/Aman/bac.jpg
+2023-05-16 10:20:48,045 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:20:48,466 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:20:48,468 WARNING Not Found: /front/login/aman/Aman/Aman/bac.jpg
+2023-05-16 10:20:48,651 WARNING Not Found: /front/login/aman/Aman/Aman/bac.jpg
+2023-05-16 10:20:48,654 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:20:48,810 WARNING Not Found: /front/login/aman/Aman/Aman/bac.jpg
+2023-05-16 10:20:48,812 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:20:49,031 WARNING Not Found: /front/login/aman/Aman/Aman/bac.jpg
+2023-05-16 10:20:49,033 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:20:49,304 WARNING Not Found: /front/login/aman/Aman/Aman/bac.jpg
+2023-05-16 10:20:49,306 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:20:49,934 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:20:49,935 WARNING Not Found: /front/login/aman/Aman/Aman/bac.jpg
+2023-05-16 10:22:02,096 INFO Watching for file changes with StatReloader
+2023-05-16 10:22:06,400 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:22:06,811 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:22:07,045 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:22:07,303 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:22:07,478 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:24:43,669 INFO Watching for file changes with StatReloader
+2023-05-16 10:24:50,985 WARNING Not Found: /front/images/bac.jpg
+2023-05-16 10:24:50,987 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:24:53,275 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:24:53,277 WARNING Not Found: /front/images/bac.jpg
+2023-05-16 10:24:53,533 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:24:53,535 WARNING Not Found: /front/images/bac.jpg
+2023-05-16 10:24:53,781 WARNING Not Found: /front/images/bac.jpg
+2023-05-16 10:24:53,783 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:24:53,980 WARNING Not Found: /front/images/bac.jpg
+2023-05-16 10:24:53,981 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:24:54,190 WARNING Not Found: /front/images/bac.jpg
+2023-05-16 10:24:54,191 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:24:54,385 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:24:54,387 WARNING Not Found: /front/images/bac.jpg
+2023-05-16 10:24:54,573 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:24:54,574 WARNING Not Found: /front/images/bac.jpg
+2023-05-16 10:24:54,772 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:24:54,774 WARNING Not Found: /front/images/bac.jpg
+2023-05-16 10:24:54,956 WARNING Not Found: /front/images/bac.jpg
+2023-05-16 10:24:54,958 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:24:55,162 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:24:55,163 WARNING Not Found: /front/images/bac.jpg
+2023-05-16 10:24:55,355 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:24:55,356 WARNING Not Found: /front/images/bac.jpg
+2023-05-16 10:24:55,525 WARNING Not Found: /front/images/bac.jpg
+2023-05-16 10:24:55,527 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:24:55,765 WARNING Not Found: /front/images/bac.jpg
+2023-05-16 10:24:55,765 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:27:59,761 WARNING Not Found: /images/bac.jpg
+2023-05-16 10:27:59,817 WARNING Not Found: /front/images/bac.jpg
+2023-05-16 10:27:59,819 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:28:00,274 WARNING Not Found: /images/bac.jpg
+2023-05-16 10:28:00,324 WARNING Not Found: /front/images/bac.jpg
+2023-05-16 10:28:00,325 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:28:00,469 WARNING Not Found: /images/bac.jpg
+2023-05-16 10:28:00,522 WARNING Not Found: /front/images/bac.jpg
+2023-05-16 10:28:00,525 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:28:01,778 WARNING Not Found: /images/bac.jpg
+2023-05-16 10:28:01,827 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:28:01,828 WARNING Not Found: /front/images/bac.jpg
+2023-05-16 10:28:02,923 WARNING Not Found: /images/bac.jpg
+2023-05-16 10:28:03,102 WARNING Not Found: /front/images/bac.jpg
+2023-05-16 10:28:03,106 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:28:03,109 WARNING Not Found: /images/bac.jpg
+2023-05-16 10:28:03,254 WARNING Not Found: /images/bac.jpg
+2023-05-16 10:28:03,412 WARNING Not Found: /front/images/bac.jpg
+2023-05-16 10:28:03,417 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:28:03,422 WARNING Not Found: /images/bac.jpg
+2023-05-16 10:28:03,516 WARNING Not Found: /front/images/bac.jpg
+2023-05-16 10:28:03,518 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:28:03,536 WARNING Not Found: /favicon.ico
+2023-05-16 10:28:03,604 WARNING Not Found: /images/bac.jpg
+2023-05-16 10:28:03,767 WARNING Not Found: /front/images/bac.jpg
+2023-05-16 10:28:03,773 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:28:03,807 WARNING Not Found: /images/bac.jpg
+2023-05-16 10:28:03,971 WARNING Not Found: /front/images/bac.jpg
+2023-05-16 10:28:03,976 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:28:03,979 WARNING Not Found: /images/bac.jpg
+2023-05-16 10:28:04,091 WARNING Not Found: /front/images/bac.jpg
+2023-05-16 10:28:04,092 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:28:04,125 WARNING Not Found: /favicon.ico
+2023-05-16 10:28:04,193 WARNING Not Found: /images/bac.jpg
+2023-05-16 10:28:04,358 WARNING Not Found: /front/images/bac.jpg
+2023-05-16 10:28:04,361 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:30:18,983 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:30:18,985 WARNING Not Found: /front/images/bac.jpg
+2023-05-16 10:31:01,782 WARNING Not Found: /front/images/bac.jpg
+2023-05-16 10:31:01,785 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:31:02,484 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:31:02,488 WARNING Not Found: /front/images/bac.jpg
+2023-05-16 10:31:05,785 WARNING Not Found: /front/images/bac.jpg
+2023-05-16 10:31:05,786 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:31:06,052 WARNING Not Found: /front/images/bac.jpg
+2023-05-16 10:31:06,053 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:31:35,540 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:31:35,541 WARNING Not Found: /front/login/images/bac.jpg
+2023-05-16 10:31:36,150 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:31:36,151 WARNING Not Found: /front/login/images/bac.jpg
+2023-05-16 10:31:36,437 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:31:36,441 WARNING Not Found: /front/login/images/bac.jpg
+2023-05-16 10:31:37,038 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:31:37,040 WARNING Not Found: /front/login/images/bac.jpg
+2023-05-16 10:31:37,315 WARNING Not Found: /front/login/images/bac.jpg
+2023-05-16 10:31:37,316 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:31:37,698 WARNING Not Found: /front/login/images/bac.jpg
+2023-05-16 10:31:37,698 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:35:20,013 WARNING Not Found: /front/login/images/bac.jpg
+2023-05-16 10:35:20,014 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:35:26,867 WARNING Not Found: /front/login/images/bac.jpg
+2023-05-16 10:35:26,867 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:35:27,369 WARNING Not Found: /front/login/images/bac.jpg
+2023-05-16 10:35:27,370 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:35:27,619 WARNING Not Found: /front/login/images/bac.jpg
+2023-05-16 10:35:27,624 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:35:59,305 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:35:59,662 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:35:59,822 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:35:59,988 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:36:03,073 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:36:03,261 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:36:03,409 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:36:03,580 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:37:54,669 WARNING Not Found: /front/static/images
+2023-05-16 10:37:54,669 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:37:54,939 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:37:54,942 WARNING Not Found: /front/static/images
+2023-05-16 10:37:55,129 WARNING Not Found: /front/static/images
+2023-05-16 10:37:55,130 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:37:55,328 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:37:55,329 WARNING Not Found: /front/static/images
+2023-05-16 10:37:55,555 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:37:55,557 WARNING Not Found: /front/static/images
+2023-05-16 10:37:55,740 WARNING Not Found: /front/static/images
+2023-05-16 10:37:55,741 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:37:55,901 WARNING Not Found: /front/static/images
+2023-05-16 10:37:55,903 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:37:56,063 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:37:56,065 WARNING Not Found: /front/static/images
+2023-05-16 10:37:56,552 WARNING Not Found: /front/static/images
+2023-05-16 10:37:56,553 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:37:56,736 WARNING Not Found: /front/static/images
+2023-05-16 10:37:56,737 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:37:56,913 WARNING Not Found: /front/static/images
+2023-05-16 10:37:56,915 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:38:40,983 INFO Watching for file changes with StatReloader
+2023-05-16 10:38:42,396 WARNING Not Found: /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/static/images/bac.jpg
+2023-05-16 10:38:42,399 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:38:42,774 WARNING Not Found: /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/static/images/bac.jpg
+2023-05-16 10:38:42,776 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:38:42,932 WARNING Not Found: /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/static/images/bac.jpg
+2023-05-16 10:38:42,934 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:38:43,102 WARNING Not Found: /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/static/images/bac.jpg
+2023-05-16 10:38:43,105 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:38:43,344 WARNING Not Found: /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/static/images/bac.jpg
+2023-05-16 10:38:43,345 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:38:43,452 WARNING Not Found: /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/static/images/bac.jpg
+2023-05-16 10:38:43,453 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:38:43,581 WARNING Not Found: /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/static/images/bac.jpg
+2023-05-16 10:38:43,583 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:38:44,253 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:38:44,255 WARNING Not Found: /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/static/images/bac.jpg
+2023-05-16 10:38:45,551 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:38:45,553 WARNING Not Found: /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/static/images/bac.jpg
+2023-05-16 10:38:45,573 WARNING Not Found: /favicon.ico
+2023-05-16 10:38:46,907 WARNING Not Found: /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/static/images/bac.jpg
+2023-05-16 10:38:46,908 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:38:47,572 WARNING Not Found: /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/static/images/bac.jpg
+2023-05-16 10:38:47,575 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:38:47,611 WARNING Not Found: /favicon.ico
+2023-05-16 10:38:47,835 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:38:47,836 WARNING Not Found: /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/static/images/bac.jpg
+2023-05-16 10:38:48,132 WARNING Not Found: /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/static/images/bac.jpg
+2023-05-16 10:38:48,136 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:38:48,164 WARNING Not Found: /favicon.ico
+2023-05-16 10:42:45,084 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-16 10:42:45,086 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:42:45,562 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-16 10:42:45,562 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:42:45,726 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:42:45,727 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-16 10:42:45,863 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-16 10:42:45,863 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:42:45,987 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-16 10:42:45,988 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:42:46,101 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-16 10:42:46,102 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:42:46,269 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-16 10:42:46,271 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:42:46,508 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:42:46,510 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-16 10:42:46,668 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-16 10:42:46,669 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-16 10:56:35,731 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 10:56:36,329 INFO Watching for file changes with StatReloader
+2023-05-16 10:56:43,009 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 10:56:43,649 INFO Watching for file changes with StatReloader
+2023-05-16 10:56:52,349 INFO /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-16 10:56:52,915 INFO Watching for file changes with StatReloader

@@ -1,0 +1,98 @@
+{% extends 'temp/base.html' %}
+
+
+{% block content %}
+
+
+<body>
+    <div class="row">
+        <div class="col-sm-4">
+        </div>
+        <div class="col-sm-4 container-sm" style="margin-top: 100px;">
+            <form action="" method="post">
+                {% csrf_token %}
+                <div class="form-header">
+                    <h3>Add Product</h3>
+                </div>
+                <div class="form-group">
+                    <!-- <label for="">User:</label> -->
+                    <input type="hidden" class="form-control" data-validation="length alphanumeric"
+                        data-validation-length="3-12" value="{{user.id}}" name="user">
+                </div>
+                <div class="form-group">
+                    <label for="">Handle:</label>
+                    <input type="text" class="form-control" data-validation="length alphanumeric"
+                        data-validation-length="3-12" name="handle">
+                </div>
+                <div class="form-group">
+                    <label for="">Title:</label>
+                    <input type="text" class="form-control" data-validation="length alphanumeric"
+                        data-validation-length="3-12" name="title">
+                </div>
+                <div class="form-group">
+                    <label for="">Body:</label>
+                    <input type="text" class="form-control" data-validation="length" data-validation-length="min8"
+                        name="body">
+                </div>
+
+                <div class="form-group">
+                    <label for="">Vendor:</label>
+                    <input type="text" class="form-control" data-validation="length" data-validation-length="min8"
+                        name="vendor">
+                </div>
+
+                <div class="form-group">
+                    <label for="">Type:</label>
+                    <input type="text" class="form-control" data-validation="length" data-validation-length="min8"
+                        name="type">
+                </div>
+
+                <div class="form-group">
+                    <label for="">Tags:</label>
+                    <input type="text" class="form-control" data-validation="length" data-validation-length="min8"
+                        name="tags">
+                </div>
+
+                <div class="form-group">
+                    <label for="">Published:</label>
+                    <input type="text" class="form-control" data-validation="length" data-validation-length="min8"
+                        name="published">
+                </div>
+
+               
+                <div class="form-group">
+                    <label for="">Variant_SKU:</label>
+                    <input type="text" class="form-control" data-validation="length" data-validation-length="min8"
+                        name="variant_sku">
+                </div>
+
+
+                <div class="form-group">
+                    <label for="">Variant_Inventory_Tracker:</label>
+                    <input type="text" class="form-control" data-validation="length" data-validation-length="min8"
+                        name="variant_inventory_tracker">
+                </div>
+
+                <div class="form-group">
+                    <label for="">Variant_Price:</label>
+                    <input type="text" class="form-control" data-validation="length" data-validation-length="min8"
+                        name="variant_price">
+                </div>
+
+                <div class="form-group">
+                    <label for="">Image_Src:</label>
+                    <input type="text" class="form-control" data-validation="length" data-validation-length="min8"
+                        name="img_src">
+                </div>
+                <br>
+           
+                <button class="btn btn-sucsess " style="border-color: black;" type="submit">Add Product</button>
+                </a>
+            </form>
+        </div>
+        <div class="col-sm-4">
+        </div>
+    </div>
+</body>
+
+{% endblock %}

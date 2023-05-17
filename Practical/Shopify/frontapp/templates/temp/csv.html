@@ -1,0 +1,25 @@
+{% extends 'temp/base.html' %}
+{% block content %}
+<body>
+     <div class="row">
+        <div class="col-sm-4">
+        </div>
+        <div class="col-sm-4 " style="margin-top: 100px;">
+            <h1 class="text-primary">Import CSV</h1>
+            <form action="" method="POST" class="border p-4 bg-sucsess" enctype="multipart/form-data">
+                {% csrf_token %}
+                <div class="mb-3">
+                    <label class="">CSV</label>
+                    <input type="text" name="csvfile" class="form-control" required>
+                </div>
+                <div class="mb-3 text-center">
+                    <button type="submit" class="btn btn-outline-primary"><i class="fa fa-save"></i> Convert INTO CSV</button>
+                </div>
+            </form>
+        </div>
+        <div class="col-sm-4">
+        </div>
+    </div>
+</body>
+</html>
+{% endblock %}

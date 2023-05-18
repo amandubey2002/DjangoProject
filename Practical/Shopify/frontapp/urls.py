@@ -21,7 +21,8 @@ urlpatterns = [
     path("data_to_pdf/", views.generate_pdf, name="data_to_pdf"),
     path("productlist1/", views.ProductList, name="productlist1"),
     path("product_delete/<int:pk>", views.delete_product, name="product_delete"),
-    path("home/", views.delete_multiple_product, name="home"),
+    # path("home/", views.delete_multiple_product, name="home"),
     path("send_mail/", views.send_mail_to_all_users, name="send_mail"),
     path("productwithuserview/", views.create_product, name="productwithuserview"),
+    path("product_list_page",views.product_list_page,name="product_list_page")
 ]

@@ -32,7 +32,7 @@ background-attachment: fixed;">
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="{% url 'productlist1' %}">Home</a>
+            <a class="nav-link active" aria-current="page" href="{% url 'product_list_page' %}">Home</a>
           </li>
 
           {% if not request.user.is_authenticated %}
@@ -43,47 +43,46 @@ background-attachment: fixed;">
           <li class="nav-item">
             <a class="nav-link active" href="{% url 'registration' %}">SignUp</a>
           </li>
-
+          
           <li class="nav-item">
             <a class="nav-link active" href="{% url 'forgot-password' %}">Forgot Password</a>
           </li>
           {% endif %}
           {% if request.user.is_authenticated %}
           
-          
           <li class="nav-item">
             <a class="nav-link active" href="{% url 'logout' %}">LogOut</a>
           </li>
-
+          
           <li class="nav-item">
             <a class="nav-link active" href="{% url 'change_password' %}">Change Password</a>
           </li>
-
+        </ul>
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item">
             <a class="nav-link active" href="{% url 'csv_import' %}">Import CSV</a>
           </li>
-
+          
           <li class="nav-item">
             <a class="nav-link active" href="{% url 'export_csv' %}">Export CSV</a>
           </li>
-
+          
           <li class="nav-item">
             <a class="nav-link active" href="{% url 'data_to_pdf' %}">Export PDF</a>
           </li>
-
-          <li class="nav-item">
+          
+          <li class="nav-item ms-auto">
             <a class="nav-link active" href="{% url 'send_mail' %}">Send Mail To All User</a>
           </li>
-
-          {% endif %}
-          {% if request.user.is_superuser %}
+          
+          
           <li class="nav-item">
             <a type="button" class="btn" href="{% url 'productwithuserview' %}">Add Product</a>
           </li>
           {% endif %}
         </ul>
+        </div>
       </div>
-    </div>
     </div>
   </nav>
 

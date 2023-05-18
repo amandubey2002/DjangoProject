@@ -14,8 +14,6 @@ import pandas as pd
 from rest_framework.generics import ListAPIView
 from .serializers import ProductSerializer
 from rest_framework.pagination import PageNumberPagination
-from rest_framework.response import Response
-from rest_framework.views import APIView
 from django.template.loader import get_template
 from io import BytesIO
 from xhtml2pdf import pisa
@@ -40,8 +38,6 @@ ip_address = socket.gethostbyname(hostname)
 
 
 logger = logging.getLogger(__name__)
-
-
 date = datetime.now()
 
 
@@ -61,7 +57,6 @@ def save_exception_to_database(user_id, exception_code, exception_type, message,
 def track_user_activity(user, ip_address, description):
     activity = UserActivity(user_id=user, IP=ip_address, description=description)
     activity.save()
-
 
 def login_user(request):
     try:
@@ -136,13 +131,19 @@ def signup(request):
             username = request.POST.get("username")
             email = request.POST.get("email")
             password = request.POST.get("password")
-            # userrole = request.POST.get("usertype")
-            user_obj = User.objects.create(
-                username=username, email=email, password=password
-            )
-            print("hereeeeeeeee")
-            profile_obj = Profile.objects.create(user=user_obj)
-            profile_obj.save()
+            userrole = request.POST.get("usertype")
+            if userrole == "admin":
+                user_obj = User.objects.create_superuser(
+                    username=username, email=email, password=password
+                )
+                profile_obj = Profile.objects.create(user=user_obj)
+                profile_obj.save()
+            else:
+                user_obj = User.objects.create_user(
+                    username=username, email=email, password=password
+                )
+                profile_obj = Profile.objects.create(user=user_obj)
+                profile_obj.save()
             send_mail(
                 "Your registration has been successfully Done Thanks for your registration",
                 f"Welcome to Our App {username} Thanks for registration in app. ",
@@ -163,7 +164,6 @@ def signup(request):
             )
     except Exception as e:
         print("something went wrong", e)
-        # save_exception_to_database(request.user.id, "40", type(e), str(e), ip_address)
 
         return render(
             request,
@@ -242,7 +242,7 @@ def change_password_with_token(request, token):
     return render(request, "temp/changepassword.html", context)
 
 
-# @login_required(login_url="login")
+
 def forgot_password_with_email(request):
     try:
         if request.method == "POST":
@@ -530,7 +530,7 @@ def ProductList(request):
         lastpage = final.paginator.num_pages
 
         return render(
-            request, "temp/homepage.html", {"data": final, "lastpage": lastpage}
+            request, "temp/product_list_page.html", {"data": final, "lastpage": lastpage}
         )
 
     except Exception as e:
@@ -557,7 +557,7 @@ def delete_product(request, pk):
         )
         activity.save()
 
-        return redirect("productlist1")
+        return redirect("product_list_page")
 
     except Exception as e:
         print("something went wrong")
@@ -565,57 +565,58 @@ def delete_product(request, pk):
 
 
 # for multiple delete
-@login_required(login_url="login")
-def delete_multiple_product(request):
-    try:
-        if request.method == "POST":
-            selected_ids = request.POST.getlist("selected_products")
-            if selected_ids == []:
-                messages.success(
-                    request,
-                    "No data has been choosen for deleting products please select first",
-                )
+# @login_required(login_url="login")
+# def delete_multiple_product(request):
+#     try:
+#         if request.method == "POST":
+#             selected_ids = request.POST.getlist("selected_products")
+#             if selected_ids == []:
+#                 messages.success(
+#                     request,
+#                     "No data has been choosen for deleting products please select first",
+#                 )
 
-                return redirect("home")
+#                 return redirect("home")
 
-            else:
-                print(selected_ids)
-                Product.objects.filter(id__in=selected_ids).delete()
-                messages.success(
-                    request, f"Product id  {selected_ids} has been deleted successfully"
-                )
-                user_id_instence = User.objects.get(id=request.user.id)
-                description = {
-                    "messages": "This user try to delete product",
-                    "data": request.POST,
-                }
-                activity = UserActivity(
-                    user_id=user_id_instence,
-                    IP=ip_address,
-                    description=f"this is username {request.user.username} and {description}",
-                )
-                activity.save()
+#             else:
+#                 print(selected_ids)
+#                 Product.objects.filter(id__in=selected_ids).delete()
+#                 messages.success(
+#                     request, f"Product id  {selected_ids} has been deleted successfully"
+#                 )
+#                 user_id_instence = User.objects.get(id=request.user.id)
+#                 description = {
+#                     "messages": "This user try to delete product",
+#                     "data": request.POST,
+#                 }
+#                 activity = UserActivity(
+#                     user_id=user_id_instence,
+#                     IP=ip_address,
+#                     description=f"this is username {request.user.username} and {description}",
+#                 )
+#                 activity.save()
 
-                return redirect("home")
+#                 return redirect("home")
 
-        else:
-            products = Product.objects.all()
-            paginator = Paginator(products, 21)
-            page_number = request.GET.get("page")
-            final = paginator.get_page(page_number)
-            lastpage = final.paginator.num_pages
+#         else:
+#             products = Product.objects.all()
+#             paginator = Paginator(products, 21)
+#             page_number = request.GET.get("page")
+#             final = paginator.get_page(page_number)
+#             lastpage = final.paginator.num_pages
 
-            return render(
-                request, "temp/homepage.html", {"data": final, "lastpage": lastpage}
-            )
-    except Exception as e:
-        print("something went wrong")
-        save_exception_to_database(request.user.id, "40", type(e), str(e), ip_address)
+#             return render(
+#                 request, "temp/homepage.html", {"data": final, "lastpage": lastpage}
+#             )
+#     except Exception as e:
+#         print("something went wrong")
+#         save_exception_to_database(request.user.id, "40", type(e), str(e), ip_address)
 
-        return render(request, "temp/homepage.html")
+#         return render(request, "temp/homepage.html")
 
 
 # send mail to all the reister user
+@login_required(login_url="login")
 def send_mail_to_all_users(request):
     send_mail_to_user.delay()
     messages.success(request, "Mail sent successfully")
@@ -631,7 +632,7 @@ def send_mail_to_all_users(request):
     )
     activity.save()
 
-    return render(request, "temp/homepage.html")
+    return render(request, "temp/product_list_page.html")
 
 
 @login_required(login_url="login")
@@ -686,3 +687,53 @@ def create_product(request):
         save_exception_to_database(request.user.id, "40", type(e), str(e), ip_address)
 
     return render(request, "temp/create_product.html")
+
+
+@login_required(login_url="login")
+def product_list_page(request):
+    try:
+        if request.method == "POST":
+            selected_ids = request.POST.getlist("selected_products")
+            if selected_ids == []:
+                messages.success(
+                    request,
+                    "No data has been choosen for deleting products please select first",
+                )
+
+                return redirect("product_list_page")
+
+            else:
+                print(selected_ids)
+                Product.objects.filter(id__in=selected_ids).delete()
+                messages.success(
+                    request, f"Product id  {selected_ids} has been deleted successfully"
+                )
+                user_id_instence = User.objects.get(id=request.user.id)
+                description = {
+                    "messages": "This user try to delete product",
+                    "data": request.POST,
+                }
+                activity = UserActivity(
+                    user_id=user_id_instence,
+                    IP=ip_address,
+                    description=f"this is username {request.user.username} and {description}",
+                )
+                activity.save()
+
+                return redirect("product_list_page")
+
+        else:
+            products = Product.objects.all()
+            paginator = Paginator(products, 21)
+            page_number = request.GET.get("page")
+            final = paginator.get_page(page_number)
+            lastpage = final.paginator.num_pages
+
+            return render(
+                request, "temp/product_list_page.html", {"data": final, "lastpage": lastpage}
+            )
+    except Exception as e:
+        print("something went wrong")
+        save_exception_to_database(request.user.id, "40", type(e), str(e), ip_address)
+
+        return render(request, "temp/product_list_page.html")

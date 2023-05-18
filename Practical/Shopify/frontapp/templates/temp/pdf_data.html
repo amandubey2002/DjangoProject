@@ -11,10 +11,10 @@
             <thead>
                 
               <tr>
-                <th scope="col">id</th>
-                <th scope="col">First</th>
-                <th scope="col">Last</th>
-                <th scope="col">Handle</th>
+                <th scope="col">Product ID</th>
+                <th scope="col">Title</th>
+                <th scope="col">Vendor</th>
+                <th scope="col">Type</th>
               </tr>
               
             </thead>
@@ -22,9 +22,9 @@
                 {% for item in Products %}
               <tr>
                 <th scope="row">{{item.id}}</th>
-                <td>{{item.Handle}}</td>
                 <td>{{item.Title}}</td>
                 <td>{{item.Vendor}}</td>
+                <td>{{item.Type}}</td>
               </tr>
               {% endfor %}
               

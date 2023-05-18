@@ -82,7 +82,7 @@ def login_user(request):
                     activity.save()
                     messages.success(request, "Login successful")
 
-                    return redirect("home")
+                    return redirect("product_list_page")
 
                 else:
                     messages.success(request, "Invalid username or password")
@@ -430,7 +430,7 @@ def import_csv_with_thread(request):
         import_data_from_csv(file_data)
         messages.success(request, "Data Imported successfully")
 
-        return redirect("home")
+        return redirect("product_list_page")
 
     else:
         return render(request, "temp/import_csv.html")

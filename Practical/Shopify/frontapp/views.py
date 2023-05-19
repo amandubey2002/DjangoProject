@@ -1,15 +1,14 @@
-from django.shortcuts import render, redirect, HttpResponse, HttpResponseRedirect
+from django.shortcuts import render, redirect, HttpResponse
 from django.contrib.auth.models import User
 from django.core.mail import send_mail
 from django.contrib import messages
 from django.contrib.auth import authenticate, login, logout
-from .password_forgot import forgot_password
+from userapp.password_forgot import forgot_password
 import uuid
-from .models import Profile, ProductWithUser
+from .models import Product
 import threading
 import csv
 import threading
-from .models import Product
 import pandas as pd
 from rest_framework.generics import ListAPIView
 from .serializers import ProductSerializer
@@ -25,7 +24,7 @@ import csv
 from datetime import datetime, timedelta
 import threading
 import logging
-from .task import send_mail_to_user
+from .task import send_mail_to_user,permanent_delete_product
 from django.contrib.auth.decorators import login_required
 from .models import Exceptions, UserActivity
 import socket
@@ -58,257 +57,16 @@ def track_user_activity(user, ip_address, description):
     activity = UserActivity(user_id=user, IP=ip_address, description=description)
     activity.save()
 
-def login_user(request):
-    try:
-        if request.method == "POST":
-            print(request.user)
-            username = request.POST.get("username")
-            password = request.POST.get("password")
-            user = authenticate(username=username, password=password)
 
-            try:
-                if user is not None:
-                    login(request, user)
-                    user_id_instence = User.objects.get(id=request.user.id)
-                    description = {
-                        "messages": "This user try to Login",
-                        "data": request.POST,
-                    }
-                    activity = UserActivity(
-                        user_id=user_id_instence,
-                        IP=ip_address,
-                        description=f"this is username {username} and {description}",
-                    )
-                    activity.save()
-                    messages.success(request, "Login successful")
-
-                    return redirect("product_list_page")
-
-                else:
-                    messages.success(request, "Invalid username or password")
-
-                    return redirect("login")
-
-            except Exception as e:
-                print("Spmething went wrong")
-                save_exception_to_database(
-                    request.user.id, "40", type(e), str(e), ip_address
-                )
-
-    except Exception as e:
-        print("some thing went wrong")
-        save_exception_to_database(request.user.id, "40", type(e), str(e), ip_address)
-
-    return render(request, "temp/login.html")
-
-
-def logout_user(request):
-    try:
-        if request.user.is_authenticated:
-            user_id_instence = User.objects.get(id=request.user.id)
-            description = {"messages": "This user try to Logout", "data": request.POST}
-            activity = UserActivity(
-                user_id=user_id_instence,
-                IP=ip_address,
-                description=f"this is username {request.user.username} and {description}",
-            )
-            activity.save()
-            logout(request)
-            messages.success(request, "Logout successful")
-            return redirect("login")
-
-        else:
-            return redirect("login")
-
-    except Exception as e:
-        print("something went wrong")
-        save_exception_to_database(request.user.id, "40", type(e), str(e), ip_address)
-
-
-def signup(request):
-    try:
-        if request.method == "POST":
-            username = request.POST.get("username")
-            email = request.POST.get("email")
-            password = request.POST.get("password")
-            userrole = request.POST.get("usertype")
-            if userrole == "admin":
-                user_obj = User.objects.create_superuser(
-                    username=username, email=email, password=password
-                )
-                profile_obj = Profile.objects.create(user=user_obj)
-                profile_obj.save()
-            else:
-                user_obj = User.objects.create_user(
-                    username=username, email=email, password=password
-                )
-                profile_obj = Profile.objects.create(user=user_obj)
-                profile_obj.save()
-            send_mail(
-                "Your registration has been successfully Done Thanks for your registration",
-                f"Welcome to Our App {username} Thanks for registration in app. ",
-                "amandubey@simprosys.com",
-                [email],
-                fail_silently=False,
-            )
-            messages.success(
-                request,
-                "User registered successfully and please check your mail for confirmation",
-            )
-            return redirect("login")
-
-        else:
-            return render(
-                request,
-                "temp/registration.html",
-            )
-    except Exception as e:
-        print("something went wrong", e)
-
-        return render(
-            request,
-            "temp/registration.html",
-        )
-
-
-@login_required(login_url="login")
-def change_password(request):
-    if request.method == "POST":
-        newpassword = request.POST.get("newpassword")
-        if request.user.is_authenticated:
-            user_id_instence = User.objects.get(id=request.user.id)
-            description = {
-                "messages": "This user try to changepassword",
-                "data": request.POST,
-            }
-            activity = UserActivity(
-                user_id=user_id_instence,
-                IP=ip_address,
-                description=f"this is username {request.user.username} and {description}",
-            )
-            activity.save()
-            user = User.objects.get(username=request.user)
-            user.set_password(newpassword)
-            user.save()
-            messages.success(request, "Password has been changed sucssessfully")
-        else:
-            return redirect("/login")
-
-    return render(request, "temp/changepassword.html")
-
-
-def change_password_with_token(request, token):
-    context = {}
-    try:
-        profile_obj = Profile.objects.filter(profile_token=token).first()
-        print(profile_obj)
-        date = datetime.now()
-        exptime = int(datetime.timestamp(date))
-        print("hereeeeeeeeeeeeeeeee")
-        if profile_obj is not None and int(exptime) < int(profile_obj.time):
-            if request.method == "POST":
-                new_password = request.POST.get("newpassword")
-                confirm_password = request.POST.get("confirmpassword")
-                user_id = request.POST.get("user_id")
-                print("hereeeeeeeeeeeeeeeeeee")
-                if user_id is None:
-                    messages.success(request, "User not found")
-
-                    return redirect(f"change_password/{token}")
-
-                elif new_password != confirm_password:
-                    messages.success(request, "Both pasword are not the same")
-
-                    return redirect(f"/front/change_password/{token}")
-
-                user_obj = User.objects.get(id=user_id)
-                user_obj.set_password(new_password)
-                user_obj.save()
-                messages.success(request, "Password has been changed successfully")
-
-                return redirect("login")
-
-            context = {"user_id": profile_obj.user.id}
-
-        else:
-            messages.success(request, "Link has been expired please try again")
-
-            return redirect("forgot-password")
-
-    except Exception as e:
-        print("something went wrong")
-        save_exception_to_database(request.user.id, "40", type(e), str(e), ip_address)
-
-    return render(request, "temp/changepassword.html", context)
-
-
-
-def forgot_password_with_email(request):
-    try:
-        if request.method == "POST":
-            username = request.POST.get("username")
-            if not User.objects.filter(username=username).first():
-                messages.success(request, "User Not Found")
-
-                return render(
-                    request,
-                    "temp/forgotpassword.html",
-                )
-
-            user_obj = User.objects.get(username=username)
-            expiretime = datetime.now() + timedelta(hours=12)
-            exptime = int(datetime.timestamp(expiretime))
-            print(exptime)
-            token = str(uuid.uuid4())
-            profile_obj = Profile.objects.get(user=user_obj)
-            profile_obj.profile_token = token
-            profile_obj.time = exptime
-            profile_obj.save()
-            forgot_password(user_obj.email, token)
-            # user_id_instence = User.objects.get(id=request.user.username)
-            description = {
-                "messages": "This user try to changepassword with forgotpassword",
-                "data": request.POST,
-            }
-            activity = UserActivity(
-                user_id=user_obj,
-                IP=ip_address,
-                description=f"this is username {request.user.username} and {description}",
-            )
-            activity.save()
-
-            messages.success(request, "Forgot Password link has been sent on Email")
-
-            return redirect("login")
-
-    except Exception as e:
-        print("something went wrong")
-        save_exception_to_database(request.user.id, "40", type(e), str(e), ip_address)
-
-    return render(
-        request,
-        "temp/forgotpassword.html",
-    )
-
-
-class Productpagination(PageNumberPagination):
-    page_size = 10
-    page_size_query_param = "page_size"
-    max_page_size = 1000
-
-
-class ProductListApiView(ListAPIView):
-    queryset = Product.objects.all()
-    serializer_class = ProductSerializer
-    pagination_class = Productpagination
-
-
+# implement threading 
 def import_csv_file(filename):
     # csvfile = BytesIO(filename)
     csvfile = BytesIO(filename)
     csvfile = codecs.iterdecode(csvfile, "utf-8")
     reader = csv.reader(csvfile)
     next(reader)  # Skip header row
+    import time
+    time1 = time.perf_counter()
 
     for row in reader:
         (
@@ -413,6 +171,9 @@ def import_csv_file(filename):
         )
         print("we hereeeeeeeeeeeeeeeeeeeeee")
         person.save()
+    time2 = time.perf_counter()
+    print(time2-time1)
+        
 
 
 def import_data_from_csv(filename):
@@ -564,61 +325,12 @@ def delete_product(request, pk):
         save_exception_to_database(request.user.id, "40", type(e), str(e), ip_address)
 
 
-# for multiple delete
-# @login_required(login_url="login")
-# def delete_multiple_product(request):
-#     try:
-#         if request.method == "POST":
-#             selected_ids = request.POST.getlist("selected_products")
-#             if selected_ids == []:
-#                 messages.success(
-#                     request,
-#                     "No data has been choosen for deleting products please select first",
-#                 )
-
-#                 return redirect("home")
-
-#             else:
-#                 print(selected_ids)
-#                 Product.objects.filter(id__in=selected_ids).delete()
-#                 messages.success(
-#                     request, f"Product id  {selected_ids} has been deleted successfully"
-#                 )
-#                 user_id_instence = User.objects.get(id=request.user.id)
-#                 description = {
-#                     "messages": "This user try to delete product",
-#                     "data": request.POST,
-#                 }
-#                 activity = UserActivity(
-#                     user_id=user_id_instence,
-#                     IP=ip_address,
-#                     description=f"this is username {request.user.username} and {description}",
-#                 )
-#                 activity.save()
-
-#                 return redirect("home")
-
-#         else:
-#             products = Product.objects.all()
-#             paginator = Paginator(products, 21)
-#             page_number = request.GET.get("page")
-#             final = paginator.get_page(page_number)
-#             lastpage = final.paginator.num_pages
-
-#             return render(
-#                 request, "temp/homepage.html", {"data": final, "lastpage": lastpage}
-#             )
-#     except Exception as e:
-#         print("something went wrong")
-#         save_exception_to_database(request.user.id, "40", type(e), str(e), ip_address)
-
-#         return render(request, "temp/homepage.html")
-
 
 # send mail to all the reister user
 @login_required(login_url="login")
 def send_mail_to_all_users(request):
-    send_mail_to_user.delay()
+    scheduled_time = datetime.now() + timedelta(hours=1)
+    send_mail_to_user.apply_async(eta=scheduled_time)
     messages.success(request, "Mail sent successfully")
     user_id_instence = User.objects.get(id=request.user.id)
     description = {
@@ -651,10 +363,9 @@ def create_product(request):
             Variant_Inventory_Tracker = request.POST.get("variant_inventory_tracker")
             Variant_Price = request.POST.get("variant_price")
             Image_Src = request.POST.get("img_src")
-            user = User.objects.get(id=user_id)
+            # user = User.objects.get(id=user_id)
             print("we hereeeeeeeeeeeeeeeee")
-            products = ProductWithUser(
-                user=user,
+            products = Product(
                 Handle=Handle,
                 Title=Title,
                 Body=Body,
@@ -723,7 +434,8 @@ def product_list_page(request):
                 return redirect("product_list_page")
 
         else:
-            products = Product.objects.all()
+            products = Product.objects.filter(is_delete=False)
+            print(len(products))
             paginator = Paginator(products, 21)
             page_number = request.GET.get("page")
             final = paginator.get_page(page_number)
@@ -737,3 +449,33 @@ def product_list_page(request):
         save_exception_to_database(request.user.id, "40", type(e), str(e), ip_address)
 
         return render(request, "temp/product_list_page.html")
+    
+    
+def soft_delete(request, pk):
+    try:
+        queryset = Product.objects.get(id=pk)
+        queryset.is_delete=True
+        queryset.save()
+        scheduled_time = datetime.now() + timedelta(hours=1)
+        permanent_delete_product.apply_async(eta=scheduled_time)
+        messages.success(request, "Product has been deleted successfully")
+        user_id_instence = User.objects.get(id=request.user.id)
+        description = {
+            "messages": "This user try to delete product",
+            "data": request.POST,
+        }
+        activity = UserActivity(
+            user_id=user_id_instence,
+            IP=ip_address,
+            description=f"this is username {request.user.username} and {description}",
+        )
+        activity.save()
+
+        return redirect("product_list_page")
+
+    except Exception as e:
+        print("something went wrong")
+        save_exception_to_database(request.user.id, "40", type(e), str(e), ip_address)
+
+
+

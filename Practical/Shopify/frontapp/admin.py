@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Profile, Product, ProductWithUser, Exceptions, UserActivity
+from .models import Profile, Product, Exceptions, UserActivity
 
 # Register your models here.
 
@@ -15,15 +15,6 @@ class ProductAdmin(admin.ModelAdmin):
         model = Product
         fields = ["id"]
         ordering = ("-id",)
-
-
-@admin.register(ProductWithUser)
-class ProductAdmin(admin.ModelAdmin):
-    ordering = ["id"]
-
-    class Meta:
-        model = ProductWithUser
-        fields = ["id"]
 
 
 class ProductAdmin(admin.ModelAdmin):

@@ -62,33 +62,12 @@ class Product(models.Model):
     Variant_Tax_Code= models.TextField(null=True,blank=True)
     Cost_per_item= models.TextField(null=True,blank=True)
     Status= models.TextField(null=True,blank=True)
+    is_delete = models.BooleanField(default=False)
 
 
     def __str__(self):
         return f"{self.id} , {self.Title}"
     
-
-
-
-
-class ProductWithUser(models.Model):
-    user = models.ForeignKey(User, on_delete=models.CASCADE)
-    Handle = models.TextField(null=True,blank=True)
-    Title = models.TextField()
-    Body = models.TextField(null=True,blank=True)
-    Vendor = models.TextField(null=True,blank=True)
-    Type = models.TextField(null=True,blank=True)
-    Tags = models.TextField(null=True,blank=True)
-    Published = models.TextField(null=True,blank=True)
-    Variant_SKU = models.TextField(null=True,blank=True)
-    Variant_Inventory_Tracker = models.TextField(null=True,blank=True)
-    Variant_Price = models.TextField(null=True,blank=True)
-    Image_Src = models.TextField(null=True,blank=True)
-
-
-    def __str__(self):
-        return f"{self.id} , {self.Title}"
-
 
 
 class Exceptions(models.Model):

@@ -22,6 +22,7 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     path("", include("RestApiApp.urls")),
     path("front/", include("frontapp.urls")),
+    path("user/",include("userapp.urls")),
     path("auth/", include("rest_framework.urls", namespace="rest_framework")),
     path("token/", RegisterUserWithToken.as_view()),
 ]

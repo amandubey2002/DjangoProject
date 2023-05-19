@@ -1,9 +1,10 @@
 from django.shortcuts import render
-from .models import Product
+# from .models import 
+from frontapp.models import Product
 from .serializers import ProductSerializer
 # Create your views here.
 from rest_framework.generics import ListAPIView,CreateAPIView,UpdateAPIView,DestroyAPIView,RetrieveAPIView,ListCreateAPIView,RetrieveUpdateDestroyAPIView
-from rest_framework.permissions import IsAuthenticated,IsAdminUser,IsAuthenticatedOrReadOnly
+from rest_framework.permissions import IsAuthenticated,IsAdminUser
 from rest_framework.authentication import TokenAuthentication
 from rest_framework.views import APIView
 from rest_framework.response import Response
@@ -98,27 +99,3 @@ class ProductChange(APIView):
         queryset = Product.objects.get(pk=pk)
         queryset.delete()
         return Response(status=status.HTTP_200_OK)
-    
-
-
-
-
-
-
-
-
-
-
-import pandas as pd
-import uuid
-from django.conf import settings
-
-
-class ImportExcel(APIView):
-    def get(self, request, *args, **kwargs):
-        query = Product.objects.all()
-        serializer = ProductSerializer(query,many=True)
-        data = pd.DataFrame(serializer.data)
-        print(data)
-        data.to_csv("product_data.csv",encoding='UTF-8')
-        return Response({'status':200})

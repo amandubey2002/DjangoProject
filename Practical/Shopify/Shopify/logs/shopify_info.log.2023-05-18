@@ -1,0 +1,733 @@
+2023-05-18 04:18:50,516 INFO Watching for file changes with StatReloader
+2023-05-18 04:18:57,534 WARNING Not Found: /
+2023-05-18 04:18:57,573 WARNING Not Found: /favicon.ico
+2023-05-18 04:19:01,861 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 04:19:01,862 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-18 04:19:09,726 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-18 04:19:09,731 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 04:27:37,237 WARNING Forbidden (CSRF token from POST incorrect.): /front/login/
+2023-05-18 04:27:39,153 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 04:27:39,155 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-18 04:27:49,182 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-18 04:27:49,185 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 04:28:15,074 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-18 04:28:15,702 INFO Watching for file changes with StatReloader
+2023-05-18 04:28:16,716 WARNING Not Found: /accounts/login/
+2023-05-18 04:28:20,263 WARNING Not Found: /accounts/login/
+2023-05-18 04:28:30,207 WARNING Not Found: /accounts/login/
+2023-05-18 04:28:41,665 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-18 04:28:42,227 INFO Watching for file changes with StatReloader
+2023-05-18 04:28:59,822 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 04:28:59,824 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-18 04:29:05,640 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 04:29:05,640 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-18 04:29:15,271 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 04:29:23,242 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 04:29:24,053 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 04:29:36,110 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 04:29:39,555 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 04:31:15,287 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-18 04:31:15,891 INFO Watching for file changes with StatReloader
+2023-05-18 04:31:51,429 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 04:31:51,821 WARNING Not Found: /favicon.ico
+2023-05-18 04:31:52,666 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 04:31:52,731 WARNING Not Found: /favicon.ico
+2023-05-18 04:31:53,309 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 04:31:53,370 WARNING Not Found: /favicon.ico
+2023-05-18 04:31:53,650 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 04:31:53,712 WARNING Not Found: /favicon.ico
+2023-05-18 04:31:53,975 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 04:31:54,039 WARNING Not Found: /favicon.ico
+2023-05-18 04:31:54,278 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 04:31:54,334 WARNING Not Found: /favicon.ico
+2023-05-18 04:31:54,901 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 04:31:54,963 WARNING Not Found: /favicon.ico
+2023-05-18 04:31:55,719 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 04:31:55,779 WARNING Not Found: /favicon.ico
+2023-05-18 04:31:56,148 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 04:31:56,211 WARNING Not Found: /favicon.ico
+2023-05-18 04:31:56,527 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 04:31:56,592 WARNING Not Found: /favicon.ico
+2023-05-18 04:31:56,829 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 04:31:56,895 WARNING Not Found: /favicon.ico
+2023-05-18 04:32:03,672 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 04:34:27,299 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 04:34:27,865 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 04:34:28,055 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 04:34:29,934 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 04:34:41,299 INFO Watching for file changes with StatReloader
+2023-05-18 04:34:42,973 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 04:34:43,324 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 04:34:43,498 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 04:35:37,776 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 04:35:38,328 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 04:35:44,870 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 04:36:32,888 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-18 04:36:33,466 INFO Watching for file changes with StatReloader
+2023-05-18 04:41:46,783 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/frontapp/models.py changed, reloading.
+2023-05-18 04:41:47,412 INFO Watching for file changes with StatReloader
+2023-05-18 04:42:01,850 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 04:42:04,273 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 04:42:05,401 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 04:42:05,402 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-18 04:42:07,580 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 04:46:13,153 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-18 04:46:13,757 INFO Watching for file changes with StatReloader
+2023-05-18 04:46:17,762 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 04:46:36,607 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 04:48:30,963 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 04:48:33,344 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-18 04:48:33,346 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 04:48:39,166 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-18 04:48:39,168 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 04:48:49,615 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 04:48:49,616 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-18 04:48:55,826 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 04:48:59,835 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 04:48:59,837 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-18 04:49:05,082 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 04:49:28,835 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-18 04:49:28,837 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 04:49:31,651 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 04:49:51,521 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-18 04:49:51,522 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 04:50:05,383 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 04:50:11,261 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 04:50:11,263 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-18 04:50:16,822 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 04:50:30,056 WARNING Forbidden (CSRF token from POST incorrect.): /admin/login/
+2023-05-18 05:01:47,134 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-18 05:01:47,753 INFO Watching for file changes with StatReloader
+2023-05-18 05:02:12,732 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/frontapp/urls.py changed, reloading.
+2023-05-18 05:02:13,311 INFO Watching for file changes with StatReloader
+2023-05-18 05:02:26,071 WARNING Not Found: /front/product_list_page/
+2023-05-18 05:02:41,226 ERROR Internal Server Error: /front/product_list_page
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/Aman/Django/Practical/Shopify/frontapp/views.py", line 698, in product_list_page
+    return render(request,"temp/product_list_page.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: temp/product_list_page.html
+2023-05-18 05:02:58,750 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/frontapp/urls.py changed, reloading.
+2023-05-18 05:02:59,384 INFO Watching for file changes with StatReloader
+2023-05-18 05:03:00,237 ERROR Internal Server Error: /front/product_list_page
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/Aman/Django/Practical/Shopify/frontapp/views.py", line 698, in product_list_page
+    return render(request,"temp/product_list_page.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/loader_tags.py", line 292, in do_extends
+    parent_name = parser.compile_filter(bits[1])
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '/base.html' from 'temp/base.html'
+2023-05-18 05:03:30,989 INFO Watching for file changes with StatReloader
+2023-05-18 05:04:31,129 WARNING Not Found: /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/static/images/bac.jpg
+2023-05-18 05:04:31,510 WARNING Not Found: /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/static/images/bac.jpg
+2023-05-18 05:04:31,641 WARNING Not Found: /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/static/images/bac.jpg
+2023-05-18 05:04:31,846 WARNING Not Found: /home/simprosys-aman/Aman/Aman/Practical/Shopify/frontapp/static/images/bac.jpg
+2023-05-18 05:04:52,431 WARNING Not Found: /favicon.ico
+2023-05-18 05:04:52,708 WARNING Not Found: /favicon.ico
+2023-05-18 05:06:05,776 WARNING Not Found: /favicon.ico
+2023-05-18 05:06:05,979 WARNING Not Found: /favicon.ico
+2023-05-18 05:06:06,186 WARNING Not Found: /favicon.ico
+2023-05-18 05:06:06,390 WARNING Not Found: /favicon.ico
+2023-05-18 05:06:06,579 WARNING Not Found: /favicon.ico
+2023-05-18 05:06:06,998 WARNING Not Found: /favicon.ico
+2023-05-18 05:06:07,697 WARNING Not Found: /favicon.ico
+2023-05-18 05:06:08,108 WARNING Not Found: /favicon.ico
+2023-05-18 05:06:08,387 WARNING Not Found: /favicon.ico
+2023-05-18 05:06:08,658 WARNING Not Found: /favicon.ico
+2023-05-18 05:06:08,862 WARNING Not Found: /favicon.ico
+2023-05-18 05:06:09,121 WARNING Not Found: /favicon.ico
+2023-05-18 05:06:09,410 WARNING Not Found: /favicon.ico
+2023-05-18 05:06:09,691 WARNING Not Found: /favicon.ico
+2023-05-18 05:06:10,192 WARNING Not Found: /favicon.ico
+2023-05-18 05:06:10,469 WARNING Not Found: /favicon.ico
+2023-05-18 05:09:50,124 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 05:09:54,561 ERROR Internal Server Error: /front/product_list_page
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'endblock'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/Aman/Django/Practical/Shopify/frontapp/views.py", line 698, in product_list_page
+    return render(request,"temp/product_list_page.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 37: 'endblock', expected 'empty' or 'endfor'. Did you forget to register or load this tag?
+2023-05-18 05:19:21,884 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 05:19:26,389 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 05:19:26,629 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 05:19:26,824 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 05:20:33,710 INFO Watching for file changes with StatReloader
+2023-05-18 05:20:35,183 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 05:20:35,785 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 05:20:35,985 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 05:20:36,113 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 05:20:36,360 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 05:20:36,546 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 05:20:36,728 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 05:20:36,930 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 05:20:37,089 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 05:21:33,861 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 05:21:33,992 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 05:21:35,408 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 05:21:37,060 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 05:21:37,062 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-18 05:21:42,702 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 05:22:05,290 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 05:27:16,390 INFO Watching for file changes with StatReloader
+2023-05-18 05:27:39,343 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-18 05:27:39,942 INFO Watching for file changes with StatReloader
+2023-05-18 05:27:46,615 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-18 05:27:47,195 INFO Watching for file changes with StatReloader
+2023-05-18 05:28:50,803 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 05:29:37,495 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-18 05:29:38,141 INFO Watching for file changes with StatReloader
+2023-05-18 05:29:43,018 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 05:30:25,645 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-18 05:30:26,227 INFO Watching for file changes with StatReloader
+2023-05-18 05:54:24,630 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 06:01:23,714 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-18 06:01:23,715 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 06:01:30,751 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 06:01:30,752 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-18 06:03:17,460 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-18 06:03:18,052 INFO Watching for file changes with StatReloader
+2023-05-18 06:03:26,100 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 06:03:26,103 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-18 06:03:43,855 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 06:03:43,857 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-18 06:10:19,433 WARNING Not Found: /favicon.ico
+2023-05-18 06:10:19,837 WARNING Not Found: /favicon.ico
+2023-05-18 06:10:20,107 WARNING Not Found: /favicon.ico
+2023-05-18 06:10:20,332 WARNING Not Found: /favicon.ico
+2023-05-18 06:10:20,704 WARNING Not Found: /favicon.ico
+2023-05-18 06:10:21,006 WARNING Not Found: /favicon.ico
+2023-05-18 06:10:22,256 WARNING Not Found: /favicon.ico
+2023-05-18 06:10:22,828 WARNING Not Found: /favicon.ico
+2023-05-18 06:10:23,318 WARNING Not Found: /favicon.ico
+2023-05-18 06:10:23,745 WARNING Not Found: /favicon.ico
+2023-05-18 06:12:12,257 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 06:12:12,259 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-18 06:12:20,563 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 06:12:20,565 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-18 06:12:29,064 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-18 06:12:29,066 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 06:12:34,971 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 06:12:34,972 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-18 06:12:52,702 WARNING Forbidden (CSRF token from POST incorrect.): /front/login/
+2023-05-18 06:12:56,853 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-18 06:12:56,856 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 06:13:03,334 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-18 06:13:03,341 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 06:13:07,900 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 06:14:54,344 INFO Watching for file changes with StatReloader
+2023-05-18 06:15:00,271 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 06:16:28,170 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 06:16:28,515 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 06:16:28,800 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 06:16:29,077 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 06:16:35,867 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 06:16:36,107 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 06:16:36,322 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 06:16:36,525 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 06:16:46,447 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 06:16:46,680 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 06:16:46,836 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 06:16:47,009 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 06:16:48,823 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 06:17:05,522 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 06:17:05,525 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-18 06:17:11,899 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 06:17:32,871 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 06:17:33,802 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 06:17:34,106 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 06:17:34,354 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 06:17:34,575 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 06:17:34,804 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 06:17:35,048 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 06:17:35,251 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 06:17:47,575 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 06:17:47,785 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 06:17:48,023 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 06:17:48,237 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 06:17:55,625 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 06:17:55,863 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 06:17:56,023 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 06:17:56,257 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 06:17:56,652 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 06:18:02,775 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 06:18:37,462 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 06:18:40,435 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 06:19:14,608 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 06:19:14,815 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 06:19:14,943 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 06:19:15,093 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 06:19:15,258 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 06:19:18,536 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 06:23:59,271 WARNING Forbidden (CSRF token missing.): /front/product_list_page
+2023-05-18 06:24:03,517 WARNING Forbidden (CSRF token missing.): /front/product_list_page
+2023-05-18 06:24:22,976 WARNING Forbidden (CSRF token missing.): /front/product_list_page
+2023-05-18 06:24:51,697 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 06:24:53,774 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 06:25:16,879 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 06:27:06,031 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-18 06:27:06,636 INFO Watching for file changes with StatReloader
+2023-05-18 06:27:36,679 INFO Watching for file changes with StatReloader
+2023-05-18 06:27:38,040 WARNING Not Found: /front/product_list_page/
+2023-05-18 06:27:42,777 WARNING Not Found: /front/product_list_page/
+2023-05-18 06:30:39,970 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-18 06:30:40,541 INFO Watching for file changes with StatReloader
+2023-05-18 06:30:51,303 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-18 06:30:51,889 INFO Watching for file changes with StatReloader
+2023-05-18 06:31:52,379 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-18 06:31:52,953 INFO Watching for file changes with StatReloader
+2023-05-18 06:32:02,705 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-18 06:32:03,277 INFO Watching for file changes with StatReloader
+2023-05-18 06:32:18,067 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-18 06:32:18,633 INFO Watching for file changes with StatReloader
+2023-05-18 06:36:00,206 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 06:36:18,831 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 06:36:18,833 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-18 06:36:26,538 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-18 06:36:26,539 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 06:36:30,253 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 06:36:30,255 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-18 06:36:46,072 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 06:36:46,103 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-18 06:36:50,112 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-18 06:36:50,120 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 06:37:36,190 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-18 06:37:36,816 INFO Watching for file changes with StatReloader
+2023-05-18 06:37:40,925 INFO Watching for file changes with StatReloader
+2023-05-18 06:37:43,812 WARNING Forbidden (CSRF token from POST incorrect.): /front/login/
+2023-05-18 06:37:44,214 WARNING Forbidden (CSRF token from POST incorrect.): /front/login/
+2023-05-18 06:37:47,964 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-18 06:37:47,967 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 06:37:50,528 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-18 06:37:50,530 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-18 06:42:27,590 INFO Watching for file changes with StatReloader
+2023-05-18 06:46:42,998 INFO Watching for file changes with StatReloader
+2023-05-18 06:46:50,356 ERROR Internal Server Error: /front/product_list_page
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'pdf'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/simprosys-aman/Aman/Django/Practical/Shopify/frontapp/views.py", line 732, in product_list_page
+    return render(
+           ^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/base.py", line 568, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 99: 'pdf'. Did you forget to register or load this tag?
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'pdf'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/Aman/Django/Practical/Shopify/frontapp/views.py", line 739, in product_list_page
+    return render(request, "temp/product_list_page.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/base.py", line 568, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 99: 'pdf'. Did you forget to register or load this tag?
+2023-05-18 06:46:50,772 ERROR Internal Server Error: /front/product_list_page
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'pdf'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/simprosys-aman/Aman/Django/Practical/Shopify/frontapp/views.py", line 732, in product_list_page
+    return render(
+           ^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/base.py", line 568, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 99: 'pdf'. Did you forget to register or load this tag?
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'pdf'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/Aman/Django/Practical/Shopify/frontapp/views.py", line 739, in product_list_page
+    return render(request, "temp/product_list_page.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/template/base.py", line 568, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 99: 'pdf'. Did you forget to register or load this tag?
+2023-05-18 06:47:36,864 ERROR Internal Server Error: /front/data_to_pdf/
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view frontapp.views.generate_pdf didn't return an HttpResponse object. It returned None instead.
+2023-05-18 06:50:26,130 INFO Watching for file changes with StatReloader

@@ -14,6 +14,4 @@ urlpatterns = [
     path('productgetlist/',views.ProductApiView.as_view(),name='productgetlist'),
     path('productgetlist/<int:pk>',views.ProductChange.as_view(),name='productchange'),
 
-    path('exportcsv/',views.ImportExcel.as_view(),name='exportcsv'),
-
 ]

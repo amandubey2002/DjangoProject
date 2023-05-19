@@ -3,7 +3,7 @@ from django.contrib.auth.models import User
 from django.core.mail import send_mail
 from frontapp.celery import app
 from django.shortcuts import render, redirect, HttpResponse, HttpResponseRedirect
-
+from .models import Product
 
 @shared_task(bind=True)
 def send_mail_to_user(self):
@@ -20,3 +20,11 @@ def send_mail_to_user(self):
     messages = "Send Email Successfully"
     
     return redirect("home", messages=messages)
+
+
+@shared_task(bind=True)
+def permanent_delete_product(self):
+    query = Product.objects.filter(is_delete = True).delete()
+    print("query_len",len(query))
+    messages = "Deleted from database sucsessfully"
+    return redirect("home",messages=messages)

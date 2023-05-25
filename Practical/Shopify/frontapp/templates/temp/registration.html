@@ -2,11 +2,11 @@
 {% load static %}
 {% block content %}
 
-<body>
+<body class="text-danger">
     <div class="row">
         <div class="col-sm-4">
         </div>
-        <div class="col-sm-4 container-sm" style="margin-top: 100px;">
+        <div class="col-sm-4 container-sm bg-dark" style="margin-top: 100px;">
             <form action="" method="post">
                 {% csrf_token %}
                 <div class="form-header">
@@ -15,34 +15,25 @@
                 <div class="form-group">
                     <label for="">Username:</label>
                     <input type="text" class="form-control" data-validation="length alphanumeric"
-                        data-validation-length="3-12" name="username">
+                        data-validation-length="3-12" name="username" placeholder="Enter your username" >
                 </div>
                 <div class="form-group">
                     <label for="">Email:</label>
                     <input type="email" class="form-control" data-validation="length alphanumeric"
-                        data-validation-length="3-12" name="email">
+                        data-validation-length="3-12" name="email" placeholder="Enter your email" >
                 </div>
                 <div class="form-group">
                     <label for="">Password:</label>
                     <input type="password" class="form-control" data-validation="length alphanumeric"
-                        data-validation-length="3-12" name="password">
+                        data-validation-length="3-12" name="password" placeholder="Enter your password" >
                 </div>
                 <div class="form-group">
                     <label for="">Confirm Password:</label>
                     <input type="password" class="form-control" data-validation="length" data-validation-length="min8"
-                        name="password_confirmation">
+                        name="password_confirmation" placeholder="Enter your confirm password" >
                 </div>
-                <br>
-                <label for="usertype">Choose a User Type:</label>
-                <select name="usertype">
-                    <option value="user">User</option>
-                    <option value="admin">Admin User</option>
-                    
-                </select>
-                <br>
-                <br>
-                <button class="btn btn-sucsess " style="border-color: black;" type="submit">Sign Up</button>
-                </a>
+                <hr>
+                <button class="btn btn-danger " style="border-color: black;" type="submit">Sign Up</button>
             </form>
         </div>
         <div class="col-sm-4">

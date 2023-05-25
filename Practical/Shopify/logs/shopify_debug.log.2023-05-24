@@ -1,3 +1,24 @@
+2023-05-24 04:34:50,638 INFO Watching for file changes with StatReloader
+2023-05-24 04:35:04,648 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/frontapp/urls.py changed, reloading.
+2023-05-24 04:35:05,259 INFO Watching for file changes with StatReloader
+2023-05-24 04:35:16,187 INFO Watching for file changes with StatReloader
+2023-05-24 04:35:20,090 WARNING Not Found: /
+2023-05-24 04:35:20,187 WARNING Not Found: /favicon.ico
+2023-05-24 04:35:33,826 WARNING Not Found: /api/login/
+2023-05-24 04:36:00,464 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-24 04:36:00,465 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-24 04:36:04,771 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-24 04:36:04,773 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-24 04:38:29,920 INFO Watching for file changes with StatReloader
+2023-05-24 04:39:34,387 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-24 04:39:49,056 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-24 04:39:55,448 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-24 04:40:04,394 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-24 04:40:13,327 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-24 04:40:32,840 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-24 04:40:50,082 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-24 04:41:53,064 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-24 04:41:53,648 INFO Watching for file changes with StatReloader
 2023-05-24 04:41:58,931 ERROR Internal Server Error: /front/upadte_product/36
 Traceback (most recent call last):
   File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
@@ -67,6 +88,45 @@ Traceback (most recent call last):
   File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
     raise NoReverseMatch(msg)
 django.urls.exceptions.NoReverseMatch: Reverse for 'product_list_page' with arguments '({'query': <Product: 36 , ('Satya Here',)>},)' not found. 1 pattern(s) tried: ['front/product_list_page\\Z']
+2023-05-24 04:42:24,764 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-24 04:42:25,368 INFO Watching for file changes with StatReloader
+2023-05-24 04:43:12,670 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-24 04:43:13,250 INFO Watching for file changes with StatReloader
+2023-05-24 04:46:03,496 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-24 04:46:04,083 INFO Watching for file changes with StatReloader
+2023-05-24 04:46:06,690 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-24 04:46:07,276 INFO Watching for file changes with StatReloader
+2023-05-24 04:46:24,790 INFO Watching for file changes with StatReloader
+2023-05-24 04:46:28,821 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-24 04:48:31,847 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-24 04:49:30,431 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-24 04:49:48,460 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-24 04:55:23,652 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-24 05:00:52,949 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-24 05:09:15,325 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-24 05:09:15,327 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-24 05:11:18,478 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-24 05:25:45,146 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-24 05:27:39,976 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-24 05:29:17,320 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-24 05:33:21,367 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/RestApiApp/views.py changed, reloading.
+2023-05-24 05:33:21,964 INFO Watching for file changes with StatReloader
+2023-05-24 05:34:13,464 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/RestApiApp/urls.py changed, reloading.
+2023-05-24 05:34:14,069 INFO Watching for file changes with StatReloader
+2023-05-24 05:34:22,332 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/RestApiApp/views.py changed, reloading.
+2023-05-24 05:34:22,883 INFO Watching for file changes with StatReloader
+2023-05-24 05:34:56,548 WARNING Not Found: /rest/ProductApiViewwithCRUD
+2023-05-24 05:35:04,616 WARNING Not Found: /ProductApiViewwithCRUD
+2023-05-24 05:35:27,401 WARNING Not Found: /ProductApiViewwithCRUD/
+2023-05-24 05:35:37,285 WARNING Not Found: /ProductApiViewwithCRUD
+2023-05-24 05:35:46,914 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/RestApiApp/urls.py changed, reloading.
+2023-05-24 05:35:47,517 INFO Watching for file changes with StatReloader
+2023-05-24 05:35:48,866 WARNING Unauthorized: /ProductApiViewwithCRUD
+2023-05-24 05:36:19,302 WARNING Not Found: /auth
+2023-05-24 05:36:37,349 WARNING Not Found: /auth/token
+2023-05-24 05:36:58,743 WARNING Method Not Allowed: /token/
+2023-05-24 05:37:31,248 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-24 05:37:31,250 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
 2023-05-24 05:38:03,824 ERROR Internal Server Error: /token
 Traceback (most recent call last):
   File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
@@ -109,6 +169,12 @@ Traceback (most recent call last):
   File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
     raise RuntimeError(
 RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/token/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2023-05-24 05:38:46,113 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/Shopify/urls.py changed, reloading.
+2023-05-24 05:38:46,708 INFO Watching for file changes with StatReloader
+2023-05-24 05:41:42,590 WARNING Bad Request: /ProductApiViewwithCRUD
+2023-05-24 05:42:11,424 WARNING Not Found: /ProductApiViewwithCRUD/1
+2023-05-24 05:42:27,930 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/RestApiApp/urls.py changed, reloading.
+2023-05-24 05:42:28,571 INFO Watching for file changes with StatReloader
 2023-05-24 05:42:31,464 ERROR Internal Server Error: /ProductApiViewwithCRUD/1
 Traceback (most recent call last):
   File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
@@ -159,6 +225,8 @@ Traceback (most recent call last):
     response = handler(request, *args, **kwargs)
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 TypeError: ProductApiViewwithCRUD.get() got an unexpected keyword argument 'pk'
+2023-05-24 05:45:35,878 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/RestApiApp/views.py changed, reloading.
+2023-05-24 05:45:36,439 INFO Watching for file changes with StatReloader
 2023-05-24 05:45:42,087 ERROR Internal Server Error: /ProductApiViewwithCRUD/1
 Traceback (most recent call last):
   File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
@@ -184,6 +252,8 @@ Traceback (most recent call last):
     response = handler(request, *args, **kwargs)
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 TypeError: ProductApiViewwithCRUD.get() got an unexpected keyword argument 'pk'
+2023-05-24 05:51:01,317 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/RestApiApp/urls.py changed, reloading.
+2023-05-24 05:51:01,886 INFO Watching for file changes with StatReloader
 2023-05-24 05:51:14,249 ERROR Internal Server Error: /ProductApiViewwithCRUD/1
 Traceback (most recent call last):
   File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
@@ -209,6 +279,8 @@ Traceback (most recent call last):
     response = handler(request, *args, **kwargs)
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 TypeError: ProductApiViewwithCRUD.get() got an unexpected keyword argument 'pk'
+2023-05-24 05:51:41,122 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/RestApiApp/views.py changed, reloading.
+2023-05-24 05:51:41,706 INFO Watching for file changes with StatReloader
 2023-05-24 05:51:45,790 ERROR Internal Server Error: /ProductApiViewwithCRUD
 Traceback (most recent call last):
   File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
@@ -234,6 +306,8 @@ Traceback (most recent call last):
     response = handler(request, *args, **kwargs)
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 TypeError: ProductApiViewwithCRUD.get() takes 1 positional argument but 2 were given
+2023-05-24 05:51:57,581 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/RestApiApp/views.py changed, reloading.
+2023-05-24 05:51:58,161 INFO Watching for file changes with StatReloader
 2023-05-24 05:52:07,621 ERROR Internal Server Error: /ProductApiViewwithCRUD/1
 Traceback (most recent call last):
   File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
@@ -259,6 +333,14 @@ Traceback (most recent call last):
     response = handler(request, *args, **kwargs)
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 TypeError: ProductApiViewwithCRUD.get() got an unexpected keyword argument 'pk'
+2023-05-24 05:58:34,079 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/RestApiApp/views.py changed, reloading.
+2023-05-24 05:58:34,640 INFO Watching for file changes with StatReloader
+2023-05-24 05:59:04,059 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/RestApiApp/views.py changed, reloading.
+2023-05-24 05:59:04,545 INFO Watching for file changes with StatReloader
+2023-05-24 05:59:31,516 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/RestApiApp/views.py changed, reloading.
+2023-05-24 05:59:32,150 INFO Watching for file changes with StatReloader
+2023-05-24 06:00:19,402 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/RestApiApp/views.py changed, reloading.
+2023-05-24 06:00:20,003 INFO Watching for file changes with StatReloader
 2023-05-24 06:00:22,938 ERROR Internal Server Error: /ProductApiViewwithCRUD/1
 Traceback (most recent call last):
   File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
@@ -284,6 +366,10 @@ Traceback (most recent call last):
     response = handler(request, *args, **kwargs)
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 TypeError: ProductApiViewwithCRUD.get() got multiple values for argument 'pk'
+2023-05-24 06:01:22,618 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/RestApiApp/views.py changed, reloading.
+2023-05-24 06:01:23,179 INFO Watching for file changes with StatReloader
+2023-05-24 06:01:34,477 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/RestApiApp/views.py changed, reloading.
+2023-05-24 06:01:35,008 INFO Watching for file changes with StatReloader
 2023-05-24 06:01:37,678 ERROR Internal Server Error: /ProductApiViewwithCRUD/1
 Traceback (most recent call last):
   File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
@@ -309,6 +395,8 @@ Traceback (most recent call last):
     response = handler(request, *args, **kwargs)
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 TypeError: ProductApiViewwithCRUD.get() got multiple values for argument 'pk'
+2023-05-24 06:02:02,022 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/RestApiApp/views.py changed, reloading.
+2023-05-24 06:02:02,591 INFO Watching for file changes with StatReloader
 2023-05-24 06:02:26,087 ERROR Internal Server Error: /ProductApiViewwithCRUD/10011
 Traceback (most recent call last):
   File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
@@ -342,6 +430,34 @@ Traceback (most recent call last):
   File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/db/models/query.py", line 637, in get
     raise self.model.DoesNotExist(
 frontapp.models.Product.DoesNotExist: Product matching query does not exist.
+2023-05-24 06:03:33,843 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/RestApiApp/views.py changed, reloading.
+2023-05-24 06:03:34,449 INFO Watching for file changes with StatReloader
+2023-05-24 06:03:37,949 WARNING Not Found: /ProductApiViewwithCRUD/10011
+2023-05-24 06:04:17,878 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/RestApiApp/views.py changed, reloading.
+2023-05-24 06:04:18,443 INFO Watching for file changes with StatReloader
+2023-05-24 06:05:18,960 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/RestApiApp/views.py changed, reloading.
+2023-05-24 06:05:19,530 INFO Watching for file changes with StatReloader
+2023-05-24 06:06:12,919 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/RestApiApp/views.py changed, reloading.
+2023-05-24 06:06:13,503 INFO Watching for file changes with StatReloader
+2023-05-24 06:06:42,986 WARNING Not Found: /ProductApiViewwithCRUD/10011
+2023-05-24 06:06:56,972 WARNING Unauthorized: /ProductApiViewwithCRUD/10011
+2023-05-24 06:07:05,482 WARNING Unauthorized: /ProductApiViewwithCRUD/10011
+2023-05-24 06:07:13,328 WARNING Unauthorized: /ProductApiViewwithCRUD/10011
+2023-05-24 06:07:17,980 WARNING Unauthorized: /ProductApiViewwithCRUD/10011
+2023-05-24 06:07:20,761 WARNING Unauthorized: /ProductApiViewwithCRUD/10011
+2023-05-24 06:07:22,070 WARNING Unauthorized: /ProductApiViewwithCRUD/10011
+2023-05-24 06:07:42,332 WARNING Not Found: /ProductApiViewwithCRUD/10011
+2023-05-24 06:09:19,175 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/RestApiApp/views.py changed, reloading.
+2023-05-24 06:09:19,764 INFO Watching for file changes with StatReloader
+2023-05-24 06:09:41,811 WARNING Not Found: /ProductApiViewwithCRUD/10001
+2023-05-24 06:10:22,412 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/RestApiApp/views.py changed, reloading.
+2023-05-24 06:10:23,054 INFO Watching for file changes with StatReloader
+2023-05-24 06:12:36,653 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/RestApiApp/views.py changed, reloading.
+2023-05-24 06:12:37,277 INFO Watching for file changes with StatReloader
+2023-05-24 06:12:52,120 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/RestApiApp/views.py changed, reloading.
+2023-05-24 06:12:52,697 INFO Watching for file changes with StatReloader
+2023-05-24 06:14:55,307 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/RestApiApp/views.py changed, reloading.
+2023-05-24 06:14:55,938 INFO Watching for file changes with StatReloader
 2023-05-24 06:16:01,069 ERROR Internal Server Error: /ProductApiViewwithCRUD/1
 Traceback (most recent call last):
   File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
@@ -362,6 +478,8 @@ Traceback (most recent call last):
   File "/home/simprosys-aman/.local/lib/python3.11/site-packages/rest_framework/views.py", line 423, in finalize_response
     assert isinstance(response, HttpResponseBase), (
 AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+2023-05-24 06:16:41,424 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/RestApiApp/views.py changed, reloading.
+2023-05-24 06:16:41,993 INFO Watching for file changes with StatReloader
 2023-05-24 06:16:45,809 ERROR Internal Server Error: /ProductApiViewwithCRUD/1
 Traceback (most recent call last):
   File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
@@ -382,6 +500,8 @@ Traceback (most recent call last):
   File "/home/simprosys-aman/.local/lib/python3.11/site-packages/rest_framework/views.py", line 423, in finalize_response
     assert isinstance(response, HttpResponseBase), (
 AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+2023-05-24 06:17:14,089 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/RestApiApp/views.py changed, reloading.
+2023-05-24 06:17:14,746 INFO Watching for file changes with StatReloader
 2023-05-24 06:17:21,401 ERROR Internal Server Error: /ProductApiViewwithCRUD/1
 Traceback (most recent call last):
   File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
@@ -402,6 +522,10 @@ Traceback (most recent call last):
   File "/home/simprosys-aman/.local/lib/python3.11/site-packages/rest_framework/views.py", line 423, in finalize_response
     assert isinstance(response, HttpResponseBase), (
 AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+2023-05-24 06:18:40,776 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/RestApiApp/views.py changed, reloading.
+2023-05-24 06:18:41,352 INFO Watching for file changes with StatReloader
+2023-05-24 06:18:45,967 WARNING Bad Request: /ProductApiViewwithCRUD/1
+2023-05-24 06:19:18,316 WARNING Not Found: /ProductApiViewwithCRUD/
 2023-05-24 06:19:21,697 ERROR Internal Server Error: /ProductApiViewwithCRUD
 Traceback (most recent call last):
   File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
@@ -452,6 +576,20 @@ Traceback (most recent call last):
     response = handler(request, *args, **kwargs)
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 TypeError: ProductApiViewwithCRUD.delete() got multiple values for argument 'pk'
+2023-05-24 06:20:52,107 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/RestApiApp/views.py changed, reloading.
+2023-05-24 06:20:52,744 INFO Watching for file changes with StatReloader
+2023-05-24 06:23:25,820 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/RestApiApp/views.py changed, reloading.
+2023-05-24 06:23:26,408 INFO Watching for file changes with StatReloader
+2023-05-24 06:23:36,693 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/RestApiApp/views.py changed, reloading.
+2023-05-24 06:23:37,208 INFO Watching for file changes with StatReloader
+2023-05-24 06:23:46,498 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/RestApiApp/urls.py changed, reloading.
+2023-05-24 06:23:47,020 INFO Watching for file changes with StatReloader
+2023-05-24 06:23:48,591 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/RestApiApp/urls.py changed, reloading.
+2023-05-24 06:23:49,145 INFO Watching for file changes with StatReloader
+2023-05-24 06:24:58,898 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/RestApiApp/views.py changed, reloading.
+2023-05-24 06:24:59,490 INFO Watching for file changes with StatReloader
+2023-05-24 06:25:07,781 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/RestApiApp/urls.py changed, reloading.
+2023-05-24 06:25:08,373 INFO Watching for file changes with StatReloader
 2023-05-24 06:26:32,619 ERROR Internal Server Error: /ProductApiViewwithCRUD/1
 Traceback (most recent call last):
   File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
@@ -477,6 +615,8 @@ Traceback (most recent call last):
     response = handler(request, *args, **kwargs)
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 TypeError: ProductApiViewwithCRUD.delete() got multiple values for argument 'pk'
+2023-05-24 06:27:04,121 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/RestApiApp/views.py changed, reloading.
+2023-05-24 06:27:04,693 INFO Watching for file changes with StatReloader
 2023-05-24 06:27:10,289 ERROR Internal Server Error: /ProductApiViewwithCRUD/1
 Traceback (most recent call last):
   File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
@@ -527,6 +667,8 @@ Traceback (most recent call last):
     response = handler(request, *args, **kwargs)
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 TypeError: ProductApiViewwithCRUD.delete() got multiple values for argument 'pk'
+2023-05-24 06:29:54,395 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/RestApiApp/views.py changed, reloading.
+2023-05-24 06:29:55,050 INFO Watching for file changes with StatReloader
 2023-05-24 06:29:59,972 ERROR Internal Server Error: /ProductApiViewwithCRUD/1
 Traceback (most recent call last):
   File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
@@ -552,3 +694,120 @@ Traceback (most recent call last):
     response = handler(request, *args, **kwargs)
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 TypeError: ProductApiViewwithCRUD.delete() got multiple values for argument 'pk'
+2023-05-24 06:30:24,189 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/RestApiApp/views.py changed, reloading.
+2023-05-24 06:30:24,814 INFO Watching for file changes with StatReloader
+2023-05-24 06:30:59,106 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/RestApiApp/views.py changed, reloading.
+2023-05-24 06:30:59,703 INFO Watching for file changes with StatReloader
+2023-05-24 06:37:21,506 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-24 06:37:22,110 INFO Watching for file changes with StatReloader
+2023-05-24 06:41:15,771 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-24 06:41:16,373 INFO Watching for file changes with StatReloader
+2023-05-24 06:41:45,521 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-24 06:41:46,116 INFO Watching for file changes with StatReloader
+2023-05-24 06:42:28,362 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-24 06:42:28,935 INFO Watching for file changes with StatReloader
+2023-05-24 06:48:47,629 INFO Watching for file changes with StatReloader
+2023-05-24 06:49:45,021 INFO Watching for file changes with StatReloader
+2023-05-24 06:50:17,255 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-24 06:50:17,854 INFO Watching for file changes with StatReloader
+2023-05-24 06:50:56,063 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-24 06:50:56,746 INFO Watching for file changes with StatReloader
+2023-05-24 06:54:19,370 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-24 06:54:19,970 INFO Watching for file changes with StatReloader
+2023-05-24 06:56:16,027 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-24 06:56:16,028 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-24 06:56:30,802 WARNING Unauthorized: /ProductApiViewwithCRUD/10011
+2023-05-24 07:01:06,141 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/userapp/views.py changed, reloading.
+2023-05-24 07:01:06,761 INFO Watching for file changes with StatReloader
+2023-05-24 07:04:29,939 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-24 07:04:29,940 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-24 07:04:40,120 WARNING Forbidden (CSRF cookie not set.): /user/login/
+2023-05-24 07:04:42,983 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-24 07:04:42,984 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-24 07:10:00,132 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-24 07:10:00,146 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-24 07:24:08,848 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-24 07:24:08,849 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-24 07:24:09,958 WARNING Not Found: /favicon.ico
+2023-05-24 07:24:12,226 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-24 07:24:12,227 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-24 07:26:05,855 WARNING Forbidden (CSRF token from POST incorrect.): /user/login/
+2023-05-24 07:26:08,232 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-24 07:26:08,234 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-24 07:26:34,928 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-24 07:26:34,929 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-24 07:26:36,473 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-24 07:28:00,387 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/userapp/views.py changed, reloading.
+2023-05-24 07:28:00,972 INFO Watching for file changes with StatReloader
+2023-05-24 07:28:07,640 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/userapp/views.py changed, reloading.
+2023-05-24 07:28:08,215 INFO Watching for file changes with StatReloader
+2023-05-24 07:28:43,294 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-24 07:28:43,796 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-24 07:28:43,997 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-24 07:28:50,228 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-24 07:28:50,787 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-24 07:29:12,721 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-24 07:29:22,834 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-24 07:29:23,013 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-24 07:29:23,200 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-24 07:29:37,071 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-24 07:29:37,073 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-24 07:29:38,457 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-24 07:30:11,927 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-24 07:30:12,124 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-24 07:30:12,315 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-24 07:30:12,520 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-24 07:30:12,713 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-24 07:30:24,553 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-24 07:30:24,742 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-24 07:30:24,936 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-24 07:30:25,143 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-24 07:30:52,915 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-24 07:30:52,916 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-24 07:31:04,271 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-24 07:31:08,698 WARNING Not Found: /user/forgot-password/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css
+2023-05-24 07:31:08,721 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-24 07:32:13,916 WARNING Not Found: /user/forgot-password/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css
+2023-05-24 07:32:13,922 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-24 07:32:58,686 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-24 07:32:58,689 WARNING Not Found: /user/forgot-password/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css
+2023-05-24 07:32:58,886 WARNING Not Found: /user/forgot-password/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css
+2023-05-24 07:32:58,891 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-24 07:32:59,068 WARNING Not Found: /user/forgot-password/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css
+2023-05-24 07:32:59,082 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-24 07:32:59,274 WARNING Not Found: /user/forgot-password/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css
+2023-05-24 07:32:59,277 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-24 07:33:03,134 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-24 07:33:44,188 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-24 07:33:44,363 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-24 07:33:44,534 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-24 07:33:44,727 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-24 07:33:46,912 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-24 07:33:46,913 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-24 07:34:14,403 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-24 07:34:14,406 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-24 07:34:14,571 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-24 07:34:14,572 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-24 07:34:14,775 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-24 07:34:14,776 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-24 07:34:14,920 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-24 07:34:14,925 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-24 07:34:25,439 WARNING Not Found: /user/change_password/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css
+2023-05-24 07:34:25,457 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-24 07:34:50,431 WARNING Not Found: /user/change_password/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css
+2023-05-24 07:34:50,449 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-24 07:34:50,586 WARNING Not Found: /user/change_password/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css
+2023-05-24 07:34:50,605 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-24 07:34:50,771 WARNING Not Found: /user/change_password/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css
+2023-05-24 07:34:50,785 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-24 07:34:50,922 WARNING Not Found: /user/change_password/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css
+2023-05-24 07:34:50,933 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-24 07:35:01,613 WARNING Not Found: /user/change_password/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css
+2023-05-24 07:35:01,626 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-24 07:35:01,797 WARNING Not Found: /user/change_password/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css
+2023-05-24 07:35:01,813 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-24 07:35:01,968 WARNING Not Found: /user/change_password/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css
+2023-05-24 07:35:01,985 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-24 07:35:02,128 WARNING Not Found: /user/change_password/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css
+2023-05-24 07:35:02,142 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-24 07:35:12,273 WARNING Not Found: /front/static/images/bac.jpg

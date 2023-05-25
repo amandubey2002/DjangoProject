@@ -1,8 +1,7 @@
 {% extends 'temp/base.html' %}
 {% block content %}
 
-
-<form method="post" action="{% url 'product_list_page' %}">
+<form method="post" action="{% url 'delete_multiple_product' %}">
   {% csrf_token %}
 <div class="container-xl">
 <table class="table table-bordered text-white">
@@ -13,7 +12,7 @@
         <th scope="col">Vendor</th>
         <th scope="col">Type</th>
         <th scope="col">check</th>
-        <th scope="col">Delete</th>
+        <th scope="col">Action</th>
 
       </tr>
     </thead>
@@ -25,7 +24,8 @@
         <td>{{product.Vendor}}</td>
         <td>{{product.Type}}</td>
         <td><input type="checkbox" name="selected_products" value="{{ product.id }}"></td>
-        <td><a href="{% url 'soft_delete' product.id %}" onclick="return confirm('Are you sure you want to delete this product?')" class="btn btn-danger">Delete</a></td>
+        <td><a href="{% url 'soft_delete' product.id %}" onclick="return confirm('Are you sure you want to delete this product?')" class="btn btn-danger">Delete</a>
+       <a href="{% url 'upadte_product' product.id %}" class="btn btn-light">Update</a></td>
       </tr>
       {% endfor %}
     </tbody>
@@ -38,10 +38,10 @@
         <li class="page-item"><a class="btn btn-primary m-1" href="?page={{data.previous_page_number}}">Previous</a>
         </li>
         </li>
-        <li class="page-item"><a class="btn btn-primary m-1" href="/front/product_list_page/?page=1">First</a></li>
+        <li class="page-item"><a class="btn btn-primary m-1" href="/front/product_list_page?page=1">First</a></li>
         {% endif %}
-        <li class="page-item"><a class="btn btn-primary m-1" href="/front/product_list_page/?page=2">2</a></li>
-        <li class="page-item"><a class="btn btn-primary m-1" href="/front/product_list_page/?page=3">3</a></li>
+        <li class="page-item"><a class="btn btn-primary m-1" href="/front/product_list_page?page=2">2</a></li>
+        <li class="page-item"><a class="btn btn-primary m-1" href="/front/product_list_page?page=3">3</a></li>
         {% if data.has_next %}
         <li class="page-item">
             <a class="btn btn-primary m-1" href="?page={{data.next_page_number}}">Next</a>

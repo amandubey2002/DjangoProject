@@ -1,0 +1,278 @@
+{% extends 'temp/base.html' %}
+{% load static %}
+{% block content %}
+
+
+    <div class="row">
+        <div class="col-sm-4">
+        </div>
+        <div class="col-sm-4 container-sm bg-dark text-white" style="margin-top: 40px;">
+            <form action="" method="post">
+                {% csrf_token %}
+                <div class="form-header">
+                    <h3>Update Product</h3>
+                </div>
+                <div class="form-group">
+                    <input type="hidden" class="form-control" data-validation="length alphanumeric"
+                    data-validation-length="3-12" value="{{ user.id }}" name="user">
+                </div>
+                <div class="form-group">
+                    <label for="">Handle:</label>
+                    <input type="text" class="form-control" data-validation="length alphanumeric"
+                    data-validation-length="3-12" name="Handle" value="{{ query.Handle }}">
+                </div>
+                <div class="form-group">
+                    <label for="">Title:</label>
+                    <input type="text" class="form-control" data-validation="length alphanumeric"
+                    data-validation-length="3-12" name="Title" value="{{ query.Title }}">
+                </div>
+                <div class="form-group">
+                    <label for="">Body:</label>
+                    <input type="text" class="form-control"
+                    name="Body" value="{{ query.Body }}">
+                </div>
+
+                <div class="form-group">
+                    <label for="">Vendor:</label>
+                    <input type="text" class="form-control"
+                    name="Vendor" value="{{ query.Vendor }}">
+                </div>
+
+                <div class="form-group">
+                    <label for="">Type:</label>
+                    <input type="text" class="form-control"
+                    name="Type"value="{{ query.Type }}">
+                </div>
+
+                <div class="form-group">
+                    <label for="">Tags:</label>
+                    <input type="text" class="form-control"
+                    name="Tags" value="{{ query.Tags }}">
+                </div>
+
+                <div class="form-group">
+                    <label for="">Published:</label>
+                    <input type="text" class="form-control"
+                    name="Published" value="{{ query.Published }}">
+                </div>
+
+                <div class="form-group">
+                    <label for="">Option1_Name:</label>
+                    <input type="text" class="form-control"
+                    name="Option1_Name" value="{{ query.Option1_Name }}">
+                </div>
+
+               
+                <div class="form-group">
+                    <label for="">Option1_Value:</label>
+                    <input type="text" class="form-control"
+                    name="Option1_Value" value="{{ query.Option1_Value }}">
+                </div>
+
+
+                <div class="form-group">
+                    <label for="">Option2_Name:</label>
+                    <input type="text" class="form-control"
+                    name="Option2_Name" value="{{ query.Option2_Name }}">
+                </div>
+
+                <div class="form-group">
+                    <label for="">Option2_Value:</label>
+                    <input type="text" class="form-control"
+                    name="Option2_Value" value="{{ query.Option2_Value }}">
+                </div>
+
+                <div class="form-group">
+                    <label for="">Option3_Name:</label>
+                    <input type="text" class="form-control"
+                    name="Option3_Name" value="{{ query.Option3_Name }}">
+                </div>
+                <div class="form-group">
+                    <label for="">Option3_Value:</label>
+                    <input type="text" class="form-control"
+                    name="Option3_Value" value="{{ query.Option3_Value }}">
+                </div>
+                <div class="form-group">
+                    <label for="">Variant_SKU:</label>
+                    <input type="text" class="form-control"
+                    name="Variant_SKU" value="{{ query.Variant_SKU }}">
+                </div>
+                <div class="form-group">
+                    <label for="">Variant_Grams:</label>
+                    <input type="text" class="form-control"
+                    name="Variant_Grams" value="{{ query.Variant_Grams }}">
+                </div>
+                <div class="form-group">
+                    <label for="">Variant_Inventory_Tracker:</label>
+                    <input type="text" class="form-control"
+                    name="Variant_Inventory_Tracker" value="{{ query.Variant_Inventory_Tracker }}">
+                </div>
+                <div class="form-group">
+                    <label for="">Variant_Inventory_Policy:</label>
+                    <input type="text" class="form-control"
+                    name="Variant_Inventory_Policy" value="{{ query.Variant_Inventory_Policy }}">
+                </div>
+                <div class="form-group">
+                    <label for="">Variant_Fulfillment_Service:</label>
+                    <input type="text" class="form-control"
+                    name="Variant_Fulfillment_Service" value="{{ query.Variant_Fulfillment_Service }}">
+                </div>
+                <div class="form-group">
+                    <label for=""><div class="form-group">
+                    <label for="">Variant_Price:</label>
+                    <input type="text" class="form-control"
+                    name="Variant_Price" value="{{ query.Variant_Price }}">
+                </div>
+                </div>
+                <div class="form-group">
+                    <label for="">Variant_Compare_At_Price:</label>
+                    <input type="text" class="form-control"
+                    name="Variant_Compare_At_Price" value="{{ query.Variant_Compare_At_Price }}">
+                </div>
+                <div class="form-group">
+                    <label for="">Variant_Requires_Shipping:</label>
+                    <input type="text" class="form-control"
+                    name="Variant_Requires_Shipping" value="{{ query.Variant_Requires_Shipping   }}">
+                </div>
+                <div class="form-group">
+                    <label for="">Variant_Taxable:</label>
+                    <input type="text" class="form-control"
+                    name="Variant_Taxable" value="{{ query.Variant_Taxable   }}">
+                </div>
+                <div class="form-group">
+                    <label for="">Variant_Barcode:</label>
+                    <input type="text" class="form-control"
+                    name="Variant_Barcode" value="{{ query.Variant_Barcode   }}">
+                </div>
+                <div class="form-group">
+                    <label for="">Image_Src:</label>
+                    <input type="text" class="form-control"
+                    name="Image_Src" value="{{ query.Image_Src   }}">
+                </div>
+                <div class="form-group">
+                    <label for="">Image_Position:</label>
+                    <input type="text" class="form-control"
+                    name="Image_Position" value="{{ query.Image_Position }}">
+                </div>
+                <div class="form-group">
+                    <label for="">Image_Alt_Text:</label>
+                    <input type="text" class="form-control"
+                    name="Image_Alt_Text" value="{{ query.Image_Alt_Text }}">
+                </div>
+                <div class="form-group">
+                    <label for="">Gift_Card:</label>
+                    <input type="text" class="form-control"
+                    name="Gift_Card" value="{{ query.Gift_Card   }}">
+                </div>
+                <div class="form-group">
+                    <label for="">SEO_Title:</label>
+                    <input type="text" class="form-control"
+                    name="SEO_Title" value="{{ query.SEO_Title   }}">
+                </div>
+                <div class="form-group">
+                    <label for="">SEO_Description:</label>
+                    <input type="text" class="form-control"
+                    name="SEO_Description" value="{{ query.SEO_Description   }}">
+                </div>
+                <div class="form-group">
+                    <label for="">Google_Shopping_Google_Product_Category:</label>
+                    <input type="text" class="form-control"
+                    name="Google_Shopping_Google_Product_Category" value="{{ query.Google_Shopping_Google_Product_Category   }}">
+                </div>
+                <div class="form-group">
+                    <label for="">Google_Shopping_Gender:</label>
+                    <input type="text" class="form-control"
+                    name="Google_Shopping_Gender" value="{{ query.Google_Shopping_Gender }}">
+                </div>
+                <div class="form-group">
+                    <label for="">Google_Shopping_Age_Group:</label>
+                    <input type="text" class="form-control"
+                    name="Google_Shopping_Age_Group" value="{{ query.Google_Shopping_Age_Group   }}">
+                </div>
+                <div class="form-group">
+                    <label for="">Google_Shopping_MPN:</label>
+                    <input type="text" class="form-control"
+                    name="Google_Shopping_MPN" value="{{ query.Google_Shopping_MPN   }}">
+                </div>
+                <div class="form-group">
+                    <label for="">Google_Shopping_AdWords_Grouping:</label>
+                    <input type="text" class="form-control"
+                    name="Google_Shopping_AdWords_Grouping" value="{{ query.Google_Shopping_AdWords_Grouping }}">
+                </div>
+                <div class="form-group">
+                    <label for="">Google_Shopping_AdWords_Labels:</label>
+                    <input type="text" class="form-control"
+                    name="Google_Shopping_AdWords_Labels" value="{{ query.Google_Shopping_AdWords_Labels }}">
+                </div>
+                <div class="form-group">
+                    <label for="">Google_Shopping_Condition:</label>
+                    <input type="text" class="form-control"
+                    name="Google_Shopping_Condition" value="{{ query.Google_Shopping_Condition   }}">
+                </div>
+                <div class="form-group">
+                    <label for="">Google_Shopping_Custom_Product:</label>
+                    <input type="text" class="form-control"
+                    name="Google_Shopping_Custom_Product" value="{{ query.Google_Shopping_Custom_Product }}">
+                </div>
+                <div class="form-group">
+                    <label for="">Google_Shopping_Custom_Label_0:</label>
+                    <input type="text" class="form-control"
+                    name="Google_Shopping_Custom_Label_0" value="{{ query.Google_Shopping_Custom_Label_0 }}">
+                </div>
+                <div class="form-group">
+                    <label for="">Google_Shopping_Custom_Label_1:</label>
+                    <input type="text" class="form-control"
+                    name="Google_Shopping_Custom_Label_1" value="{{ query.Google_Shopping_Custom_Label_1 }}">
+                </div>
+                <div class="form-group">
+                    <label for="">Google_Shopping_Custom_Label_2:</label>
+                    <input type="text" class="form-control"
+                    name="Google_Shopping_Custom_Label_2" value="{{ query.Google_Shopping_Custom_Label_2 }}">
+                </div>
+                <div class="form-group">
+                    <label for="">Google_Shopping_Custom_Label_3:</label>
+                    <input type="text" class="form-control"
+                    name="Google_Shopping_Custom_Label_3" value="{{ query.Google_Shopping_Custom_Label_3 }}">
+                </div>
+                <div class="form-group">
+                    <label for="">Google_Shopping_Custom_Label_4:</label>
+                    <input type="text" class="form-control"
+                    name="Google_Shopping_Custom_Label_4" value="{{ query.Google_Shopping_Custom_Label_4 }}">
+                </div>
+
+                <div class="form-group">
+                    <label for="">Variant_Image:</label>
+                    <input type="text" class="form-control"
+                    name="Variant_Image" value="{{ query.Variant_Image   }}">
+                </div>
+                <div class="form-group">
+                    <label for="">Variant_Weight_Unit:</label>
+                    <input type="text" class="form-control"
+                    name="img_src" value="{{ query.Variant_Weight_Unit   }}">
+                </div>
+                <div class="form-group">
+                    <label for="">Variant_Tax_Code:</label>
+                    <input type="text" class="form-control"
+                    name="Variant_Tax_Code" value="{{ query.Variant_Tax_Code }}">
+                </div>
+                <div class="form-group">
+                    <label for="">Cost_per_item:</label>
+                    <input type="text" class="form-control"
+                    name="Cost_per_item" value="{{ query.Cost_per_item   }}">
+                </div>
+                <div class="form-group">
+                    <label for="">Status:</label>
+                    <input type="text" class="form-control"
+                    name="Status" value="{{ query.Status }}">
+                </div>
+                <br>
+            </a>
+            <button class="btn btn-light " style="border-color: black;" type="submit">Update Product</button>
+            </form>
+        </div>
+        <div class="col-sm-4">
+        </div>
+    </div>
+
+{% endblock %}
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

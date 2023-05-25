@@ -10,8 +10,10 @@ urlpatterns = [
     path("data_to_pdf/", views.generate_pdf, name="data_to_pdf"),
     path("productlist1/", views.ProductList, name="productlist1"),
     path("product_delete/<int:pk>", views.delete_product, name="product_delete"),
+    path("delete_multiple_product/",views.delete_multiple_product, name="delete_multiple_product"),
     path("send_mail/", views.send_mail_to_all_users, name="send_mail"),
     path("productwithuserview/", views.create_product, name="productwithuserview"),
     path("product_list_page",views.product_list_page,name="product_list_page"),
     path("soft_delete/<int:pk>",views.soft_delete, name="soft_delete"),
+    path("upadte_product/<int:pk>",views.upadte_product,name="upadte_product")
 ]

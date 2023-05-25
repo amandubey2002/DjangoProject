@@ -1,0 +1,416 @@
+2023-05-23 07:25:34,496 INFO Watching for file changes with StatReloader
+2023-05-23 07:25:43,906 INFO Watching for file changes with StatReloader
+2023-05-23 07:25:46,698 WARNING Not Found: /
+2023-05-23 07:25:46,721 WARNING Not Found: /favicon.ico
+2023-05-23 07:26:03,605 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-23 07:26:03,612 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-23 07:26:35,367 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-23 07:26:35,369 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-23 07:26:37,344 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-23 07:26:37,348 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-23 07:26:37,653 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-23 07:26:37,656 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-23 07:26:37,840 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-23 07:26:37,841 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-23 07:26:38,044 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-23 07:26:38,046 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-23 07:26:38,216 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-23 07:26:38,219 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-23 07:26:38,387 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-23 07:26:38,388 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-23 07:26:38,704 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-23 07:26:38,709 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-23 07:26:38,878 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-23 07:26:38,878 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-23 07:26:39,030 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-23 07:26:39,031 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-23 07:26:39,297 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-23 07:26:39,299 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-23 07:26:40,445 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-23 07:26:40,448 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-23 07:26:41,124 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-23 07:26:41,128 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-23 07:26:41,339 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-23 07:26:41,340 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-23 07:26:52,014 INFO Watching for file changes with StatReloader
+2023-05-23 07:26:55,833 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-23 07:26:55,834 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-23 07:26:57,637 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-23 07:26:57,640 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-23 07:27:12,018 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-23 07:27:12,021 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-23 07:27:26,654 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-23 07:27:26,656 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-23 07:27:55,465 WARNING Not Found: /user/change_password/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css
+2023-05-23 07:27:55,474 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-23 07:27:58,032 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 07:30:59,769 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 08:31:08,353 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 08:35:28,461 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 08:37:29,911 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 08:37:31,708 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 08:37:31,835 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 08:37:32,175 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 08:37:33,443 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 08:39:04,140 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 08:39:05,506 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 08:39:05,731 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 08:39:05,867 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 08:39:07,447 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 08:39:29,990 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 08:39:30,167 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 08:39:30,445 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 08:39:30,595 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 08:40:07,580 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 08:40:44,590 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 08:40:45,027 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 08:40:45,161 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 08:40:46,687 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 08:43:02,924 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 08:43:03,356 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 08:43:03,574 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 08:43:03,760 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 08:43:16,288 WARNING Not Found: /user/change_password/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css
+2023-05-23 08:43:16,307 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-23 08:43:20,374 WARNING Not Found: /user/change_password/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css
+2023-05-23 08:43:20,386 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-23 08:44:06,279 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 08:44:09,244 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 08:44:40,584 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 08:45:00,106 WARNING Not Found: /front/product_list_page/
+2023-05-23 08:45:05,634 WARNING Not Found: /front/product_list_page/
+2023-05-23 09:19:38,451 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-23 09:19:39,138 INFO Watching for file changes with StatReloader
+2023-05-23 09:24:07,967 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-23 09:24:07,969 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-23 09:24:13,298 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-23 09:24:13,300 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-23 09:24:21,921 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-23 09:24:21,924 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-23 09:24:55,403 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 09:25:08,623 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 09:46:04,107 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-23 09:46:04,111 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-23 09:46:19,154 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 09:46:35,179 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 09:53:22,013 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 10:28:29,721 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-23 10:28:29,722 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-23 10:28:35,191 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-23 10:28:35,192 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-23 10:28:42,920 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-23 10:28:42,921 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-23 10:28:48,982 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-23 10:28:48,982 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-23 10:29:16,257 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-23 10:29:16,258 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-23 10:33:33,628 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-23 10:33:33,630 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-23 10:33:43,080 WARNING Not Found: /user/change_password/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css
+2023-05-23 10:33:43,090 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-23 10:42:47,605 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 10:45:01,808 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 10:45:11,458 WARNING Not Found: /user/change_password/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css
+2023-05-23 10:45:11,472 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-23 10:45:38,218 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 10:46:31,830 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 10:47:01,253 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 10:47:33,859 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 10:47:34,235 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 10:47:34,685 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 10:47:34,872 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 10:47:35,048 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 10:47:35,888 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 10:47:36,116 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 10:47:36,324 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 10:48:02,952 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 10:48:03,135 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 10:48:03,352 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 10:48:03,531 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 10:48:03,692 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 10:48:33,497 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 10:48:33,666 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 10:48:33,877 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 10:48:33,987 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 10:48:34,205 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 10:49:19,503 INFO Watching for file changes with StatReloader
+2023-05-23 10:49:21,509 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 10:51:35,784 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 10:51:36,113 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 10:51:36,285 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 10:51:36,459 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 10:51:36,632 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 10:51:43,592 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 10:51:43,854 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 10:52:31,443 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 10:53:52,795 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-23 10:53:52,798 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-23 10:53:54,297 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-23 10:54:15,969 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-23 10:54:20,295 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-23 10:54:22,471 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-23 10:54:25,713 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-23 10:54:36,692 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-23 10:54:54,825 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-23 10:54:54,831 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-23 10:57:04,540 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-23 10:57:04,543 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-23 11:42:28,354 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-23 11:42:28,943 INFO Watching for file changes with StatReloader
+2023-05-23 11:50:35,000 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-23 11:50:35,612 INFO Watching for file changes with StatReloader
+2023-05-23 11:50:37,197 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-23 11:50:37,790 INFO Watching for file changes with StatReloader
+2023-05-23 11:50:41,438 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-23 11:50:42,009 INFO Watching for file changes with StatReloader
+2023-05-23 12:15:04,844 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-23 12:15:05,472 INFO Watching for file changes with StatReloader
+2023-05-23 12:15:23,325 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-23 12:15:23,905 INFO Watching for file changes with StatReloader
+2023-05-23 12:20:55,544 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-23 12:20:56,148 INFO Watching for file changes with StatReloader
+2023-05-23 12:29:41,486 INFO Watching for file changes with StatReloader
+2023-05-23 12:29:44,102 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-23 12:29:44,767 INFO Watching for file changes with StatReloader
+2023-05-23 12:30:07,648 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-23 12:30:08,259 INFO Watching for file changes with StatReloader
+2023-05-23 12:31:23,208 INFO Watching for file changes with StatReloader
+2023-05-23 12:32:30,776 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/frontapp/urls.py changed, reloading.
+2023-05-23 12:32:31,355 INFO Watching for file changes with StatReloader
+2023-05-23 12:33:45,427 ERROR Internal Server Error: /front/upadte_product/33
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: upadte_product() missing 1 required positional argument: 'request'
+2023-05-23 12:34:06,566 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-23 12:34:07,161 INFO Watching for file changes with StatReloader
+2023-05-23 12:34:08,988 ERROR Internal Server Error: /front/upadte_product/33
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view frontapp.views.upadte_product didn't return an HttpResponse object. It returned None instead.
+2023-05-23 12:34:09,696 ERROR Internal Server Error: /front/upadte_product/33
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view frontapp.views.upadte_product didn't return an HttpResponse object. It returned None instead.
+2023-05-23 12:34:09,858 ERROR Internal Server Error: /front/upadte_product/33
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view frontapp.views.upadte_product didn't return an HttpResponse object. It returned None instead.
+2023-05-23 12:34:50,418 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-23 12:34:51,038 INFO Watching for file changes with StatReloader
+2023-05-23 12:34:52,190 ERROR Internal Server Error: /front/upadte_product/33
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view frontapp.views.upadte_product didn't return an HttpResponse object. It returned None instead.
+2023-05-23 12:34:53,272 ERROR Internal Server Error: /front/upadte_product/33
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view frontapp.views.upadte_product didn't return an HttpResponse object. It returned None instead.
+2023-05-23 12:34:57,545 ERROR Internal Server Error: /front/upadte_product/33
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view frontapp.views.upadte_product didn't return an HttpResponse object. It returned None instead.
+2023-05-23 12:35:13,007 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-23 12:35:13,632 INFO Watching for file changes with StatReloader
+2023-05-23 12:35:15,108 ERROR Internal Server Error: /front/upadte_product/33
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view frontapp.views.upadte_product didn't return an HttpResponse object. It returned None instead.
+2023-05-23 12:35:17,340 ERROR Internal Server Error: /front/upadte_product/33
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view frontapp.views.upadte_product didn't return an HttpResponse object. It returned None instead.
+2023-05-23 12:35:17,800 ERROR Internal Server Error: /front/upadte_product/33
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view frontapp.views.upadte_product didn't return an HttpResponse object. It returned None instead.
+2023-05-23 12:35:40,703 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-23 12:35:41,356 INFO Watching for file changes with StatReloader
+2023-05-23 12:35:44,807 ERROR Internal Server Error: /front/upadte_product/33
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view frontapp.views.upadte_product didn't return an HttpResponse object. It returned None instead.
+2023-05-23 12:36:27,752 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-23 12:36:28,388 INFO Watching for file changes with StatReloader
+2023-05-23 12:36:29,163 ERROR Internal Server Error: /front/upadte_product/33
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/Aman/Django/Practical/Shopify/frontapp/views.py", line 583, in upadte_product
+    return render(request, "temp/product_list_page.html",query = query)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: render() got an unexpected keyword argument 'query'
+2023-05-23 12:36:29,599 ERROR Internal Server Error: /front/upadte_product/33
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/Aman/Django/Practical/Shopify/frontapp/views.py", line 583, in upadte_product
+    return render(request, "temp/product_list_page.html",query = query)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: render() got an unexpected keyword argument 'query'
+2023-05-23 12:36:38,105 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-23 12:36:38,771 INFO Watching for file changes with StatReloader
+2023-05-23 12:36:40,110 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 12:36:40,416 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 12:36:58,755 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-23 12:36:59,364 INFO Watching for file changes with StatReloader
+2023-05-23 12:37:00,647 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 12:37:45,698 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 12:37:45,882 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 12:37:46,094 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 12:37:46,346 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 12:37:52,987 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 12:39:05,970 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-23 12:39:06,544 INFO Watching for file changes with StatReloader
+2023-05-23 12:39:23,401 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-23 12:39:23,995 INFO Watching for file changes with StatReloader
+2023-05-23 12:39:31,692 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-23 12:39:32,311 INFO Watching for file changes with StatReloader
+2023-05-23 12:39:51,163 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-23 12:39:51,797 INFO Watching for file changes with StatReloader
+2023-05-23 12:40:29,811 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 12:40:32,461 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 12:40:32,794 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 12:40:32,990 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 12:40:35,253 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 12:41:09,121 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 12:41:09,670 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 12:42:11,395 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 12:42:11,554 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 12:42:11,755 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 12:42:11,940 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 12:42:12,145 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 12:42:12,292 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 12:42:12,526 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 12:46:27,208 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-23 12:46:27,796 INFO Watching for file changes with StatReloader
+2023-05-23 12:46:35,472 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-23 12:46:36,070 INFO Watching for file changes with StatReloader
+2023-05-23 12:47:47,781 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-23 12:47:48,372 INFO Watching for file changes with StatReloader
+2023-05-23 12:48:02,889 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 12:56:47,426 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 12:57:02,980 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 12:57:13,568 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 13:00:10,386 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 13:03:40,059 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 13:03:59,790 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 13:04:06,535 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 13:04:15,449 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 13:04:22,911 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 13:05:02,070 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 13:05:13,747 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 13:07:52,789 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-23 13:07:53,400 INFO Watching for file changes with StatReloader
+2023-05-23 13:10:25,513 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-23 13:10:26,098 INFO Watching for file changes with StatReloader
+2023-05-23 13:10:30,327 INFO Watching for file changes with StatReloader
+2023-05-23 13:10:41,178 ERROR Internal Server Error: /front/upadte_product/33
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/Aman/Django/Practical/Shopify/frontapp/views.py", line 581, in upadte_product
+    return render(request, "temp/update_product.html",{"query":query})
+                                                               ^^^^^
+UnboundLocalError: cannot access local variable 'query' where it is not associated with a value
+2023-05-23 13:10:54,413 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-23 13:10:55,047 INFO Watching for file changes with StatReloader
+2023-05-23 13:10:57,426 ERROR Internal Server Error: /front/upadte_product/33
+Traceback (most recent call last):
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/simprosys-aman/.local/lib/python3.11/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view frontapp.views.upadte_product didn't return an HttpResponse object. It returned None instead.
+2023-05-23 13:11:09,866 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-23 13:11:10,612 INFO Watching for file changes with StatReloader
+2023-05-23 13:11:14,157 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 13:11:20,670 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 13:11:24,976 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 13:18:05,672 INFO Watching for file changes with StatReloader
+2023-05-23 13:18:10,329 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 13:18:22,513 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 13:18:35,764 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 13:18:54,787 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 13:19:01,224 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-23 13:19:28,447 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/frontapp/views.py changed, reloading.
+2023-05-23 13:19:29,083 INFO Watching for file changes with StatReloader

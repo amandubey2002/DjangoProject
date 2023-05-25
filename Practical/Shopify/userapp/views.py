@@ -52,6 +52,8 @@ def login_user(request):
             try:
                 if user is not None:
                     login(request, user)
+                    request.session['username'] = username
+                    request.session['is_logged_in'] = True
                     user_id_instence = User.objects.get(id=request.user.id)
                     description = {
                         "messages": "This user try to Login",
@@ -114,19 +116,13 @@ def signup(request):
             username = request.POST.get("username")
             email = request.POST.get("email")
             password = request.POST.get("password")
-            userrole = request.POST.get("usertype")
-            if userrole == "admin":
-                user_obj = User.objects.create_superuser(
-                    username=username, email=email, password=password
-                )
-                profile_obj = Profile.objects.create(user=user_obj)
-                profile_obj.save()
-            else:
-                user_obj = User.objects.create_user(
-                    username=username, email=email, password=password
-                )
-                profile_obj = Profile.objects.create(user=user_obj)
-                profile_obj.save()
+            
+            user_obj = User.objects.create_user(
+                username=username, email=email, password=password
+            )
+            profile_obj = Profile.objects.create(user=user_obj)
+            profile_obj.save()
+        
             send_mail(
                 "Your registration has been successfully Done Thanks for your registration",
                 f"Welcome to Our App {username} Thanks for registration in app. ",

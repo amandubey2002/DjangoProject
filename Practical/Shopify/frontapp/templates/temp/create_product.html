@@ -1,14 +1,12 @@
 {% extends 'temp/base.html' %}
-
-
+{% load static %}
 {% block content %}
 
 
-<body>
     <div class="row">
         <div class="col-sm-4">
         </div>
-        <div class="col-sm-4 container-sm" style="margin-top: 100px;">
+        <div class="col-sm-4 container-sm bg-dark text-white" style="margin-top: 40px;">
             <form action="" method="post">
                 {% csrf_token %}
                 <div class="form-header">
@@ -85,14 +83,13 @@
                         name="img_src">
                 </div>
                 <br>
-           
-                <button class="btn btn-sucsess " style="border-color: black;" type="submit">Add Product</button>
-                </a>
+            </a>
+            <button class="btn btn-light " style="border-color: black;" type="submit">Add Product</button>
             </form>
         </div>
         <div class="col-sm-4">
         </div>
     </div>
-</body>
 
 {% endblock %}
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

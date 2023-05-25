@@ -402,6 +402,150 @@ def create_product(request):
 
 @login_required(login_url="login")
 def product_list_page(request):
+        products = Product.objects.filter(is_delete=False)
+        print(len(products))
+        paginator = Paginator(products, 21)
+        page_number = request.GET.get("page")
+        final = paginator.get_page(page_number)
+        lastpage = final.paginator.num_pages
+
+        return render(
+            request, "temp/product_list_page.html", {"data": final, "lastpage": lastpage}
+        )
+    
+    
+def soft_delete(request, pk):
+    try:
+        queryset = Product.objects.get(id=pk)
+        queryset.is_delete=True
+        queryset.save()
+        scheduled_time = datetime.now() + timedelta(hours=1)
+        permanent_delete_product.apply_async(eta=scheduled_time)
+        messages.success(request, "Product has been deleted successfully")
+        user_id_instence = User.objects.get(id=request.user.id)
+        description = {
+            "messages": "This user try to delete product",
+            "data": request.POST,
+        }
+        activity = UserActivity(
+            user_id=user_id_instence,
+            IP=ip_address,
+            description=f"this is username {request.user.username} and {description}",
+        )
+        activity.save()
+
+        return redirect("product_list_page")
+
+    except Exception as e:
+        print("something went wrong")
+        save_exception_to_database(request.user.id, "40", type(e), str(e), ip_address)
+
+
+def upadte_product(request,pk):
+    query = Product.objects.get(id=pk)
+    if request.method=="POST":
+        Handle = request.POST.get("Handle")
+        Title = request.POST.get("Title")
+        Body = request.POST.get("Body")
+        Vendor = request.POST.get("Vendor")
+        Type = request.POST.get("Type")
+        Tags = request.POST.get("Tags")
+        Published = request.POST.get("Published")
+        Option1_Name = request.POST.get("Option1_Name")
+        Option1_Value = request.POST.get("Option1_Value")
+        Option2_Name = request.POST.get("Option2_Name")
+        Option2_Value = request.POST.get("Option2_Value")
+        Option3_Name = request.POST.get("Option3_Name")
+        Option3_Value = request.POST.get("Option3_Value")
+        Variant_SKU = request.POST.get("Variant_SKU")
+        Variant_Grams = request.POST.get("Variant_Grams")
+        Variant_Inventory_Tracker = request.POST.get("Variant_Inventory_Tracker")
+        Variant_Inventory_Policy = request.POST.get("Variant_Inventory_Policy")
+        Variant_Fulfillment_Service = request.POST.get("Variant_Fulfillment_Service")
+        Variant_Price = request.POST.get("Variant_Price")
+        Variant_Compare_At_Price = request.POST.get("Variant_Compare_At_Price")
+        Variant_Requires_Shipping = request.POST.get("Variant_Requires_Shipping")
+        Variant_Taxable = request.POST.get("Variant_Taxable")
+        Variant_Barcode = request.POST.get("Variant_Barcode")
+        Image_Src = request.POST.get("Image_Src")
+        Image_Position = request.POST.get("Image_Position")
+        Image_Alt_Text = request.POST.get("Image_Alt_Text")
+        Gift_Card = request.POST.get("Gift_Card")
+        SEO_Title = request.POST.get("SEO_Title")
+        SEO_Description = request.POST.get("SEO_Description")
+        Google_Shopping_Google_Product_Category = request.POST.get("Google_Shopping_Google_Product_Category")
+        Google_Shopping_Gender = request.POST.get("Google_Shopping_Gender")
+        Google_Shopping_Age_Group = request.POST.get("Google_Shopping_Age_Group")
+        Google_Shopping_MPN = request.POST.get("Google_Shopping_MPN")
+        Google_Shopping_AdWords_Grouping = request.POST.get("Google_Shopping_AdWords_Grouping")
+        Google_Shopping_AdWords_Labels = request.POST.get("Google_Shopping_AdWords_Labels")
+        Google_Shopping_Condition = request.POST.get("Google_Shopping_Condition")
+        Google_Shopping_Custom_Product = request.POST.get("Google_Shopping_Custom_Product")
+        Google_Shopping_Custom_Label_0 = request.POST.get("Google_Shopping_Custom_Label_0")
+        Google_Shopping_Custom_Label_1 = request.POST.get("Google_Shopping_Custom_Label_1")
+        Google_Shopping_Custom_Label_2 = request.POST.get("Google_Shopping_Custom_Label_2")
+        Google_Shopping_Custom_Label_3 = request.POST.get("Google_Shopping_Custom_Label_3")
+        Google_Shopping_Custom_Label_4 = request.POST.get("Google_Shopping_Custom_Label_4")
+        Variant_Image = request.POST.get("Variant_Image")
+        Variant_Weight_Unit = request.POST.get("Variant_Weight_Unit")
+        Variant_Tax_Code = request.POST.get("Variant_Tax_Code")
+        Cost_per_item = request.POST.get("Cost_per_item")
+        Status = request.POST.get("Status")
+        query.Handle = Handle,
+        query.Title = Title,
+        query.Body = Body,
+        query.Vendor = Vendor,
+        query.Type = Type,
+        query.Tags = Tags,
+        query.Published = Published,
+        query.Option1_Name = Option1_Name,
+        query.Option1_Value = Option1_Value,
+        query.Option2_Name = Option2_Name,
+        query.Option2_Value = Option2_Value,
+        query.Option3_Name = Option3_Name,
+        query.Option3_Value = Option3_Value,
+        query.Variant_SKU = Variant_SKU,
+        query.Variant_Grams = Variant_Grams,
+        query.Variant_Inventory_Tracker = Variant_Inventory_Tracker,
+        query.Variant_Inventory_Policy = Variant_Inventory_Policy,
+        query.Variant_Fulfillment_Service = Variant_Fulfillment_Service,
+        query.Variant_Price = Variant_Price,
+        query.Variant_Compare_At_Price = Variant_Compare_At_Price,
+        query.Variant_Requires_Shipping = Variant_Requires_Shipping,
+        query.Variant_Taxable = Variant_Taxable,
+        query.Variant_Barcode = Variant_Barcode,
+        query.Image_Src = Image_Src,
+        query.Image_Position = Image_Position,
+        query.Image_Alt_Text = Image_Alt_Text,
+        query.Gift_Card = Gift_Card,
+        query.SEO_Title = SEO_Title,
+        query.SEO_Description = SEO_Description,
+        query.Google_Shopping_Google_Product_Category = Google_Shopping_Google_Product_Category,
+        query.Google_Shopping_Gender = Google_Shopping_Gender,
+        query.Google_Shopping_Age_Group = Google_Shopping_Age_Group,
+        query.Google_Shopping_MPN = Google_Shopping_MPN,
+        query.Google_Shopping_AdWords_Grouping = Google_Shopping_AdWords_Grouping,
+        query.Google_Shopping_AdWords_Labels = Google_Shopping_AdWords_Labels,
+        query.Google_Shopping_Condition = Google_Shopping_Condition,
+        query.Google_Shopping_Custom_Product = Google_Shopping_Custom_Product,
+        query.Google_Shopping_Custom_Label_0 = Google_Shopping_Custom_Label_0,
+        query.Google_Shopping_Custom_Label_1 = Google_Shopping_Custom_Label_1,
+        query.Google_Shopping_Custom_Label_2 = Google_Shopping_Custom_Label_2,
+        query.Google_Shopping_Custom_Label_3 = Google_Shopping_Custom_Label_3,
+        query.Google_Shopping_Custom_Label_4 = Google_Shopping_Custom_Label_4,
+        query.Variant_Image = Variant_Image,
+        query.Variant_Weight_Unit = Variant_Weight_Unit,
+        query.Variant_Tax_Code = Variant_Tax_Code,
+        query.Cost_per_item = Cost_per_item,
+        query.Status = Status
+        query.save()
+        
+        return redirect("product_list_page")
+        
+    return render(request, "temp/update_product.html",{"query":query})
+   
+
+def delete_multiple_product(request):
     try:
         if request.method == "POST":
             selected_ids = request.POST.getlist("selected_products")
@@ -434,48 +578,11 @@ def product_list_page(request):
                 return redirect("product_list_page")
 
         else:
-            products = Product.objects.filter(is_delete=False)
-            print(len(products))
-            paginator = Paginator(products, 21)
-            page_number = request.GET.get("page")
-            final = paginator.get_page(page_number)
-            lastpage = final.paginator.num_pages
 
-            return render(
-                request, "temp/product_list_page.html", {"data": final, "lastpage": lastpage}
-            )
+            return redirect("product_list_page")
+                
     except Exception as e:
         print("something went wrong")
         save_exception_to_database(request.user.id, "40", type(e), str(e), ip_address)
-
-        return render(request, "temp/product_list_page.html")
-    
-    
-def soft_delete(request, pk):
-    try:
-        queryset = Product.objects.get(id=pk)
-        queryset.is_delete=True
-        queryset.save()
-        scheduled_time = datetime.now() + timedelta(hours=1)
-        permanent_delete_product.apply_async(eta=scheduled_time)
-        messages.success(request, "Product has been deleted successfully")
-        user_id_instence = User.objects.get(id=request.user.id)
-        description = {
-            "messages": "This user try to delete product",
-            "data": request.POST,
-        }
-        activity = UserActivity(
-            user_id=user_id_instence,
-            IP=ip_address,
-            description=f"this is username {request.user.username} and {description}",
-        )
-        activity.save()
 
         return redirect("product_list_page")
-
-    except Exception as e:
-        print("something went wrong")
-        save_exception_to_database(request.user.id, "40", type(e), str(e), ip_address)
-
-
-

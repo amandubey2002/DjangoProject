@@ -9,9 +9,9 @@ from frontapp.models import Profile
 from datetime import datetime, timedelta
 import logging
 from django.contrib.auth.decorators import login_required
-from frontapp.models import Exceptions, UserActivity
+from frontapp.models import Exceptions, UserActivity,Roleprofile
 import socket
-
+from userapp.serializers import RoleSerializer
 
 
 ## getting the hostname by socket.gethostname() method
@@ -122,6 +122,8 @@ def signup(request):
             )
             profile_obj = Profile.objects.create(user=user_obj)
             profile_obj.save()
+            role_obj = Roleprofile.objects.create(user=user_obj)
+            role_obj.save()
         
             send_mail(
                 "Your registration has been successfully Done Thanks for your registration",
@@ -272,3 +274,114 @@ def forgot_password_with_email(request):
         "temp/forgotpassword.html",
     )
 
+
+def Rolechange(request):
+    if request.method =='POST':
+        username = request.POST.get('username')
+        is_admin = request.POST.get('is_admin')
+        is_staff = request.POST.get('is_staff')
+        user_obj = User.objects.filter(username = username).first()
+        role_obj = Roleprofile.objects.filter(user = user_obj).first()
+        if is_admin:
+            role_obj.is_admin = True
+            role_obj.is_staff = True
+            role_obj.is_active = True
+            role_obj.save()
+            
+            user_obj.is_superuser = True
+            user_obj.is_staff = True
+            user_obj.is_active = True
+            user_obj.save()
+        
+        elif is_staff:
+            role_obj.is_admin = False
+            role_obj.is_staff = True
+            role_obj.is_active = True
+            role_obj.save()
+            
+            user_obj.is_superuser = True
+            user_obj.is_staff = True
+            user_obj.is_active = True
+            user_obj.save()
+        
+        return redirect("admin_dashboard")
+        
+    else:
+        return render(request,"temp/change_status.html")
+from userapp.admin_requqired import admin_required_user
+@admin_required_user
+def admin_dashboard(request):
+    roleprofile = User.objects.all()
+    
+    return render(request,"temp/admin_dashboard.html",{"data":roleprofile})
+
+def admin_login(request):
+    try:
+        if request.method == "POST":
+            print(request.user)
+            username = request.POST.get("username")
+            password = request.POST.get("password")
+            user = authenticate(username=username, password=password)
+
+            try:
+                if user.is_superuser:
+                    login(request, user)
+                    request.session['username'] = username
+                    request.session['is_logged_in'] = True
+                    user_id_instence = User.objects.get(id=request.user.id)
+                    description = {
+                        "messages": "This user try to Login",
+                        "data": request.POST,
+                    }
+                    activity = UserActivity(
+                        user_id=user_id_instence,
+                        IP=ip_address,
+                        description=f"this is username {username} and {description}",
+                    )
+                    activity.save()
+                    messages.success(request, "Login successful")
+
+                    return redirect("admin_dashboard")
+
+                else:
+                    messages.success(request, "Invalid username or password")
+
+                    return redirect("login")
+
+            except Exception as e:
+                print("Something went wrong")
+                save_exception_to_database(
+                    request.user.id, "40", type(e), str(e), ip_address
+                )
+
+    except Exception as e:
+        print("some thing went wrong")
+        save_exception_to_database(request.user.id, "40", type(e), str(e), ip_address)
+
+    return render(request, "temp/login.html")
+
+
+def user_delete(request,pk):
+    user = User.objects.get(id = pk)
+    print(user)
+    user.delete()
+    return redirect("admin_dashboard")
+
+def update_user(request,pk):
+    user_obj = User.objects.get(id=pk)
+    print(user_obj)
+    if request.method=="POST":
+        username = request.POST.get('username')
+        is_admin = request.POST.get('is_admin')
+        is_staff = request.POST.get('is_staff')
+        is_active = request.POST.get('is_active')
+        user_obj.username = username
+        user_obj.is_superuser = is_admin
+        user_obj.is_staff = is_staff
+        user_obj.is_active = is_active
+        user_obj.save()
+        return redirect("admin_dashboard")
+    
+    return render(request,"update_user.html",{"user_obj":user_obj})
+    
+        

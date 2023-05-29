@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Profile, Product, Exceptions, UserActivity
+from .models import Profile, Product, Exceptions, UserActivity,Roleprofile
 
 # Register your models here.
 
@@ -37,3 +37,9 @@ class UserActivityAdmin(admin.ModelAdmin):
 
 
 admin.site.register(UserActivity, UserActivityAdmin)
+
+
+class RoleprofileAdmin(admin.ModelAdmin):
+    list_display = ["id", "user", "is_admin", "is_staff", "is_active"]
+
+admin.site.register(Roleprofile, RoleprofileAdmin)

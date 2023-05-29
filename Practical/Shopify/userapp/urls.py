@@ -13,4 +13,9 @@ urlpatterns = [
         name="change_password",
     ),
     path("forgot-password/", views.forgot_password_with_email, name="forgot-password"),
+    path("role_change/",views.Rolechange,name="role_change"),
+    path("admin_dashboard/",views.admin_dashboard,name="admin_dashboard"),
+    path("admin_login/",views.admin_login,name="admin_login"),
+    path("delete_user/<int:pk>",views.user_delete,name="delete_user"),
+    path("update_user/<int:pk>",views.update_user,name="update_user")
 ]

@@ -1,0 +1,53 @@
+{% extends 'temp/base.html' %}
+{% block content %}
+
+
+    <div class="row">
+        <div class="col-sm-4">
+        </div>
+        <div class="col-sm-4 container-sm bg-dark text-white" style="margin-top: 40px;">
+            <form action="" method="post">
+                {% csrf_token %}
+                <div class="form-header">
+                    <h3>Update User</h3>
+                </div>
+                <div class="form-group">
+                    <input type="hidden" class="form-control" data-validation="length alphanumeric"
+                    data-validation-length="3-12" value="{{ user_obj.id }}">
+                </div>
+                <div class="form-group">
+                    <label for="">Username:</label>
+                    <input type="text" class="form-control" data-validation="length alphanumeric"
+                    data-validation-length="3-12" name="username" value="{{user_obj.username}}">
+                </div>
+
+                <div class="form-group">
+                <label for="usertype">is_admin</label>
+                <input type="text" class="form-control"
+                    name="is_admin" value="{{ user_obj.is_superuser }}" >
+            </div>
+
+
+            <div class="form-group">
+                <label for="usertype">is_staff</label>
+                <input type="text" class="form-control"
+                    name="is_staff" value="{{ user_obj.is_staff }}" >
+            </div>
+
+
+            <div class="form-group">
+                <label for="usertype">is_active</label>
+                <input type="text" class="form-control"
+                    name="is_active" value="{{ user_obj.is_active }}" >
+            </div>
+                <br>
+            </a>
+            <button class="btn btn-light " style="border-color: black;" type="submit">Update User</button>
+            </form>
+        </div>
+        <div class="col-sm-4">
+        </div>
+    </div>
+
+{% endblock %}
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

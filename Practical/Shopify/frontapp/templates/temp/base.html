@@ -45,6 +45,8 @@ background-attachment: fixed;">
           <li class="nav-item">
             <a class="nav-link active" href="{% url 'forgot-password' %}">Forgot Password</a>
           </li>
+          
+
           {% endif %}
           {% if request.user.is_authenticated %}
           <li class="nav-item">
@@ -74,6 +76,13 @@ background-attachment: fixed;">
           <li class="nav-item">
             <a type="button" class="btn" href="{% url 'productwithuserview' %}">Add Product</a>
           </li>
+
+          {% if request.user.is_superuser %}
+          <li class="nav-item">
+            <a type="button" class="btn" href="{% url 'admin_dashboard' %}">Admin DashBoard</a>
+          </li>
+          {% endif %}
+
           {% endif %}
         </ul>
         </div>

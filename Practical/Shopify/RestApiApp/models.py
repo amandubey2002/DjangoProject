@@ -6,7 +6,7 @@ class Product(models.Model):
     Body = models.TextField(max_length=400,null=True,blank=True)
     Vendor = models.CharField(max_length=400,null=True,blank=True)
     Type = models.CharField(max_length=400,null=True,blank=True)
-    Tags = models.CharField(max_length=400,null=True,blank=True)
+    Tags = models.CharField(max_length=255,null=True,blank=True)
     Published = models.CharField(max_length=400,null=True,blank=True)
     Variant_SKU = models.CharField(max_length=400,null=True,blank=True)
     Variant_Inventory_Tracker = models.CharField(max_length=400,null=True,blank=True)

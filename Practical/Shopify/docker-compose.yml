@@ -1,0 +1,21 @@
+version: '3'
+services:
+  db:
+    image: mysql:8.0.32
+    environment:
+      MYSQL_DATABASE: djangodb
+      MYSQL_ROOT_USER: root
+      MYSQL_ROOT_PASSWORD: Dubey@123
+    ports:
+      - '3307:3306'
+  web:
+    build: .
+    volumes:
+      - .:/django
+    ports:
+      - 8000:8000
+    image: app:django
+    container_name: django_container
+    command: python manage.py runserver 0.0.0.0:8000
+    depends_on:
+      - db

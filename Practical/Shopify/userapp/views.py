@@ -99,6 +99,7 @@ def logout_user(request):
             )
             activity.save()
             logout(request)
+            del request.session
             messages.success(request, "Logout successful")
             return redirect("login")
 
@@ -309,6 +310,7 @@ def Rolechange(request):
     else:
         return render(request,"temp/change_status.html")
 from userapp.admin_requqired import admin_required_user
+
 @admin_required_user
 def admin_dashboard(request):
     roleprofile = User.objects.all()
@@ -382,6 +384,6 @@ def update_user(request,pk):
         user_obj.save()
         return redirect("admin_dashboard")
     
-    return render(request,"update_user.html",{"user_obj":user_obj})
+    return render(request,"temp/update_user.html",{"user_obj":user_obj})
     
         

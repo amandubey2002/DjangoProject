@@ -1,3 +1,25 @@
+2023-05-30 05:05:15,914 INFO Watching for file changes with StatReloader
+2023-05-30 05:05:25,594 WARNING Not Found: /
+2023-05-30 05:05:25,629 WARNING Not Found: /favicon.ico
+2023-05-30 05:05:45,234 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-30 05:07:17,339 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-30 05:07:22,557 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-30 05:07:22,558 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-30 05:07:34,141 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-30 05:07:34,143 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-30 05:08:06,127 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-30 05:08:06,131 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-30 05:08:18,576 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-30 05:32:53,519 INFO Watching for file changes with StatReloader
+2023-05-30 05:33:32,236 INFO Watching for file changes with StatReloader
+2023-05-30 05:34:00,006 INFO Watching for file changes with StatReloader
+2023-05-30 05:34:51,696 INFO Watching for file changes with StatReloader
+2023-05-30 05:35:26,218 INFO Watching for file changes with StatReloader
+2023-05-30 05:36:01,569 INFO Watching for file changes with StatReloader
+2023-05-30 05:36:53,071 INFO Watching for file changes with StatReloader
+2023-05-30 05:36:56,928 WARNING Not Found: /
+2023-05-30 05:37:01,002 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-30 05:37:56,696 INFO Watching for file changes with StatReloader
 2023-05-30 05:43:47,975 ERROR Internal Server Error: /user/update_user/1
 Traceback (most recent call last):
   File "/home/simprosys-aman/Aman/Django/Practical/Shopify/env/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
@@ -18,6 +40,92 @@ Traceback (most recent call last):
   File "/home/simprosys-aman/Aman/Django/Practical/Shopify/env/lib/python3.11/site-packages/django/template/loader.py", line 19, in get_template
     raise TemplateDoesNotExist(template_name, chain=chain)
 django.template.exceptions.TemplateDoesNotExist: update_user.html
+2023-05-30 05:44:03,111 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/userapp/views.py changed, reloading.
+2023-05-30 05:44:03,715 INFO Watching for file changes with StatReloader
+2023-05-30 05:44:05,083 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-30 06:13:37,330 INFO Watching for file changes with StatReloader
+2023-05-30 06:56:25,122 INFO /app/userapp/views.py changed, reloading.
+2023-05-30 06:56:25,797 INFO Watching for file changes with StatReloader
+2023-05-30 06:57:47,740 INFO Watching for file changes with StatReloader
+2023-05-30 06:58:00,979 INFO Watching for file changes with StatReloader
+2023-05-30 06:58:03,453 WARNING Not Found: /
+2023-05-30 06:58:03,480 WARNING Not Found: /favicon.ico
+2023-05-30 06:58:10,260 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-30 06:58:10,261 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-30 06:58:19,597 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-30 06:58:19,598 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-30 06:58:32,886 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-30 06:58:37,250 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-30 06:58:37,250 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-30 06:59:11,338 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-30 06:59:11,339 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-30 07:01:20,528 INFO /app/userapp/views.py changed, reloading.
+2023-05-30 07:01:20,817 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/userapp/views.py changed, reloading.
+2023-05-30 07:01:21,267 INFO Watching for file changes with StatReloader
+2023-05-30 07:01:21,515 INFO Watching for file changes with StatReloader
+2023-05-30 07:10:47,022 INFO Watching for file changes with StatReloader
+2023-05-30 07:11:04,622 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-30 07:11:04,623 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-30 07:11:12,055 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-30 07:11:12,055 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-30 07:11:46,504 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-30 07:11:46,505 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-30 07:11:51,664 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-30 07:11:51,665 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-30 07:11:59,417 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/userapp/views.py changed, reloading.
+2023-05-30 07:11:59,965 INFO /app/userapp/views.py changed, reloading.
+2023-05-30 07:12:00,134 INFO Watching for file changes with StatReloader
+2023-05-30 07:12:00,673 INFO Watching for file changes with StatReloader
+2023-05-30 07:12:01,917 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-30 07:12:01,928 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-30 07:12:07,948 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-30 07:12:12,002 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-30 07:12:12,004 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-30 07:12:15,045 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/userapp/views.py changed, reloading.
+2023-05-30 07:12:15,503 INFO /app/userapp/views.py changed, reloading.
+2023-05-30 07:12:15,623 INFO Watching for file changes with StatReloader
+2023-05-30 07:12:16,202 INFO Watching for file changes with StatReloader
+2023-05-30 07:14:21,491 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/userapp/views.py changed, reloading.
+2023-05-30 07:14:21,532 INFO /app/userapp/views.py changed, reloading.
+2023-05-30 07:14:22,173 INFO Watching for file changes with StatReloader
+2023-05-30 07:14:22,240 INFO Watching for file changes with StatReloader
+2023-05-30 07:14:24,832 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-30 07:14:37,081 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/userapp/views.py changed, reloading.
+2023-05-30 07:14:37,165 INFO /app/userapp/views.py changed, reloading.
+2023-05-30 07:14:37,767 INFO Watching for file changes with StatReloader
+2023-05-30 07:14:37,877 INFO Watching for file changes with StatReloader
+2023-05-30 07:14:39,737 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-30 07:14:39,747 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-30 08:50:11,026 INFO Watching for file changes with StatReloader
+2023-05-30 08:53:09,836 INFO Watching for file changes with StatReloader
+2023-05-30 09:35:05,936 INFO Watching for file changes with StatReloader
+2023-05-30 09:35:09,774 WARNING Not Found: /
+2023-05-30 10:13:03,731 INFO Watching for file changes with StatReloader
+2023-05-30 10:13:59,724 INFO Watching for file changes with StatReloader
+2023-05-30 11:08:04,414 INFO Watching for file changes with StatReloader
+2023-05-30 11:08:38,580 INFO /home/simprosys-aman/Aman/Django/Practical/Shopify/Shopify/settings.py changed, reloading.
+2023-05-30 11:08:39,234 INFO Watching for file changes with StatReloader
+2023-05-30 11:08:42,262 INFO Watching for file changes with StatReloader
+2023-05-30 11:08:43,608 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-30 11:08:43,616 WARNING Not Found: /favicon.ico
+2023-05-30 11:08:44,339 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-30 11:08:44,593 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-30 11:08:44,787 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-30 11:08:49,838 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-30 11:08:49,842 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-30 11:09:02,397 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-30 11:09:23,654 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-30 11:09:23,658 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-30 11:12:59,085 INFO Watching for file changes with StatReloader
+2023-05-30 11:14:35,383 INFO /django/Shopify/settings.py changed, reloading.
+2023-05-30 11:14:36,057 INFO Watching for file changes with StatReloader
+2023-05-30 11:16:12,193 INFO Watching for file changes with StatReloader
+2023-05-30 11:16:33,188 INFO /django/Shopify/settings.py changed, reloading.
+2023-05-30 11:16:33,797 INFO Watching for file changes with StatReloader
+2023-05-30 11:16:40,574 INFO /django/Shopify/settings.py changed, reloading.
+2023-05-30 11:16:41,225 INFO Watching for file changes with StatReloader
+2023-05-30 11:16:48,482 WARNING Not Found: /
+2023-05-30 11:16:48,502 WARNING Not Found: /favicon.ico
 2023-05-30 11:16:59,639 ERROR Internal Server Error: /admin/login/
 Traceback (most recent call last):
   File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 89, in _execute
@@ -151,6 +259,11 @@ Traceback (most recent call last):
   File "/usr/local/lib/python3.11/site-packages/MySQLdb/connections.py", line 254, in query
     _mysql.connection.query(self, query)
 django.db.utils.ProgrammingError: (1146, "Table 'djangodb.auth_user' doesn't exist")
+2023-05-30 11:17:13,559 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-30 11:17:13,560 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-30 11:18:19,995 INFO Watching for file changes with StatReloader
+2023-05-30 11:18:26,683 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-30 11:18:26,684 WARNING Not Found: /user/static/images/bac.jpg
 2023-05-30 11:18:32,647 ERROR Internal Server Error: /user/login/
 Traceback (most recent call last):
   File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 89, in _execute
@@ -305,6 +418,9 @@ Traceback (most recent call last):
   File "/usr/local/lib/python3.11/site-packages/MySQLdb/connections.py", line 254, in query
     _mysql.connection.query(self, query)
 django.db.utils.ProgrammingError: (1146, "Table 'djangodb.auth_user' doesn't exist")
+2023-05-30 11:18:38,900 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-30 11:18:40,411 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-30 11:18:40,412 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
 2023-05-30 11:22:15,825 ERROR Internal Server Error: /user/login/
 Traceback (most recent call last):
   File "/usr/local/lib/python3.11/site-packages/django/db/backends/utils.py", line 89, in _execute
@@ -459,3 +575,78 @@ Traceback (most recent call last):
   File "/usr/local/lib/python3.11/site-packages/MySQLdb/connections.py", line 254, in query
     _mysql.connection.query(self, query)
 django.db.utils.ProgrammingError: (1146, "Table 'djangodb.auth_user' doesn't exist")
+2023-05-30 11:22:27,256 INFO /django/Shopify/settings.py changed, reloading.
+2023-05-30 11:22:27,900 INFO Watching for file changes with StatReloader
+2023-05-30 11:22:31,575 INFO /django/Shopify/settings.py changed, reloading.
+2023-05-30 11:22:32,146 INFO Watching for file changes with StatReloader
+2023-05-30 11:31:16,336 INFO Watching for file changes with StatReloader
+2023-05-30 11:35:32,922 INFO Watching for file changes with StatReloader
+2023-05-30 11:39:56,465 INFO Watching for file changes with StatReloader
+2023-05-30 11:42:29,404 INFO /django/RestApiApp/models.py changed, reloading.
+2023-05-30 11:42:30,070 INFO Watching for file changes with StatReloader
+2023-05-30 11:42:53,451 WARNING Not Found: /
+2023-05-30 11:43:02,148 WARNING Not Found: /user
+2023-05-30 11:43:07,542 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-30 11:43:07,543 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-30 11:43:16,575 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-30 11:43:16,577 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-30 11:43:23,546 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-30 11:43:23,548 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-30 11:43:37,136 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-30 11:43:37,138 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-30 11:43:58,739 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-30 11:43:58,740 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-30 11:45:02,266 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-30 11:45:02,267 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-30 11:45:02,714 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-30 11:45:02,714 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-30 11:45:02,937 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-30 11:45:02,939 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-30 11:45:14,374 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-30 12:28:20,418 INFO Watching for file changes with StatReloader
+2023-05-30 12:34:02,754 INFO Watching for file changes with StatReloader
+2023-05-30 12:34:16,023 WARNING Not Found: /front/static/images/bac.jpg
+2023-05-30 12:34:18,854 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-30 12:34:22,950 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-30 12:34:25,443 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-30 12:34:26,197 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-30 12:34:26,659 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-30 12:34:26,852 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-30 12:34:27,012 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-30 12:34:27,187 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-30 12:34:27,355 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-30 12:34:27,507 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-30 12:34:27,676 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-30 12:34:27,827 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-30 12:34:28,011 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-30 12:34:28,276 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-30 12:34:28,484 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-30 12:34:28,685 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-30 12:34:28,875 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-30 12:34:29,085 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-30 12:34:29,284 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-30 12:34:29,492 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-30 12:34:29,955 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-30 12:34:30,155 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-30 12:34:30,355 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-30 12:34:31,335 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-30 12:40:00,384 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-30 12:40:12,325 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-30 12:40:12,326 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
+2023-05-30 12:42:09,216 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-30 12:42:11,457 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-30 12:42:13,638 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-30 12:42:34,977 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-30 12:42:35,184 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-30 12:42:35,369 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-30 12:59:42,192 INFO Watching for file changes with StatReloader
+2023-05-30 13:00:22,288 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-30 13:00:22,523 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-30 13:00:22,705 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-30 13:00:22,857 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-30 13:00:39,793 INFO Watching for file changes with StatReloader
+2023-05-30 13:00:41,199 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-30 13:00:55,767 INFO Watching for file changes with StatReloader
+2023-05-30 13:00:57,553 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-30 13:01:02,972 WARNING Not Found: /user/static/images/bac.jpg
+2023-05-30 13:01:02,976 WARNING Not Found: /home/simprosys-aman/Aman/Aman/bac.jpg
